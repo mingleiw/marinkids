@@ -48,7 +48,7 @@ MAX_MILES = 25
 # A city page lists only places within this radius. Without a cap every page
 # carries all 30 places in a different order, which is 38 near-duplicate pages
 # padded with destinations nobody would drive to from there.
-LIST_MILES = 40
+LIST_MILES = 30
 
 
 def load(name):
