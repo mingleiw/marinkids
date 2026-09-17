@@ -1,0 +1,278 @@
+[
+ {
+  "name": "San Francisco",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "region": "sf"
+ },
+ {
+  "name": "Sausalito",
+  "lat": 37.8591,
+  "lon": -122.4853,
+  "region": "marin"
+ },
+ {
+  "name": "Mill Valley",
+  "lat": 37.906,
+  "lon": -122.545,
+  "region": "marin"
+ },
+ {
+  "name": "Corte Madera",
+  "lat": 37.9255,
+  "lon": -122.5275,
+  "region": "marin"
+ },
+ {
+  "name": "Tiburon",
+  "lat": 37.8735,
+  "lon": -122.4566,
+  "region": "marin"
+ },
+ {
+  "name": "San Rafael",
+  "lat": 37.9735,
+  "lon": -122.5311,
+  "region": "marin"
+ },
+ {
+  "name": "Novato",
+  "lat": 38.1074,
+  "lon": -122.5697,
+  "region": "marin"
+ },
+ {
+  "name": "Petaluma",
+  "lat": 38.2324,
+  "lon": -122.6367,
+  "region": "marin"
+ },
+ {
+  "name": "Santa Rosa",
+  "lat": 38.4405,
+  "lon": -122.7144,
+  "region": "marin"
+ },
+ {
+  "name": "Oakland",
+  "lat": 37.8044,
+  "lon": -122.2712,
+  "region": "east"
+ },
+ {
+  "name": "Berkeley",
+  "lat": 37.8715,
+  "lon": -122.273,
+  "region": "east"
+ },
+ {
+  "name": "Alameda",
+  "lat": 37.7652,
+  "lon": -122.2416,
+  "region": "east"
+ },
+ {
+  "name": "Richmond",
+  "lat": 37.9358,
+  "lon": -122.3477,
+  "region": "east"
+ },
+ {
+  "name": "Walnut Creek",
+  "lat": 37.9101,
+  "lon": -122.0652,
+  "region": "east"
+ },
+ {
+  "name": "Concord",
+  "lat": 37.978,
+  "lon": -122.0311,
+  "region": "east"
+ },
+ {
+  "name": "San Leandro",
+  "lat": 37.7249,
+  "lon": -122.1561,
+  "region": "east"
+ },
+ {
+  "name": "Hayward",
+  "lat": 37.6688,
+  "lon": -122.0808,
+  "region": "east"
+ },
+ {
+  "name": "Fremont",
+  "lat": 37.5485,
+  "lon": -121.9886,
+  "region": "east"
+ },
+ {
+  "name": "Dublin",
+  "lat": 37.7022,
+  "lon": -121.9358,
+  "region": "east"
+ },
+ {
+  "name": "Pleasanton",
+  "lat": 37.6624,
+  "lon": -121.8747,
+  "region": "east"
+ },
+ {
+  "name": "Livermore",
+  "lat": 37.6819,
+  "lon": -121.768,
+  "region": "east"
+ },
+ {
+  "name": "Daly City",
+  "lat": 37.6879,
+  "lon": -122.4702,
+  "region": "peninsula"
+ },
+ {
+  "name": "Pacifica",
+  "lat": 37.6138,
+  "lon": -122.4869,
+  "region": "peninsula"
+ },
+ {
+  "name": "San Bruno",
+  "lat": 37.6305,
+  "lon": -122.4111,
+  "region": "peninsula"
+ },
+ {
+  "name": "Burlingame",
+  "lat": 37.5779,
+  "lon": -122.348,
+  "region": "peninsula"
+ },
+ {
+  "name": "San Mateo",
+  "lat": 37.563,
+  "lon": -122.3255,
+  "region": "peninsula"
+ },
+ {
+  "name": "Foster City",
+  "lat": 37.5585,
+  "lon": -122.2711,
+  "region": "peninsula"
+ },
+ {
+  "name": "San Carlos",
+  "lat": 37.5072,
+  "lon": -122.2605,
+  "region": "peninsula"
+ },
+ {
+  "name": "Redwood City",
+  "lat": 37.4852,
+  "lon": -122.2364,
+  "region": "peninsula"
+ },
+ {
+  "name": "Menlo Park",
+  "lat": 37.453,
+  "lon": -122.1817,
+  "region": "peninsula"
+ },
+ {
+  "name": "Half Moon Bay",
+  "lat": 37.4636,
+  "lon": -122.4286,
+  "region": "peninsula"
+ },
+ {
+  "name": "Palo Alto",
+  "lat": 37.4419,
+  "lon": -122.143,
+  "region": "south"
+ },
+ {
+  "name": "Mountain View",
+  "lat": 37.3861,
+  "lon": -122.0839,
+  "region": "south"
+ },
+ {
+  "name": "Sunnyvale",
+  "lat": 37.3688,
+  "lon": -122.0363,
+  "region": "south"
+ },
+ {
+  "name": "Cupertino",
+  "lat": 37.323,
+  "lon": -122.0322,
+  "region": "south"
+ },
+ {
+  "name": "Santa Clara",
+  "lat": 37.3541,
+  "lon": -121.9552,
+  "region": "south"
+ },
+ {
+  "name": "San Jose",
+  "lat": 37.3382,
+  "lon": -121.8863,
+  "region": "south"
+ },
+ {
+  "name": "Milpitas",
+  "lat": 37.4323,
+  "lon": -121.8996,
+  "region": "south"
+ },
+ {
+  "name": "Los Gatos",
+  "lat": 37.2358,
+  "lon": -121.9624,
+  "region": "south"
+ },
+ {
+  "name": "Morgan Hill",
+  "lat": 37.1305,
+  "lon": -121.6544,
+  "region": "south"
+ },
+ {
+  "name": "Gilroy",
+  "lat": 37.0058,
+  "lon": -121.5683,
+  "region": "south"
+ },
+ {
+  "name": "Elk Grove",
+  "lat": 38.4088,
+  "lon": -121.3716,
+  "region": "sac"
+ },
+ {
+  "name": "Sacramento",
+  "lat": 38.5816,
+  "lon": -121.4944,
+  "region": "sac"
+ },
+ {
+  "name": "Rancho Cordova",
+  "lat": 38.5891,
+  "lon": -121.3027,
+  "region": "sac"
+ },
+ {
+  "name": "Folsom",
+  "lat": 38.678,
+  "lon": -121.1739,
+  "region": "sac"
+ },
+ {
+  "name": "Citrus Heights",
+  "lat": 38.6971,
+  "lon": -121.2321,
+  "region": "sac"
+ }
+]
