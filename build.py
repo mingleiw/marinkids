@@ -32,6 +32,7 @@ def _asset_v(rel):
 # always fetches fresh. Without this, browsers sit on the old app.js after a
 # deploy and dated events silently stop rendering.
 APP_JS_V = _asset_v('assets/app.js')
+CAL_JS_V = _asset_v('assets/calendar.js')
 STYLE_V = _asset_v('assets/style.css')
 
 # Change this if the repo is renamed or a custom domain is pointed at the site:
@@ -234,6 +235,29 @@ FILTERS = '''
         </div>
       </div>
 '''
+
+
+EVENT_AGE_TAGS = {
+    'Ages 0–5': '0-2 3-5',
+    'Babies 0–18 mo': '0-2',
+    'All ages': '0-2 3-5 6-9 10+',
+    'Under 6': '0-2 3-5',
+    'Under 8': '0-2 3-5 6-9',
+    '24 months & under': '0-2',
+    'Ages 5+': '3-5 6-9 10+',
+}
+
+
+def event_env(e):
+    t = (e.get('title') or '').lower()
+    v = (e.get('venue') or '').lower()
+    if 'outdoor' in t:
+        return 'outdoor'
+    if 'library' in v or 'museum' in v or 'book' in v:
+        return 'indoor'
+    if 'market' in t or 'market' in v or 'plaza' in v or 'old town' in v:
+        return 'outdoor'
+    return ''
 
 
 def events_jsonld(ev, town, week_dates):
@@ -476,6 +500,189 @@ def check_app_contract(page_html, slug):
             % (slug, ', '.join(missing)))
 
 
+def calendar_page(town, events, dated, base):
+    slug = slugify(town['name'])
+    name = town['name']
+    today = datetime.date.today()
+
+    ev = [e for e in events if e['region'] == town['region']]
+    ev += [e for e in dated if e['region'] == town['region'] and e['date'] >= str(today)]
+
+    ranked_ev = []
+    for e in ev:
+        e = dict(e)
+        vc = VENUES.get('%s|%s' % (e.get('venue', ''), e.get('city', '')))
+        if vc:
+            e['dist'] = round(miles(town['lat'], town['lon'], vc[0], vc[1]), 1)
+            e['lat'] = vc[0]
+            e['lon'] = vc[1]
+        e['age_tags'] = EVENT_AGE_TAGS.get(e.get('ages'), '0-2 3-5 6-9 10+')
+        e['env'] = event_env(e)
+        ranked_ev.append(e)
+    ev = ranked_ev
+
+    title = 'Event calendar for %s · %s' % (name, SITE_NAME)
+    desc = ('Full calendar of kid-friendly events near %s — markets, storytimes, '
+            'open gyms, seasonal events and more.' % name)
+
+    og_img = ''
+    out = HEAD.format(title=html.escape(title, quote=True), desc=html.escape(desc, quote=True),
+                      canonical='%s%s/calendar/' % (base, slug), up='../../',
+                      og_image=og_img,
+                      nav='<a href="../../"><span class="nav-full">Change city</span>'
+                          '<span class="nav-short">Cities</span></a>'
+                          '<a href="../">%s</a>' % html.escape(name))
+
+    out += '''
+<main id="top">
+  <section class="cal-section">
+    <div class="wrap">
+      <a class="cal-back" href="../">&larr; Back to %s</a>
+      <div class="section-head">
+        <h2>Event calendar</h2>
+        <p class="section-sub">All events near %s &mdash; tap a date to see what&rsquo;s on</p>
+      </div>
+      <div id="calMonths"></div>
+      <div id="calDetail"></div>
+    </div>
+  </section>
+</main>
+''' % (html.escape(name), html.escape(name))
+
+    out += '<script>\nvar TOWN = %s;\nvar CAL_EVENTS = %s;\n</script>\n' % (
+        json.dumps({'name': name, 'lat': town['lat'], 'lon': town['lon']}),
+        json.dumps(ev, ensure_ascii=False))
+    out += '<script src="../../assets/calendar.js?v=' + CAL_JS_V + '"></script>\n'
+    out += FOOT
+    return out
+
+
+def city_intro(name, listed, ev, seasonal_groups, today):
+    n = len(listed)
+    indoor = [p for _, p in listed if p.get('env') == 'indoor']
+    outdoor = [p for _, p in listed if p.get('env') == 'outdoor']
+    free = [p for _, p in listed if (p.get('spec') or {}).get('price', '').startswith('Free')]
+    parks = [p for _, p in listed if p.get('cat') in ('outdoors', 'play') and p.get('env') == 'outdoor']
+
+    parts = []
+    parts.append('%s has %d kid-friendly spots within driving distance' % (name, n))
+    bits = []
+    if outdoor:
+        bits.append('%d outdoor' % len(outdoor))
+    if indoor:
+        bits.append('%d indoor' % len(indoor))
+    if bits:
+        parts[-1] += ' &mdash; %s' % ' and '.join(bits)
+    parts[-1] += '.'
+
+    if free and len(free) >= 2:
+        parts.append('%d of them are completely free, including %s and %s.' % (
+            len(free), free[0]['name'], free[1]['name']))
+
+    if ev:
+        week_count = len(ev)
+        parts.append('There are %d events on the calendar this week &mdash; '
+                     'storytimes, open gyms and markets.' % week_count)
+
+    if seasonal_groups:
+        parts.append('Check the seasonal section for pumpkin patches and special events running right now.')
+
+    if parks and len(parks) >= 3:
+        close_parks = sorted(listed, key=lambda x: x[0])
+        close_parks = [p['name'] for _, p in close_parks
+                       if p.get('cat') in ('outdoors', 'play') and p.get('env') == 'outdoor'][:3]
+        parts.append('The closest parks are %s, %s and %s.' % (
+            close_parks[0], close_parks[1], close_parks[2]))
+
+    return ' '.join(parts)
+
+
+FILTER_PAGES = [
+    {
+        'slug': 'indoor',
+        'filter': lambda p: p.get('env') == 'indoor',
+        'h1': 'Indoor activities for kids near %s',
+        'title': 'Indoor activities for kids near %s · %s',
+        'desc': 'Indoor play spaces, museums and activities for kids near %s — '
+                'perfect for rainy days or foggy afternoons.',
+        'lede': 'Play spaces, museums and indoor activities near %(name)s &mdash; '
+                '%(n)d options within %(mi)d miles.',
+    },
+    {
+        'slug': 'outdoor',
+        'filter': lambda p: p.get('env') == 'outdoor',
+        'h1': 'Outdoor activities for kids near %s',
+        'title': 'Outdoor activities for kids near %s · %s',
+        'desc': 'Parks, beaches and outdoor spots for kids near %s — '
+                'sorted by distance so you can find the closest one.',
+        'lede': 'Parks, beaches, trails and open-air attractions near %(name)s &mdash; '
+                '%(n)d spots within %(mi)d miles.',
+    },
+    {
+        'slug': 'free',
+        'filter': lambda p: (p.get('spec') or {}).get('price', '').startswith('Free'),
+        'h1': 'Free things to do with kids near %s',
+        'title': 'Free things to do with kids near %s · %s',
+        'desc': 'Free parks, beaches and trails for kids near %s — '
+                'no tickets, no entry fee, just show up.',
+        'lede': 'No entry fee, no tickets &mdash; just show up. %(n)d free spots for kids near %(name)s.',
+    },
+]
+
+
+def filter_page(town, places, fp, base):
+    slug = slugify(town['name'])
+    name = town['name']
+    ranked = sorted(((miles(town['lat'], town['lon'], p['lat'], p['lon']), p) for p in places),
+                    key=lambda x: x[0])
+    listed = [(d, p) for d, p in ranked if d <= LIST_MILES and fp['filter'](p)]
+    if len(listed) < 2:
+        return None
+
+    title = fp['title'] % (name, SITE_NAME)
+    desc = fp['desc'] % name
+    lede = fp['lede'] % {'name': html.escape(name), 'n': len(listed), 'mi': LIST_MILES}
+    canon = '%s%s/%s/' % (base, slug, fp['slug'])
+    og_img = ''
+    for _, p in listed:
+        ph = photo_for(slugify(p['name']))
+        if ph:
+            og_img = '<meta property="og:image" content="%s%s" />' % (base, ph)
+            break
+
+    out = HEAD.format(title=html.escape(title, quote=True), desc=html.escape(desc, quote=True),
+                      canonical=canon, up='../../',
+                      og_image=og_img,
+                      nav='<a href="../../"><span class="nav-full">Change city</span>'
+                          '<span class="nav-short">Cities</span></a>'
+                          '<a href="../">%s</a>' % html.escape(name))
+
+    out += '''
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <h1 class="hero-title"><span class="hl">%s</span></h1>
+      <p class="lede">%s</p>
+    </div>
+  </section>
+
+  <section class="list-section" id="list">
+    <div class="wrap">
+      <div class="cards" id="cards">
+%s
+      </div>
+    </div>
+  </section>
+</main>
+''' % (html.escape(fp['h1'] % name), lede,
+       ''.join(place_card(p, d, up='../../') for d, p in listed))
+
+    out += places_jsonld([p for _, p in listed])
+    out += FOOT
+    return out
+
+
 def city_page(town, places, events, dated, base):
     slug = slugify(town['name'])
     name = town['name']
@@ -526,6 +733,23 @@ def city_page(town, places, events, dated, base):
                       nav='<a href="../"><span class="nav-full">Change city</span>'
                           '<span class="nav-short">Cities</span></a>')
 
+    intro = city_intro(name, listed, ev, seasonal_groups, today)
+
+    browse_links = ''
+    indoor_n = len([1 for _, p in listed if p.get('env') == 'indoor'])
+    outdoor_n = len([1 for _, p in listed if p.get('env') == 'outdoor'])
+    free_n = len([1 for _, p in listed if (p.get('spec') or {}).get('price', '').startswith('Free')])
+    link_parts = []
+    if indoor_n >= 2:
+        link_parts.append('<a class="quick-link" href="indoor/"><span class="filter-label">Indoor</span> %d</a>' % indoor_n)
+    if outdoor_n >= 2:
+        link_parts.append('<a class="quick-link" href="outdoor/"><span class="filter-label">Outdoor</span> %d</a>' % outdoor_n)
+    if free_n >= 2:
+        link_parts.append('<a class="quick-link" href="free/"><span class="filter-label">Free</span> %d</a>' % free_n)
+    link_parts.append('<a class="quick-link" href="calendar/">Calendar</a>')
+    if link_parts:
+        browse_links = '<nav class="browse-links">%s</nav>' % ''.join(link_parts)
+
     out += '''
 <main id="top">
 
@@ -533,6 +757,8 @@ def city_page(town, places, events, dated, base):
     <div class="wrap hero-inner">
       <h1 class="hero-title"><span class="hl">Where to take the kids in %s</span></h1>
       <p class="lede">%d places within %d miles, closest first. %s</p>
+      <p class="intro">%s</p>
+      %s
       <p class="city-switch"><a href="../">Not your city? Pick another &rarr;</a></p>
     </div>
   </section>
@@ -542,7 +768,8 @@ def city_page(town, places, events, dated, base):
   <div class="wrap"><div class="loc-bar" id="locBar"></div></div>
 
 ''' % (html.escape(name), len(listed), LIST_MILES,
-       'Weekly markets and events too.' if ev else '')
+       'Weekly markets and events too.' if ev else '',
+       intro, browse_links)
 
     if seasonal_groups:
         out += seasonal_section_html(seasonal_groups, name)
@@ -563,6 +790,7 @@ def city_page(town, places, events, dated, base):
         open gyms, a per-date listing for library storytimes. Schedules change and sessions get
         cancelled, so confirm with the venue before you set out.
       </p>
+      <a class="cal-cta" href="calendar/">View full calendar &rarr;</a>
     </div>
     <dialog class="ev-dialog" id="evDialog" aria-labelledby="evDialogTitle">
       <form method="dialog">
@@ -717,6 +945,7 @@ def main():
         if os.path.isdir(p) and os.path.exists(os.path.join(p, '.generated')) and entry not in valid:
             shutil.rmtree(p)
 
+    extra_urls = []
     for t in towns_with_pages:
         slug, page = city_page(t, places, events, dated, base)
         d = os.path.join(ROOT, slug)
@@ -724,11 +953,26 @@ def main():
         open(os.path.join(d, 'index.html'), 'w', encoding='utf-8').write(page)
         open(os.path.join(d, '.generated'), 'w').write('written by build.py\n')
 
+        cal = calendar_page(t, events, dated, base)
+        cd = os.path.join(d, 'calendar')
+        os.makedirs(cd, exist_ok=True)
+        open(os.path.join(cd, 'index.html'), 'w', encoding='utf-8').write(cal)
+        extra_urls.append('%s%s/calendar/' % (base, slug))
+
+        for fp in FILTER_PAGES:
+            fhtml = filter_page(t, places, fp, base)
+            if fhtml is None:
+                continue
+            fd = os.path.join(d, fp['slug'])
+            os.makedirs(fd, exist_ok=True)
+            open(os.path.join(fd, 'index.html'), 'w', encoding='utf-8').write(fhtml)
+            extra_urls.append('%s%s/%s/' % (base, slug, fp['slug']))
+
     open(os.path.join(ROOT, 'index.html'), 'w', encoding='utf-8').write(
         root_page(towns_with_pages, places, base))
 
-    # sitemap, so the city pages are actually discoverable
     urls = [base] + ['%s%s/' % (base, slugify(t['name'])) for t in towns_with_pages]
+    urls += extra_urls
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sm += ''.join('  <url><loc>%s</loc></url>\n' % u for u in urls)
     sm += '</urlset>\n'
