@@ -422,6 +422,22 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .loc-clear-btn { font: inherit; font-size: 13px; font-weight: 700; color: var(--ink-2); background: none; border: 0; cursor: pointer; margin-left: 2px; border-bottom: 1px dotted var(--line-2); }
 .loc-clear-btn:hover { color: var(--ink); }
 
+.seasonal { padding: 48px 0 52px; }
+.seasonal-head h2 { display: flex; align-items: center; gap: 12px; }
+.seasonal-icon { flex: none; color: var(--sun); }
+.seasonal-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+@media (min-width: 680px)  { .seasonal-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1000px) { .seasonal-grid { grid-template-columns: repeat(3, 1fr); } }
+.seasonal-card { background: var(--chalk); border-radius: var(--r-lg); padding: 22px; border-left: 4px solid var(--sun); box-shadow: 0 3px 0 var(--line-2); transition: transform .28s var(--bounce), box-shadow .28s var(--ease); }
+.seasonal-card:hover { transform: translateY(-3px); box-shadow: 0 5px 0 var(--line-2), 0 12px 28px rgba(35,49,61,.08); }
+.seasonal-card h3 { font-size: 19px; font-weight: 700; }
+.sc-when { margin: 6px 0 0; font-size: 14.5px; font-weight: 800; color: var(--sun); }
+.sc-where { margin: 3px 0 0; font-size: 14.5px; font-weight: 700; }
+.sc-blurb { margin: 8px 0 0; font-size: 14.5px; color: var(--ink-2); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden; }
+.sc-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 9px 13px; margin-top: 12px; }
+.sc-foot .map, .sc-foot .ev-src { font-size: 12.5px; font-weight: 700; color: var(--ink-2); background: none; padding: 0; border-radius: 0; border-bottom: 1px dotted var(--line-2); }
+.sc-foot .map:hover, .sc-foot .ev-src:hover { color: var(--ink); transform: none; }
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
