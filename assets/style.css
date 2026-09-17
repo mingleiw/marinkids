@@ -316,6 +316,8 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
   transition: transform .28s var(--bounce), box-shadow .28s var(--ease);
 }
 .card:hover { transform: translateY(-4px); box-shadow: 0 5px 0 var(--line-2), 0 16px 32px rgba(35,49,61,.1); }
+.card.has-img { padding-top: 0; }
+.card-img { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: var(--r-lg) var(--r-lg) 0 0; margin-bottom: 16px; display: block; }
 
 .card-top { display: flex; align-items: flex-start; gap: 13px; margin-bottom: 13px; }
 .ico {
@@ -430,6 +432,8 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 @media (min-width: 1000px) { .seasonal-grid { grid-template-columns: repeat(3, 1fr); } }
 .seasonal-card { background: var(--chalk); border-radius: var(--r-lg); padding: 22px; border-left: 4px solid var(--sun); box-shadow: 0 3px 0 var(--line-2); transition: transform .28s var(--bounce), box-shadow .28s var(--ease); }
 .seasonal-card:hover { transform: translateY(-3px); box-shadow: 0 5px 0 var(--line-2), 0 12px 28px rgba(35,49,61,.08); }
+.seasonal-card.has-img { padding-top: 0; border-left: none; border-top: 4px solid var(--sun); }
+.sc-img { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: var(--r-lg) var(--r-lg) 0 0; margin-bottom: 16px; display: block; }
 .seasonal-card h3 { font-size: 19px; font-weight: 700; }
 .sc-when { margin: 6px 0 0; font-size: 14.5px; font-weight: 800; color: var(--sun); }
 .sc-where { margin: 3px 0 0; font-size: 14.5px; font-weight: 700; }

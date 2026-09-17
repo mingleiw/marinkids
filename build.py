@@ -108,6 +108,12 @@ def load_venues():
 
 VENUES = load_venues()
 
+PHOTO_DIR = os.path.join(ROOT, 'assets', 'photos')
+
+def photo_for(slug):
+    p = os.path.join(PHOTO_DIR, '%s.webp' % slug)
+    return 'assets/photos/%s.webp' % slug if os.path.exists(p) else None
+
 SPRITE = read('templates/sprite.svg')
 TIPS = read('templates/tips.html')
 
@@ -125,7 +131,7 @@ HEAD = '''<!DOCTYPE html>
 <meta property="og:title" content="{title}" />
 <meta property="og:description" content="{desc}" />
 <meta property="og:url" content="{canonical}" />
-
+{og_image}
 <link rel="icon" href="{up}assets/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -175,18 +181,20 @@ FOOT = '''
 '''
 
 
-def place_card(p, dist=None):
+def place_card(p, dist=None, up='../'):
     meta = ''
     if dist is not None:
         meta += '<li class="m-dist">%s mi</li>' % show_miles(dist)
-    # Under FOCUS_REGION every card carries the same region label, so the chip
-    # says nothing and costs a slot on all of them. data-region stays either way;
-    # only the visible chip goes.
     if not FOCUS_REGION:
         meta += '<li class="m-region">%s</li>' % REGIONS.get(p['region'], p['region'])
     meta += '<li class="m-age">%s</li><li class="m-env">%s</li>' % (p['ages'], p['envlabel'])
+    photo = photo_for(slugify(p['name']))
+    img_html = ''
+    if photo:
+        img_html = '<img class="card-img" src="%s%s" alt="" width="400" height="225" loading="lazy">' % (up, photo)
     return '''
-        <article class="card" data-cat="{cat}" data-age="{age}" data-region="{region}" data-env="{env}"{dattr} data-lat="{lat}" data-lon="{lon}">
+        <article class="card{imgcls}" data-cat="{cat}" data-age="{age}" data-region="{region}" data-env="{env}"{dattr} data-lat="{lat}" data-lon="{lon}">
+          {img}
           <div class="card-top">
             <span class="ico" aria-hidden="true"><svg width="20" height="20"><use href="#{icon}"/></svg></span>
             <div><h3>{name}</h3><p class="en">{where}</p></div>
@@ -196,7 +204,8 @@ def place_card(p, dist=None):
           <p class="note"><b>Before you go</b> {note}</p>
           <a class="map" href="https://www.google.com/maps/search/?api=1&query={mapq}" target="_blank" rel="noopener">{cta}</a>
         </article>
-'''.format(dattr=('' if dist is None else ' data-dist="%.1f"' % dist), meta=meta, **p)
+'''.format(dattr=('' if dist is None else ' data-dist="%.1f"' % dist),
+           meta=meta, img=img_html, imgcls=' has-img' if photo else '', **p)
 
 
 FILTERS = '''
@@ -344,11 +353,12 @@ def group_seasonal(events, town):
         key = e.get('group', e['title'])
         groups.setdefault(key, []).append(e)
     result = []
-    for entries in groups.values():
+    for gkey, entries in groups.items():
         entries.sort(key=lambda e: e['date'])
         first = entries[0]
         dates = [e['date'] for e in entries]
         g = {
+            'group_key': gkey,
             'title': first['title'],
             'venue': first.get('venue', ''),
             'city': first.get('city', ''),
@@ -414,7 +424,13 @@ def seasonal_section_html(groups, town_name):
             dist_chip = ''
             if 'dist' in g:
                 dist_chip = '<span class="ev-tag ev-dist">%s mi</span>' % show_miles(g['dist'])
-            out += '''        <article class="seasonal-card">
+            group_key = g.get('group_key', slugify(g['title']))
+            sc_photo = photo_for(group_key)
+            sc_img = ''
+            if sc_photo:
+                sc_img = '<img class="sc-img" src="../%s" alt="" width="400" height="225" loading="lazy">' % sc_photo
+            out += '''        <article class="seasonal-card%s">
+          %s
           <h3>%s</h3>
           <p class="sc-when">%s</p>
           <p class="sc-where">%s, %s</p>
@@ -426,7 +442,9 @@ def seasonal_section_html(groups, town_name):
             %s
           </div>
         </article>
-''' % (html.escape(g['title']), when,
+''' % (' has-img' if sc_photo else '',
+       sc_img,
+       html.escape(g['title']), when,
        html.escape(g['venue']), html.escape(g['city']),
        html.escape(g['blurb']),
        dist_chip, html.escape(g['ages']),
@@ -495,8 +513,16 @@ def city_page(town, places, events, dated, base):
     desc = ('Places to take kids near %s, sorted by how far they are. '
             'The closest is %s, %s miles away.' % (name, ranked[0][1]['name'], show_miles(ranked[0][0])))
 
+    og_img = ''
+    for _, p in ranked:
+        ph = photo_for(slugify(p['name']))
+        if ph:
+            og_img = '<meta property="og:image" content="%s%s/%s" />' % (base, slug, ph)
+            break
+
     out = HEAD.format(title=html.escape(title, quote=True), desc=html.escape(desc, quote=True),
                       canonical='%s%s/' % (base, slug), up='../',
+                      og_image=og_img,
                       nav='<a href="../"><span class="nav-full">Change city</span>'
                           '<span class="nav-short">Cities</span></a>')
 
@@ -591,7 +617,7 @@ def root_page(towns_with_pages, places, base):
             '%d cities across %s.' % (len(towns_with_pages), area))
 
     out = HEAD.format(title=html.escape(title, quote=True), desc=html.escape(desc, quote=True),
-                      canonical=base, up='', nav='')
+                      canonical=base, up='', nav='', og_image='')
 
     links = ''
     for key, label in GROUPS:
