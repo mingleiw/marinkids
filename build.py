@@ -370,6 +370,7 @@ def group_seasonal(events, town):
             g['dist'] = round(miles(town['lat'], town['lon'], lat, lon), 1)
         result.append(g)
     result.sort(key=lambda g: (g.get('dist') is None, g.get('dist', 0)))
+    result = [g for g in result if g.get('dist') is not None and g['dist'] <= LIST_MILES]
     return result
 
 
