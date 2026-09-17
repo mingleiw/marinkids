@@ -79,6 +79,14 @@ def show_miles(d):
 REGIONS = {'sf': 'San Francisco', 'marin': 'Marin & North Bay', 'east': 'East Bay',
            'peninsula': 'Peninsula', 'south': 'South Bay', 'sac': 'Sacramento area'}
 
+SEASONAL_CONFIG = {
+    'halloween': {
+        'icon': 'i-pumpkin',
+        'title': 'Halloween',
+        'sub': 'Pumpkin patches, haunted trails &amp; more near %s',
+    },
+}
+
 GROUPS = [('sf', 'San Francisco'), ('marin', 'Marin & North Bay'), ('east', 'East Bay'),
           ('peninsula', 'Peninsula'), ('south', 'South Bay'), ('sac', 'Sacramento area')]
 
@@ -310,6 +318,126 @@ def places_jsonld(places):
     return '<script type="application/ld+json">\n%s\n</script>\n' % blob
 
 
+def _month_day(d):
+    months = ['Jan','Feb','Mar','Apr','May','Jun',
+              'Jul','Aug','Sep','Oct','Nov','Dec']
+    return '%s %d' % (months[d.month - 1], d.day)
+
+
+def format_date_range(dates):
+    ds = sorted(datetime.date.fromisoformat(d) for d in dates)
+    if len(ds) == 1:
+        return _month_day(ds[0])
+    all_weekend = all(d.weekday() in (5, 6) for d in ds)
+    first, last = ds[0], ds[-1]
+    if all_weekend and len(ds) > 2:
+        return 'Weekends %s &ndash; %s' % (_month_day(first), _month_day(last))
+    if first.month == last.month:
+        return '%s &ndash; %s' % (_month_day(first), last.day)
+    return '%s &ndash; %s' % (_month_day(first), _month_day(last))
+
+
+def group_seasonal(events, town):
+    from collections import OrderedDict
+    groups = OrderedDict()
+    for e in events:
+        key = e.get('group', e['title'])
+        groups.setdefault(key, []).append(e)
+    result = []
+    for entries in groups.values():
+        entries.sort(key=lambda e: e['date'])
+        first = entries[0]
+        dates = [e['date'] for e in entries]
+        g = {
+            'title': first['title'],
+            'venue': first.get('venue', ''),
+            'city': first.get('city', ''),
+            'ages': first.get('ages', 'All ages'),
+            'blurb': first.get('blurb', ''),
+            'source': first.get('source', ''),
+            'time': first.get('time', ''),
+            'until': first.get('until', ''),
+            'seasonal': first['seasonal'],
+            'dates': dates,
+            'date_label': format_date_range(dates),
+        }
+        lat = first.get('lat')
+        lon = first.get('lon')
+        vc = VENUES.get('%s|%s' % (g['venue'], g['city']))
+        if vc:
+            lat, lon = vc
+        if lat is not None and lon is not None:
+            g['dist'] = round(miles(town['lat'], town['lon'], lat, lon), 1)
+        result.append(g)
+    result.sort(key=lambda g: (g.get('dist') is None, g.get('dist', 0)))
+    return result
+
+
+def seasonal_section_html(groups, town_name):
+    by_season = {}
+    for g in groups:
+        by_season.setdefault(g['seasonal'], []).append(g)
+    out = ''
+    for season, items in by_season.items():
+        cfg = SEASONAL_CONFIG.get(season, {
+            'icon': 'i-park', 'title': season.title(),
+            'sub': 'Special events near %s',
+        })
+        out += '''
+  <section class="seasonal seasonal-%s" id="seasonal">
+    <div class="wrap">
+      <div class="section-head seasonal-head">
+        <h2><svg class="seasonal-icon" width="28" height="28"><use href="#%s"/></svg> %s</h2>
+        <p class="section-sub">%s</p>
+      </div>
+      <div class="seasonal-grid">
+''' % (html.escape(season), cfg['icon'], html.escape(cfg['title']),
+       cfg['sub'] % html.escape(town_name))
+        for g in items:
+            when = g['date_label']
+            if g['time']:
+                t = g['time'].split(':')
+                h, m = int(t[0]), t[1]
+                ap = 'pm' if h >= 12 else 'am'
+                h = h % 12 or 12
+                start = '%d %s' % (h, ap) if m == '00' else '%d:%s %s' % (h, m, ap)
+                if g.get('until'):
+                    u = g['until'].split(':')
+                    uh, um = int(u[0]), u[1]
+                    uap = 'pm' if uh >= 12 else 'am'
+                    uh = uh % 12 or 12
+                    end = '%d %s' % (uh, uap) if um == '00' else '%d:%s %s' % (uh, um, uap)
+                    when += ' &middot; %s &ndash; %s' % (start, end)
+                else:
+                    when += ' &middot; %s' % start
+            dist_chip = ''
+            if 'dist' in g:
+                dist_chip = '<span class="ev-tag ev-dist">%s mi</span>' % show_miles(g['dist'])
+            out += '''        <article class="seasonal-card">
+          <h3>%s</h3>
+          <p class="sc-when">%s</p>
+          <p class="sc-where">%s, %s</p>
+          <p class="sc-blurb">%s</p>
+          <div class="sc-foot">
+            %s
+            <span class="ev-tag">%s</span>
+            <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=%s" target="_blank" rel="noopener">Map</a>
+            %s
+          </div>
+        </article>
+''' % (html.escape(g['title']), when,
+       html.escape(g['venue']), html.escape(g['city']),
+       html.escape(g['blurb']),
+       dist_chip, html.escape(g['ages']),
+       html.escape(g['venue'] + ' ' + g['city']),
+       '<a class="ev-src" href="%s" target="_blank" rel="noopener">Details</a>' % html.escape(g['source']) if g.get('source') else '')
+        out += '''      </div>
+    </div>
+  </section>
+'''
+    return out
+
+
 def check_app_contract(page_html, slug):
     """Fail the build if app.js reaches for an element the page does not emit.
 
@@ -337,12 +465,15 @@ def city_page(town, places, events, dated, base):
     listed = [(d, p) for d, p in ranked if d <= LIST_MILES]
     near = [p for d, p in ranked if d <= MAX_MILES]
     ev = [e for e in events if e['region'] == town['region']]
-    # Dated events (e.g. library storytimes refreshed daily) join the weekly
-    # ones for the 7 days the strip actually shows. Anything further out is
-    # refreshed into view by tomorrow's build.
     today = datetime.date.today()
     week = {str(today + datetime.timedelta(days=i)) for i in range(7)}
     ev += [e for e in dated if e['region'] == town['region'] and e['date'] in week]
+
+    seasonal_raw = [e for e in dated
+                    if e['region'] == town['region']
+                    and e.get('seasonal')
+                    and e['date'] >= str(today)]
+    seasonal_groups = group_seasonal(seasonal_raw, town)
 
     # How far each event is *from this town*. Copy first: these dicts are shared
     # across every city page, so writing distance in place would leave all five
@@ -385,6 +516,9 @@ def city_page(town, places, events, dated, base):
 
 ''' % (html.escape(name), len(listed), LIST_MILES,
        'Weekly markets and events too.' if ev else '')
+
+    if seasonal_groups:
+        out += seasonal_section_html(seasonal_groups, name)
 
     if ev:
         out += '''
