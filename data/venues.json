@@ -1,0 +1,426 @@
+[
+ {
+  "venue": "Bay Area Discovery Museum",
+  "city": "Sausalito",
+  "lat": 37.8340,
+  "lon": -122.4770,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Marine Mammal Center",
+  "city": "Sausalito",
+  "lat": 37.8365,
+  "lon": -122.5142,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "MLK Gym",
+  "city": "Sausalito",
+  "lat": 37.8590,
+  "lon": -122.4853,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Clipper Yacht Harbor",
+  "city": "Sausalito",
+  "lat": 37.8612,
+  "lon": -122.4871,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Dunphy Park parking lot",
+  "city": "Sausalito",
+  "lat": 37.8604,
+  "lon": -122.4863,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Mill Valley Public Library",
+  "city": "Mill Valley",
+  "lat": 37.9058,
+  "lon": -122.5461,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Downtown Mill Valley",
+  "city": "Mill Valley",
+  "lat": 37.9060,
+  "lon": -122.5450,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Old Mill Park",
+  "city": "Mill Valley",
+  "lat": 37.9063,
+  "lon": -122.5472,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Town Center Corte Madera",
+  "city": "Corte Madera",
+  "lat": 37.9255,
+  "lon": -122.5085,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Town Park",
+  "city": "Corte Madera",
+  "lat": 37.9262,
+  "lon": -122.5270,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Belvedere Tiburon Library-Children's Room",
+  "city": "Tiburon",
+  "lat": 37.8735,
+  "lon": -122.4567,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Belvedere Tiburon Library-Founders Room",
+  "city": "Tiburon",
+  "lat": 37.8735,
+  "lon": -122.4567,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Belvedere Tiburon Library",
+  "city": "Tiburon",
+  "lat": 37.8735,
+  "lon": -122.4567,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Tiburon Belvedere Library",
+  "city": "Tiburon",
+  "lat": 37.8735,
+  "lon": -122.4567,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Marin Civic Center-Veteran's Memorial auditorium",
+  "city": "San Rafael",
+  "lat": 37.9984,
+  "lon": -122.5320,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "San Rafael Community Center",
+  "city": "San Rafael",
+  "lat": 37.9742,
+  "lon": -122.5271,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "GymWorld Gymnastics & Parkour",
+  "city": "San Rafael",
+  "lat": 37.9669,
+  "lon": -122.5040,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Civic Center Library",
+  "city": "San Rafael",
+  "lat": 37.9984,
+  "lon": -122.5320,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Marin Civic Center Parking Lot",
+  "city": "San Rafael",
+  "lat": 37.9984,
+  "lon": -122.5310,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Veteran's Memorial Auditorium Parking Lot",
+  "city": "San Rafael",
+  "lat": 37.9984,
+  "lon": -122.5310,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Fourth Street, San Rafael",
+  "city": "San Rafael",
+  "lat": 37.9735,
+  "lon": -122.5311,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Novato Gymnastics Center",
+  "city": "Novato",
+  "lat": 38.0975,
+  "lon": -122.5571,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Sports Basement Novato",
+  "city": "Novato",
+  "lat": 38.0909,
+  "lon": -122.5559,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Downtown Novato",
+  "city": "Novato",
+  "lat": 38.1074,
+  "lon": -122.5697,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Pioneer Park",
+  "city": "Novato",
+  "lat": 38.1041,
+  "lon": -122.5671,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "South Novato Library",
+  "city": "Novato",
+  "lat": 38.0835,
+  "lon": -122.5490,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Pacheco Ranch",
+  "city": "Novato",
+  "lat": 38.0740,
+  "lon": -122.5850,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Larkspur Library",
+  "city": "Larkspur",
+  "lat": 37.9341,
+  "lon": -122.5353,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Marin Country Mart",
+  "city": "Larkspur",
+  "lat": 37.9459,
+  "lon": -122.5093,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Outside the Poppy Store",
+  "city": "Larkspur",
+  "lat": 37.9459,
+  "lon": -122.5093,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Marin Country Mart–Outside Poppy Store",
+  "city": "Larkspur",
+  "lat": 37.9459,
+  "lon": -122.5093,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Love Story Yoga, Marin Country Mart",
+  "city": "Larkspur",
+  "lat": 37.9459,
+  "lon": -122.5093,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Marin City Library",
+  "city": "Marin City",
+  "lat": 37.8683,
+  "lon": -122.5100,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Bolinas Park",
+  "city": "Fairfax",
+  "lat": 37.9862,
+  "lon": -122.5892,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Fairfax Pavilion",
+  "city": "Fairfax",
+  "lat": 37.9870,
+  "lon": -122.5889,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "San Anselmo Library",
+  "city": "San Anselmo",
+  "lat": 37.9746,
+  "lon": -122.5614,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "de Young Museum",
+  "city": "San Francisco",
+  "lat": 37.7714,
+  "lon": -122.4686,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Legion of Honor",
+  "city": "San Francisco",
+  "lat": 37.7846,
+  "lon": -122.5008,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Presidio's Outpost Meadow",
+  "city": "San Francisco",
+  "lat": 37.7993,
+  "lon": -122.4656,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Treasure Island",
+  "city": "San Francisco",
+  "lat": 37.8235,
+  "lon": -122.3701,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Mickelson Pumpkin Patch",
+  "city": "Petaluma",
+  "lat": 38.2490,
+  "lon": -122.6120,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Petaluma Pumpkin Patch",
+  "city": "Petaluma",
+  "lat": 38.2190,
+  "lon": -122.5960,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Santa Rosa Pumpkin Patch",
+  "city": "Petaluma",
+  "lat": 38.2500,
+  "lon": -122.6200,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Sonoma Plaza",
+  "city": "Sonoma",
+  "lat": 38.2919,
+  "lon": -122.4580,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Six Flags Discovery Kingdom",
+  "city": "Vallejo",
+  "lat": 38.1385,
+  "lon": -122.2323,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Mare Island Naval Shipyard",
+  "city": "Vallejo",
+  "lat": 38.0852,
+  "lon": -122.2710,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Lemos Farm",
+  "city": "Half Moon Bay",
+  "lat": 37.4636,
+  "lon": -122.4286,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "A Seat at the Table Books",
+  "city": "Elk Grove",
+  "lat": 38.4217,
+  "lon": -121.3984,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Laguna Gateway Center",
+  "city": "Elk Grove",
+  "lat": 38.4227,
+  "lon": -121.4294,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Old Town Elk Grove",
+  "city": "Elk Grove",
+  "lat": 38.4088,
+  "lon": -121.3716,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Historic Folsom Plaza",
+  "city": "Folsom",
+  "lat": 38.6780,
+  "lon": -121.1761,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Midtown Farmers Market",
+  "city": "Sacramento",
+  "lat": 38.5736,
+  "lon": -121.4748,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ },
+ {
+  "venue": "Sacramento Children's Museum",
+  "city": "Rancho Cordova",
+  "lat": 38.5891,
+  "lon": -121.3027,
+  "resolved": "2026-09-18",
+  "source": "manual"
+ }
+]

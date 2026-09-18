@@ -13,7 +13,7 @@
   var detailEl = document.getElementById('calDetail');
   if (!calEl || !detailEl) return;
 
-  var sm = window._sacmoms || {};
+  var sm = window._mkids || {};
 
   function esc(s) {
     if (sm.esc) return sm.esc(s);

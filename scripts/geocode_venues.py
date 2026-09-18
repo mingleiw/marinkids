@@ -60,7 +60,7 @@ def load_events():
     for path in sorted(glob.glob(os.path.join(ROOT, "data", "*events*.json"))):
         with open(path, encoding="utf-8") as f:
             for e in json.load(f):
-                if e.get("region") != "sac":
+                if e.get("region") != "marin":
                     continue
                 v, c = e.get("venue"), e.get("city")
                 if v and c:
