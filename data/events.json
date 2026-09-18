@@ -535,16 +535,16 @@
  },
  {
   "time": "10:00",
-  "title": "Spanish Storytime with Arle",
-  "venue": "Belvedere Tiburon Library",
+  "title": "Bilingual Storytime with Arlette",
+  "venue": "Belvedere Tiburon Library-Founders Room",
   "city": "Tiburon",
   "region": "marin",
   "ages": "Under 6",
-  "blurb": "Bring your little ones for a fun-filled session of music, movement & imagination! This",
+  "blurb": "Join us for an interactive bilingual Spanish and English storytime for infants and toddlers. Bring",
   "source": "https://www.beltiblibrary.org/events",
   "day": 4,
-  "origin": "marin-mommies",
-  "until": "10:30"
+  "until": "10:30",
+  "origin": "marin-mommies"
  },
  {
   "time": "10:00",

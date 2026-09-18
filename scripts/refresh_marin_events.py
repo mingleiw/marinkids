@@ -26,6 +26,16 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EVENTS_JSON = os.path.join(ROOT, "data", "events.json")
 ORIGIN = "marin-mommies"
 
+# Source-side title quirks: scraped titles that are known truncations or
+# duplicates of another listing, mapped to the canonical title so the two
+# listings merge into one entry instead of rendering as separate events.
+# Documented 2026-09-17: Marin Mommies lists "Spanish Storytime with Arle"
+# (truncated) alongside "Bilingual Storytime with Arlette" for the same
+# Thursday 10:00 session at Belvedere Tiburon Library.
+TITLE_ALIASES = {
+    "Spanish Storytime with Arle": "Bilingual Storytime with Arlette",
+}
+
 
 def fetch(url):
     out = subprocess.run(
@@ -188,7 +198,8 @@ def main():
     fresh, added, dropped, updated = [], [], [], []
     seen = set()
     for r in recurring:
-        key = norm_title(r["title"])
+        title = TITLE_ALIASES.get(r["title"], r["title"])
+        key = norm_title(title)
         seen.add(key)
         if key in by_title:
             e = dict(by_title[key])  # keep hand-fixed fields (source, blurb, ages)
@@ -210,7 +221,7 @@ def main():
                 blurb = blurb[:697].rsplit(" ", 1)[0] + "…"
             e = {
                 "time": r["time"],
-                "title": r["title"],
+                "title": title,
                 "venue": r["venue"],
                 "city": r["city"],
                 "region": "marin",
