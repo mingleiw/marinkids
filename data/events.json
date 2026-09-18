@@ -59,6 +59,30 @@
   "day": 3
  },
  {
+  "time": "08:00",
+  "until": "13:00",
+  "title": "Midtown Farmers Market",
+  "venue": "Midtown Farmers Market",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Huge Saturday market in the heart of Midtown with 200+ vendors, live music, and family-friendly activities. Year-round.",
+  "source": "https://exploremidtown.org/midtown-markets/",
+  "day": 6
+ },
+ {
+  "time": "08:00",
+  "until": "13:00",
+  "title": "Historic Folsom Farmers Market",
+  "venue": "Historic Folsom Plaza",
+  "city": "Folsom",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Year-round Saturday market in Historic Folsom with 80+ farmers, live music, cooking demos, and family-friendly fun.",
+  "source": "https://historicfolsom.org/historic-folsom-farmers-market/",
+  "day": 6
+ },
+ {
   "time": "10:30",
   "title": "Baby Bounce",
   "venue": "Belvedere Tiburon Library-Children's Room",
@@ -625,29 +649,5 @@
   "day": 3,
   "until": "10:45",
   "origin": "marin-mommies"
- },
- {
-  "time": "08:00",
-  "until": "13:00",
-  "title": "Midtown Farmers Market",
-  "venue": "Midtown Farmers Market",
-  "city": "Sacramento",
-  "region": "sac",
-  "ages": "All ages",
-  "blurb": "Huge Saturday market in the heart of Midtown with 200+ vendors, live music, and family-friendly activities. Year-round.",
-  "source": "https://exploremidtown.org/midtown-markets/",
-  "day": 6
- },
- {
-  "time": "08:00",
-  "until": "13:00",
-  "title": "Historic Folsom Farmers Market",
-  "venue": "Historic Folsom Plaza",
-  "city": "Folsom",
-  "region": "sac",
-  "ages": "All ages",
-  "blurb": "Year-round Saturday market in Historic Folsom with 80+ farmers, live music, cooking demos, and family-friendly fun.",
-  "source": "https://historicfolsom.org/historic-folsom-farmers-market/",
-  "day": 6
  }
 ]

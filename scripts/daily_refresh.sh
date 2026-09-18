@@ -6,19 +6,13 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-# Sacramento sources gate the run. These feed the pages we actually publish, so
-# a failure here must stop the push rather than quietly ship a thinner calendar.
-python3 scripts/refresh_storytimes.py          # Sacramento-area library storytimes
-python3 scripts/refresh_scm_events.py          # Sacramento Children's Museum weekly programs
-
-# Marin sources are kept warm but must NOT gate the run. build.py filters towns
-# to FOCUS_REGION ('sac'), so nothing these write is rendered today — and both
-# exit non-zero when their source yields nothing, which under `set -e` used to
-# abort the whole refresh and leave Sacramento un-rebuilt and un-pushed over an
-# outage at a Mill Valley library. If FOCUS_REGION ever widens to 'marin', move
-# these back above the line so their failures gate the push again.
-python3 scripts/refresh_marin_storytimes.py || echo "warning: marin storytimes refresh failed; keeping last known-good" >&2
-python3 scripts/refresh_marin_events.py       || echo "warning: marin events refresh failed; keeping last known-good" >&2
+# Marin sources gate the run. build.py renders FOCUS_REGION ('marin'), so these
+# feed the pages we actually publish — a failure here must stop the push rather
+# than quietly ship a thinner calendar. Both scripts exit non-zero and leave
+# their data files untouched when their source yields nothing, so a zero-guard
+# trip also stops the push instead of publishing an empty calendar.
+python3 scripts/refresh_marin_storytimes.py   # Mill Valley Public Library storytimes (LibCal)
+python3 scripts/refresh_marin_events.py       # Recurring weekly events from the Marin Mommies calendar
 
 # New venues appear whenever the library rotates storytimes to a branch we have
 # not seen. This only looks up the ones missing coordinates, so it is usually a
