@@ -180,7 +180,8 @@
   }
 
   // Expose for the events IIFE to call
-  window._mkids = { userLoc: function () { return userLoc; }, haversine: haversine, showMiles: showMiles, esc: esc };
+  var estate = { age: 'all', env: 'all', dist: 'all' };
+  window._mkids = { userLoc: function () { return userLoc; }, haversine: haversine, showMiles: showMiles, esc: esc, estate: estate };
 
   function matches(card) {
     for (var k in state) {
@@ -289,6 +290,43 @@
     return ' from ' + TOWN.name;
   }
 
+  var estate = (sm && sm.estate) || { age: 'all', env: 'all', dist: 'all' };
+  var evCountEl = document.getElementById('evCount');
+
+  function paintEventChips() {
+    document.querySelectorAll('[data-egroup]').forEach(function (g) {
+      var key = g.getAttribute('data-egroup');
+      g.querySelectorAll('.chip').forEach(function (b) {
+        b.classList.toggle('is-on', b.getAttribute('data-v') === estate[key]);
+      });
+    });
+  }
+
+  function evMatches(e) {
+    if (estate.age !== 'all') {
+      var tags = (e.age_tags || '0-2 3-5 6-9 10+').split(' ');
+      if (tags.indexOf(estate.age) === -1) return false;
+    }
+    if (estate.env !== 'all' && e.env && e.env !== estate.env) return false;
+    if (estate.dist !== 'all') {
+      var ed = evDist(e);
+      if (ed === null || !(ed <= +estate.dist)) return false;
+    }
+    return true;
+  }
+
+  document.querySelectorAll('[data-egroup]').forEach(function (g) {
+    var key = g.getAttribute('data-egroup');
+    g.addEventListener('click', function (ev) {
+      var btn = ev.target.closest('.chip');
+      if (!btn || !g.contains(btn)) return;
+      estate[key] = btn.getAttribute('data-v');
+      paintEventChips();
+      render();
+    });
+  });
+  paintEventChips();
+
   function strip() {
     stripEl.innerHTML = '';
     week.forEach(function (d, i) {
@@ -314,6 +352,7 @@
   function render() {
     var d = week[picked];
     var list = EVENTS.filter(function (e) { return e.day === d.getDay() || e.date === ymd(d); })
+                     .filter(evMatches)
                      .sort(function (a, b) {
                        var ta = a.time || '99:99', tb = b.time || '99:99';
                        return ta < tb ? -1 : (ta > tb ? 1 : 0);
@@ -344,16 +383,27 @@
         '</div></article>';
     }).join('');
 
-    var when = picked === 0 ? 'today' : (picked === 1 ? 'tomorrow' : 'on ' + DAYS[d.getDay()]);
-    weekMt.hidden = list.length !== 0;
-
-    var nxt = -1;
-    for (var j = 1; j < week.length; j++) {
-      var idx = (picked + j) % week.length;
-      if (countFor(week[idx])) { nxt = idx; break; }
+    var filtered = estate.age !== 'all' || estate.env !== 'all' || estate.dist !== 'all';
+    if (evCountEl) {
+      evCountEl.textContent = filtered
+        ? list.length + (list.length === 1 ? ' event' : ' events') + ' match'
+        : '';
     }
-    weekMt.textContent = 'Nothing listed ' + when + '.' +
-      (nxt > -1 ? ' Next up: ' + (nxt === 0 ? 'today' : nxt === 1 ? 'tomorrow' : DAYS[week[nxt].getDay()]) + '.' : '');
+
+    var when = picked === 0 ? 'today' : (picked === 1 ? 'tomorrow' : 'on ' + DAYS[d.getDay()]);
+    weekMt.innerHTML = '';
+    if (list.length === 0) {
+      weekMt.hidden = false;
+      var nxt = -1;
+      for (var j = 1; j < week.length; j++) {
+        var idx = (picked + j) % week.length;
+        if (countFor(week[idx])) { nxt = idx; break; }
+      }
+      weekMt.textContent = 'Nothing listed ' + when + '.' +
+        (nxt > -1 ? ' Next up: ' + (nxt === 0 ? 'today' : nxt === 1 ? 'tomorrow' : DAYS[week[nxt].getDay()]) + '.' : '');
+    } else {
+      weekMt.hidden = true;
+    }
   }
 
   // Expose so the places IIFE can trigger a re-render after geolocation

@@ -303,6 +303,15 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .reset { font: inherit; font-size: 14px; font-weight: 700; color: var(--tomato); background: var(--tomato-w); border: 0; padding: 7px 15px; border-radius: 999px; cursor: pointer; }
 .reset:active { transform: translateY(1px); }
 
+.filters-title {
+  margin: 0 0 12px; font-size: 13px; font-weight: 800; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--ink-2);
+}
+
+.ev-filters { margin: 4px 0 22px; }
+.ev-filters .filter-row { margin-bottom: 9px; }
+.ev-filters .filter-count { margin: 10px 0 0; font-size: 14px; font-weight: 700; color: var(--ink-2); }
+
 @media (max-width: 560px) { .filter-row { flex-direction: column; gap: 8px; } .filter-label { width: auto; padding-top: 0; } }
 
 /* ---------- Place cards ---------- */

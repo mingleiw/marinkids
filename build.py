@@ -597,6 +597,39 @@ def city_intro(name, listed, ev, seasonal_groups, today):
     return ' '.join(parts)
 
 
+EV_FILTERS = '''
+      <div class="ev-filters" role="group" aria-label="Filter events">
+        <p class="filters-title">Filter events</p>
+        <div class="filter-row">
+          <span class="filter-label">Age</span>
+          <div class="chips" data-egroup="age">
+            <button class="chip is-on" data-v="all">Any age</button>
+            <button class="chip" data-v="0-2">Under 3</button>
+            <button class="chip" data-v="3-5">3&ndash;5</button>
+            <button class="chip" data-v="6-9">6&ndash;9</button>
+            <button class="chip" data-v="10+">10 and up</button>
+          </div>
+        </div>
+        <div class="filter-row">
+          <span class="filter-label">Setting</span>
+          <div class="chips" data-egroup="env">
+            <button class="chip is-on" data-v="all">Either</button>
+            <button class="chip" data-v="indoor">Indoors</button>
+            <button class="chip" data-v="outdoor">Outdoors</button>
+          </div>
+        </div>
+        <div class="filter-row">
+          <span class="filter-label">Distance</span>
+          <div class="chips" data-egroup="dist">
+            <button class="chip is-on" data-v="all">Any distance</button>
+            <button class="chip" data-v="10">Within 10 mi</button>
+            <button class="chip" data-v="20">Within 20 mi</button>
+          </div>
+        </div>
+        <p class="filter-count" id="evCount" aria-live="polite"></p>
+      </div>
+'''
+
 FILTER_PAGES = [
     {
         'slug': 'indoor',
@@ -713,6 +746,8 @@ def city_page(town, places, events, dated, base):
             e['dist'] = round(miles(town['lat'], town['lon'], vc[0], vc[1]), 1)
             e['lat'] = vc[0]
             e['lon'] = vc[1]
+        e['age_tags'] = EVENT_AGE_TAGS.get(e.get('ages'), '0-2 3-5 6-9 10+')
+        e['env'] = event_env(e)
         ranked_ev.append(e)
     ev = ranked_ev
 
@@ -733,22 +768,28 @@ def city_page(town, places, events, dated, base):
                       nav='<a href="../"><span class="nav-full">Change city</span>'
                           '<span class="nav-short">Cities</span></a>')
 
+    ql = ['<a class="quick-link" href="#list">Places</a>']
+    if ev:
+        ql[0:0] = ['<a class="quick-link" href="#today">Today</a>',
+                   '<a class="quick-link" href="#weekend">This weekend</a>']
+    if seasonal_groups:
+        ql.insert(len(ql) - 1, '<a class="quick-link" href="#seasonal">Special events</a>')
+    quick = ('\n      <nav class="quick-links" aria-label="Jump to a section">\n        %s\n      </nav>'
+             % '\n        '.join(ql))
+
     intro = city_intro(name, listed, ev, seasonal_groups, today)
 
-    browse_links = ''
-    indoor_n = len([1 for _, p in listed if p.get('env') == 'indoor'])
-    outdoor_n = len([1 for _, p in listed if p.get('env') == 'outdoor'])
-    free_n = len([1 for _, p in listed if (p.get('spec') or {}).get('price', '').startswith('Free')])
-    link_parts = []
-    if indoor_n >= 2:
-        link_parts.append('<a class="quick-link" href="indoor/"><span class="filter-label">Indoor</span> %d</a>' % indoor_n)
-    if outdoor_n >= 2:
-        link_parts.append('<a class="quick-link" href="outdoor/"><span class="filter-label">Outdoor</span> %d</a>' % outdoor_n)
-    if free_n >= 2:
-        link_parts.append('<a class="quick-link" href="free/"><span class="filter-label">Free</span> %d</a>' % free_n)
-    link_parts.append('<a class="quick-link" href="calendar/">Calendar</a>')
-    if link_parts:
-        browse_links = '<nav class="browse-links">%s</nav>' % ''.join(link_parts)
+    filter_links = ''
+    for fp in FILTER_PAGES:
+        count = len([1 for d, p in listed if fp['filter'](p)])
+        if count >= 2:
+            filter_links += ('<a class="quick-link" href="%s/">%s (%d)</a>' %
+                             (fp['slug'], fp['slug'].capitalize(), count))
+    if filter_links:
+        filter_links = ('\n      <nav class="quick-links browse-links" '
+                        'aria-label="Browse by category">\n        '
+                        '<span class="filter-label">Browse:</span>\n        '
+                        '%s\n      </nav>' % filter_links)
 
     out += '''
 <main id="top">
@@ -757,9 +798,7 @@ def city_page(town, places, events, dated, base):
     <div class="wrap hero-inner">
       <h1 class="hero-title"><span class="hl">Where to take the kids in %s</span></h1>
       <p class="lede">%d places within %d miles, closest first. %s</p>
-      <p class="intro">%s</p>
-      %s
-      <p class="city-switch"><a href="../">Not your city? Pick another &rarr;</a></p>
+      <p class="intro">%s</p>%s%s
     </div>
   </section>
 
@@ -769,10 +808,7 @@ def city_page(town, places, events, dated, base):
 
 ''' % (html.escape(name), len(listed), LIST_MILES,
        'Weekly markets and events too.' if ev else '',
-       intro, browse_links)
-
-    if seasonal_groups:
-        out += seasonal_section_html(seasonal_groups, name)
+       intro, quick, filter_links)
 
     if ev:
         out += '''
@@ -783,6 +819,7 @@ def city_page(town, places, events, dated, base):
         <p class="section-sub">Regular weekly events &mdash; markets, storytimes, open gyms</p>
       </div>
       <div class="daystrip" id="daystrip" role="tablist" aria-label="Pick a day"></div>
+%s
       <div class="events" id="events" role="tabpanel" aria-live="polite"></div>
       <p class="empty" id="weekEmpty" hidden></p>
       <p class="week-foot">
@@ -799,7 +836,10 @@ def city_page(town, places, events, dated, base):
       <div class="ev-detail" id="evDetail"></div>
     </dialog>
   </section>
-''' % html.escape(REGIONS.get(town['region'], town['region']))
+''' % (html.escape(REGIONS.get(town['region'], town['region'])), EV_FILTERS)
+
+    if seasonal_groups:
+        out += seasonal_section_html(seasonal_groups, name)
 
     out += '''
   <section class="list-section" id="list">
