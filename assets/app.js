@@ -491,12 +491,33 @@
     }
   }
 
+  function jumpTo(hash) {
+    if (hash === '#today') {
+      picked = 0;
+      strip(); render();
+      var sec = document.getElementById('week');
+      if (sec) sec.scrollIntoView({ behavior: 'smooth' });
+      return true;
+    }
+    if (hash === '#weekend') {
+      for (var j = 0; j < week.length; j++) {
+        if (week[j].getDay() === 6) { picked = j; break; }
+      }
+      strip(); render();
+      var sec = document.getElementById('week');
+      if (sec) sec.scrollIntoView({ behavior: 'smooth' });
+      return true;
+    }
+    return false;
+  }
+
   window.addEventListener('hashchange', function () {
+    if (jumpTo(location.hash)) return;
     if (location.hash.indexOf('#event=') === 0) fromHash();
     else if (dlg && dlg.open) dlg.close();
   });
 
   strip();
   render();
-  fromHash();
+  if (!jumpTo(location.hash)) fromHash();
 })();
