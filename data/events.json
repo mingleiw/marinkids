@@ -428,7 +428,7 @@
   "ages": "Under 6",
   "blurb": "Looking for a fun way to get your little one moving, socializing, and exploring? Join us for our 45",
   "source": "https://www.novatogymnastics.gov/preschool-gymnastics-classes-s3winter",
-  "day": 2,
+  "day": 4,
   "until": "13:45",
   "origin": "marin-mommies"
  },
@@ -497,6 +497,19 @@
   "origin": "marin-mommies"
  },
  {
+  "time": "15:30",
+  "title": "French Storytime",
+  "venue": "Belvedere Tiburon Library",
+  "city": "Tiburon",
+  "region": "marin",
+  "ages": "Under 6",
+  "blurb": "Come say bonjour and enjoy a special storytime in French! Children will delight in stories, songs,",
+  "source": "https://www.marinmommies.com/calendar/french-storytime-2",
+  "day": 4,
+  "origin": "marin-mommies",
+  "until": "16:00"
+ },
+ {
   "time": "11:00",
   "title": "Off the Grid Treasure Island",
   "venue": "Treasure Island",
@@ -518,7 +531,7 @@
   "ages": "Under 6",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 2,
+  "day": 4,
   "until": "11:40",
   "origin": "marin-mommies"
  },
@@ -531,7 +544,7 @@
   "ages": "Babies & toddlers",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 2,
+  "day": 4,
   "until": "10:30",
   "origin": "marin-mommies"
  },
@@ -738,7 +751,7 @@
   "ages": "Under 6",
   "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5.",
   "source": "https://marinlibrary.org/locations/mc/",
-  "day": 2,
+  "day": 4,
   "until": "10:00",
   "origin": "marin-mommies"
  },
@@ -767,18 +780,6 @@
   "day": 0,
   "origin": "marin-mommies",
   "until": "20:00"
- },
- {
-  "time": "10:00",
-  "title": "Sausalito Boat Show",
-  "venue": "Clipper Yacht Harbor",
-  "city": "Sausalito",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "This inaugural event is a celebration of maritime excellence and local culture, offering a diverse",
-  "source": "https://visitsausalito.org/event/sausalito-boat-show/",
-  "day": 5,
-  "origin": "marin-mommies"
  },
  {
   "time": "09:00",

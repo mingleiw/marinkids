@@ -36,14 +36,32 @@ TITLE_ALIASES = {
     "Spanish Storytime with Arle": "Bilingual Storytime with Arlette",
 }
 
+# Normalized titles the refresh must never (re)import. These are stale or
+# one-off events that the source calendar still lists as recurring.
+# Documented 2026-09-17: "Sausalito Boat Show" at Clipper Yacht Harbor was a
+# one-time event Oct 13-15, 2023 (visitsausalito.org says "This event has
+# passed"); Marin Mommies still lists it as a recurring Saturday event.
+SKIP_TITLES = {
+    "sausalito boat show",
+}
 
-def fetch(url):
-    out = subprocess.run(
-        ["curl", "-sL", "--max-time", "30", "-A", UA, url],
-        capture_output=True, text=True,
-    ).stdout
-    time.sleep(0.4)
-    return out
+
+def fetch(url, retries=3):
+    # Returns the page body, or None if curl keeps failing. Callers fetching
+    # day pages must treat None as fatal (keep prior data): a silently empty
+    # day would otherwise drop every event on that weekday. Documented
+    # 2026-09-17: a transient Sunday-page failure dropped all 6 Sunday events
+    # (incl. both farmers markets) from events.json in one refresh.
+    for _ in range(retries):
+        p = subprocess.run(
+            ["curl", "-sL", "--max-time", "30", "-A", UA, url],
+            capture_output=True, text=True,
+        )
+        time.sleep(0.4)
+        if p.returncode == 0 and p.stdout.strip():
+            return p.stdout
+        time.sleep(5)
+    return None
 
 
 def clean(s):
@@ -127,6 +145,10 @@ def main():
     by_slug = defaultdict(list)
     for d in days:
         html = fetch(f"{BASE}/calendar/{d.isoformat()}")
+        if html is None:
+            print(f"ERROR: calendar page fetch failed for {d.isoformat()}; "
+                  f"keeping prior data", file=sys.stderr)
+            return 1
         for ev in parse_day(html):
             if ev["date"]:
                 by_slug[ev["slug"]].append(ev)
@@ -195,6 +217,13 @@ def main():
         print("ERROR: scrape returned zero recurring events; keeping prior data", file=sys.stderr)
         return 1
 
+    skipped = [r["title"] for r in recurring
+               if norm_title(TITLE_ALIASES.get(r["title"], r["title"])) in SKIP_TITLES]
+    recurring = [r for r in recurring
+                 if norm_title(TITLE_ALIASES.get(r["title"], r["title"])) not in SKIP_TITLES]
+    if skipped:
+        print(f"  SKIPPED (blocklisted stale): {', '.join(skipped)}")
+
     fresh, added, dropped, updated = [], [], [], []
     seen = set()
     for r in recurring:
@@ -210,7 +239,7 @@ def main():
             e["origin"] = ORIGIN
             fresh.append(e)
         else:
-            detail = parse_detail(fetch(BASE + r["slug"]))
+            detail = parse_detail(fetch(BASE + r["slug"]) or "")
             until = to_24h(detail["until_disp"]) if detail["until_disp"] else None
             blurb = detail["body"] or r["blurb"]
             blurb = re.sub(r"\.\.\.$", "", blurb).strip()
