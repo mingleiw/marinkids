@@ -38,7 +38,7 @@ STYLE_V = _asset_v('assets/style.css')
 # Change this if the repo is renamed or a custom domain is pointed at the site:
 # it drives every canonical URL and the sitemap, and a wrong value silently tells
 # search engines the pages live somewhere they don't.
-BASE_URL = 'https://mingleiw.github.io/marinkids/'
+BASE_URL = 'https://marin4kids.com/'
 
 # A city needs at least this many places within MAX_MILES to get its own page.
 # Below that the page would be mostly other cities' content — thin, duplicated,
