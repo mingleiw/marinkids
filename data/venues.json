@@ -40,12 +40,32 @@
   "source": "manual"
  },
  {
+  "venue": "Bolinas Library",
+  "city": "Bolinas",
+  "lat": null,
+  "lon": null,
+  "query": "Bolinas Library, Bolinas, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Bolinas Park",
   "city": "Fairfax",
   "lat": 37.9862,
   "lon": -122.5892,
   "resolved": "2026-09-18",
   "source": "manual"
+ },
+ {
+  "venue": "Book Passage",
+  "city": "Corte Madera",
+  "lat": null,
+  "lon": null,
+  "query": "Book Passage, Corte Madera, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Civic Center Library",
@@ -64,6 +84,16 @@
   "source": "manual"
  },
  {
+  "venue": "Deer Island Preserve",
+  "city": "Novato",
+  "lat": null,
+  "lon": null,
+  "query": "Deer Island Preserve, Novato, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Downtown Mill Valley",
   "city": "Mill Valley",
   "lat": 37.906,
@@ -80,12 +110,32 @@
   "source": "manual"
  },
  {
+  "venue": "Downtown Sausalito",
+  "city": "Sausalito",
+  "lat": null,
+  "lon": null,
+  "query": "Downtown Sausalito, Sausalito, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Dunphy Park parking lot",
   "city": "Sausalito",
   "lat": 37.8604,
   "lon": -122.4863,
   "resolved": "2026-09-18",
   "source": "manual"
+ },
+ {
+  "venue": "Fairfax Library",
+  "city": "Fairfax",
+  "lat": null,
+  "lon": null,
+  "query": "Fairfax Library, Fairfax, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Fairfax Pavilion",
@@ -104,6 +154,16 @@
   "source": "manual"
  },
  {
+  "venue": "Gerstle Park",
+  "city": "San Rafael",
+  "lat": null,
+  "lon": null,
+  "query": "Gerstle Park, San Rafael, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "GymWorld Gymnastics & Parkour",
   "city": "San Rafael",
   "lat": 37.9669,
@@ -118,6 +178,26 @@
   "lon": -121.1761,
   "resolved": "2026-09-18",
   "source": "manual"
+ },
+ {
+  "venue": "Indian Valley Preserve",
+  "city": "Novato",
+  "lat": null,
+  "lon": null,
+  "query": "Indian Valley Preserve, Novato, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "King Mountain Summit",
+  "city": "Larkspur",
+  "lat": null,
+  "lon": null,
+  "query": "King Mountain Summit, Larkspur, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Laguna Gateway Center",
@@ -158,6 +238,16 @@
   "lon": -122.5093,
   "resolved": "2026-09-18",
   "source": "manual"
+ },
+ {
+  "venue": "Lucas Valley Field Office",
+  "city": "San Rafael",
+  "lat": null,
+  "lon": null,
+  "query": "Lucas Valley Field Office, San Rafael, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "MLK Gym",
@@ -216,12 +306,52 @@
   "source": "manual"
  },
  {
+  "venue": "Marin MOCA",
+  "city": "Novato",
+  "lat": null,
+  "lon": null,
+  "query": "Marin MOCA, Novato, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Marine Mammal Center",
   "city": "Sausalito",
   "lat": 37.8365,
   "lon": -122.5142,
   "resolved": "2026-09-18",
   "source": "manual"
+ },
+ {
+  "venue": "Marinwood",
+  "city": "San Rafael",
+  "lat": null,
+  "lon": null,
+  "query": "Marinwood, San Rafael, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "McNears Beach Park",
+  "city": "San Rafael",
+  "lat": null,
+  "lon": null,
+  "query": "McNears Beach Park, San Rafael, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Menke Park",
+  "city": "Corte Madera",
+  "lat": null,
+  "lon": null,
+  "query": "Menke Park, Corte Madera, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Mickelson Pumpkin Patch",
@@ -254,6 +384,16 @@
   "lon": -122.5571,
   "resolved": "2026-09-18",
   "source": "manual"
+ },
+ {
+  "venue": "Novato Library",
+  "city": "Novato",
+  "lat": null,
+  "lon": null,
+  "query": "Novato Library, Novato, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Old Mill Park",
@@ -304,6 +444,36 @@
   "source": "manual"
  },
  {
+  "venue": "Point Reyes Library",
+  "city": "Point Reyes",
+  "lat": null,
+  "lon": null,
+  "query": "Point Reyes Library, Point Reyes, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Point Reyes Park",
+  "city": "Point Reyes Station",
+  "lat": null,
+  "lon": null,
+  "query": "Point Reyes Park, Point Reyes Station, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Point Reyes Playground",
+  "city": "Point Reyes Station",
+  "lat": null,
+  "lon": null,
+  "query": "Point Reyes Playground, Point Reyes Station, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Presidio's Outpost Meadow",
   "city": "San Francisco",
   "lat": 37.7993,
@@ -318,7 +488,27 @@
   "lon": null,
   "query": "Presidio’s Outpost Meadow, San Francisco, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-17",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Ring Mountain Preserve",
+  "city": "Corte Madera",
+  "lat": null,
+  "lon": null,
+  "query": "Ring Mountain Preserve, Corte Madera, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Roy's Redwoods Preserve",
+  "city": "Fairfax",
+  "lat": null,
+  "lon": null,
+  "query": "Roy's Redwoods Preserve, Fairfax, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -338,12 +528,32 @@
   "source": "manual"
  },
  {
+  "venue": "San Domenico School",
+  "city": "San Anselmo",
+  "lat": null,
+  "lon": null,
+  "query": "San Domenico School, San Anselmo, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "San Rafael Community Center",
   "city": "San Rafael",
   "lat": 37.9742,
   "lon": -122.5271,
   "resolved": "2026-09-18",
   "source": "manual"
+ },
+ {
+  "venue": "San Rafael Public Library",
+  "city": "San Rafael",
+  "lat": null,
+  "lon": null,
+  "query": "San Rafael Public Library, San Rafael, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Santa Rosa Pumpkin Patch",
@@ -360,6 +570,16 @@
   "lon": -122.2323,
   "resolved": "2026-09-18",
   "source": "manual"
+ },
+ {
+  "venue": "Slide Ranch",
+  "city": "Muir Beach",
+  "lat": null,
+  "lon": null,
+  "query": "Slide Ranch, Muir Beach, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Sonoma Plaza",
@@ -384,6 +604,46 @@
   "lon": -122.5559,
   "resolved": "2026-09-18",
   "source": "manual"
+ },
+ {
+  "venue": "Stafford Lake Park",
+  "city": "Novato",
+  "lat": null,
+  "lon": null,
+  "query": "Stafford Lake Park, Novato, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Strawberry Recreation",
+  "city": "Mill Valley",
+  "lat": null,
+  "lon": null,
+  "query": "Strawberry Recreation, Mill Valley, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Tam Valley Community Center",
+  "city": "Mill Valley",
+  "lat": null,
+  "lon": null,
+  "query": "Tam Valley Community Center, Mill Valley, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Terra Linda Sleep Hollow Preserve",
+  "city": "San Rafael",
+  "lat": null,
+  "lon": null,
+  "query": "Terra Linda Sleep Hollow Preserve, San Rafael, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Tiburon Belvedere Library",
@@ -432,7 +692,7 @@
   "lon": null,
   "query": "Veteran’s Memorial Auditorium Parking Lot, San Rafael, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-17",
+  "resolved": "2026-09-18",
   "source": "nominatim.openstreetmap.org"
  },
  {
