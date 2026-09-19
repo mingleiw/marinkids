@@ -42,13 +42,13 @@ NOMINATIM = "https://nominatim.openstreetmap.org/search"
 # Nominatim's usage policy: at most one request a second, and a real UA that
 # identifies the caller. Going faster gets the whole project blocked.
 DELAY_S = 1.1
-UA = "SacMoms/1.0 (+https://github.com/mingleiw/sacmoms)"
+UA = "MarinKids/1.0 (+https://github.com/mingleiw/marinkids)"
 
-# The site covers Sacramento County; a match outside this box is wrong, however
-# confident the geocoder sounds. Elk Grove Village, Illinois has already been
-# mistaken for Elk Grove, California once in this project's history.
-LAT_RANGE = (38.0, 39.1)
-LON_RANGE = (-121.9, -120.8)
+# The site covers Marin County; a match outside this box is wrong, however
+# confident the geocoder sounds. (Fork note: the Sacramento County box from
+# the original project was rejecting every Marin venue until this fix.)
+LAT_RANGE = (37.7, 38.5)
+LON_RANGE = (-123.2, -122.2)
 
 
 def key(venue, city):
@@ -106,7 +106,7 @@ def resolve(venue, city):
             continue
         lat, lon = float(hits[0]["lat"]), float(hits[0]["lon"])
         if not (LAT_RANGE[0] <= lat <= LAT_RANGE[1] and LON_RANGE[0] <= lon <= LON_RANGE[1]):
-            print("  ! %s -> outside Sacramento County (%.4f, %.4f), rejected"
+            print("  ! %s -> outside Marin County (%.4f, %.4f), rejected"
                   % (q, lat, lon), file=sys.stderr)
             continue
         return lat, lon, hits[0].get("display_name", ""), q

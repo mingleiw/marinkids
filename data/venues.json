@@ -42,11 +42,11 @@
  {
   "venue": "Bolinas Library",
   "city": "Bolinas",
-  "lat": null,
-  "lon": null,
+  "lat": 37.9093982,
+  "lon": -122.685801,
   "query": "Bolinas Library, Bolinas, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "matched": "Marin Library Bolinas Branch, Wharf Road, Bolinas, Marin County, California, 94924, United States",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -60,11 +60,11 @@
  {
   "venue": "Book Passage",
   "city": "Corte Madera",
-  "lat": null,
-  "lon": null,
+  "lat": 37.933815,
+  "lon": -122.5172837,
   "query": "Book Passage, Corte Madera, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "matched": "Book Passage, Redwood Highway, Meadowsweet, Corte Madera, Marin County, California, 94925, United States",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -86,11 +86,11 @@
  {
   "venue": "Deer Island Preserve",
   "city": "Novato",
-  "lat": null,
-  "lon": null,
+  "lat": 38.0982099,
+  "lon": -122.5376017,
   "query": "Deer Island Preserve, Novato, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "matched": "Deer Island Preserve, Black Point-Green Point, Novato, Marin County, California, United States",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -112,11 +112,11 @@
  {
   "venue": "Downtown Sausalito",
   "city": "Sausalito",
-  "lat": null,
-  "lon": null,
+  "lat": 37.8572649,
+  "lon": -122.479735,
   "query": "Downtown Sausalito, Sausalito, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "matched": "Big Bus Tours Stop 22, Downtown Sausalito, Humboldt Avenue, Sausalito, Marin County, California, 94965, United States",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -130,11 +130,11 @@
  {
   "venue": "Fairfax Library",
   "city": "Fairfax",
-  "lat": null,
-  "lon": null,
+  "lat": 37.9902642,
+  "lon": -122.5927081,
   "query": "Fairfax Library, Fairfax, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "matched": "Fairfax Library, Scenic Road, Manor, Fairfax, Marin County, California, 94930, United States",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -156,11 +156,11 @@
  {
   "venue": "Gerstle Park",
   "city": "San Rafael",
-  "lat": null,
-  "lon": null,
+  "lat": 37.9652017,
+  "lon": -122.5364921,
   "query": "Gerstle Park, San Rafael, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "matched": "Gerstle Park, San Rafael, Marin County, California, United States",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -182,11 +182,11 @@
  {
   "venue": "Indian Valley Preserve",
   "city": "Novato",
-  "lat": null,
-  "lon": null,
+  "lat": 38.0665877,
+  "lon": -122.5752583,
   "query": "Indian Valley Preserve, Novato, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "matched": "Indian Valley Preserve, Novato, Marin County, California, 94947, United States",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -196,7 +196,7 @@
   "lon": null,
   "query": "King Mountain Summit, Larkspur, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -246,7 +246,7 @@
   "lon": null,
   "query": "Lucas Valley Field Office, San Rafael, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -308,12 +308,12 @@
  {
   "venue": "Marin MOCA",
   "city": "Novato",
-  "lat": null,
-  "lon": null,
-  "query": "Marin MOCA, Novato, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
-  "source": "nominatim.openstreetmap.org"
+  "lat": 38.0577546,
+  "lon": -122.518518,
+  "query": "Marin Museum of Contemporary Art, 500 Palm Drive, Novato, CA, USA",
+  "matched": "Marin Museum of Contemporary Art, 500, Palm Drive, Novato, Marin County, California, United States",
+  "resolved": "2026-09-19",
+  "source": "nominatim.openstreetmap.org (manual query)"
  },
  {
   "venue": "Marine Mammal Center",
@@ -326,31 +326,31 @@
  {
   "venue": "Marinwood",
   "city": "San Rafael",
-  "lat": null,
-  "lon": null,
+  "lat": 38.0275534,
+  "lon": -122.5520907,
   "query": "Marinwood, San Rafael, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "matched": "Marinwood Community Center Pool, Lucas Valley Road, San Rafael, Marin County, California, 94903, United States",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "McNears Beach Park",
   "city": "San Rafael",
-  "lat": null,
-  "lon": null,
+  "lat": 37.9928278,
+  "lon": -122.4535469,
   "query": "McNears Beach Park, San Rafael, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "matched": "McNears Beach County Park, McNears Beach, San Rafael, Marin County, California, United States",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Menke Park",
   "city": "Corte Madera",
-  "lat": null,
-  "lon": null,
+  "lat": 37.9260328,
+  "lon": -122.5296965,
   "query": "Menke Park, Corte Madera, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "matched": "Menke Park, Chapman, Corte Madera, Marin County, California, United States",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -388,11 +388,11 @@
  {
   "venue": "Novato Library",
   "city": "Novato",
-  "lat": null,
-  "lon": null,
+  "lat": 38.0575648,
+  "lon": -122.525632,
   "query": "Novato Library, Novato, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "matched": "South Novato Library, 931, C Street, Novato, Marin County, California, 94949, United States",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -446,21 +446,21 @@
  {
   "venue": "Point Reyes Library",
   "city": "Point Reyes",
-  "lat": null,
-  "lon": null,
+  "lat": 38.0696837,
+  "lon": -122.8064733,
   "query": "Point Reyes Library, Point Reyes, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "matched": "Point Reyes Station Branch Marin County Free Library, Mesa Road, Inverness Park, Point Reyes Station, Marin County, California, 94956, United States",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Point Reyes Park",
   "city": "Point Reyes Station",
-  "lat": null,
-  "lon": null,
+  "lat": 38.0684901,
+  "lon": -122.806771,
   "query": "Point Reyes Park, Point Reyes Station, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "matched": "Point Reyes Station Community Park, Point Reyes Station, Marin County, California, United States",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -470,7 +470,7 @@
   "lon": null,
   "query": "Point Reyes Playground, Point Reyes Station, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -488,17 +488,17 @@
   "lon": null,
   "query": "Presidio’s Outpost Meadow, San Francisco, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Ring Mountain Preserve",
   "city": "Corte Madera",
-  "lat": null,
-  "lon": null,
+  "lat": 37.9131523,
+  "lon": -122.4932822,
   "query": "Ring Mountain Preserve, Corte Madera, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "matched": "Ring Mountain Open Space Preserve, Meadowsweet, Corte Madera, Marin County, California, United States",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -508,7 +508,7 @@
   "lon": null,
   "query": "Roy's Redwoods Preserve, Fairfax, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -534,7 +534,7 @@
   "lon": null,
   "query": "San Domenico School, San Anselmo, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -548,11 +548,11 @@
  {
   "venue": "San Rafael Public Library",
   "city": "San Rafael",
-  "lat": null,
-  "lon": null,
+  "lat": 37.9750374,
+  "lon": -122.532615,
   "query": "San Rafael Public Library, San Rafael, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "matched": "San Rafael Public Library, 1100, E Street, San Rafael, Marin County, California, 94901, United States",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -574,11 +574,11 @@
  {
   "venue": "Slide Ranch",
   "city": "Muir Beach",
-  "lat": null,
-  "lon": null,
+  "lat": 37.8732954,
+  "lon": -122.5968568,
   "query": "Slide Ranch, Muir Beach, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "matched": "Slide Ranch, Owl Trail, Muir Beach, Marin County, California, 94841, United States",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -608,12 +608,12 @@
  {
   "venue": "Stafford Lake Park",
   "city": "Novato",
-  "lat": null,
-  "lon": null,
-  "query": "Stafford Lake Park, Novato, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
-  "source": "nominatim.openstreetmap.org"
+  "lat": 38.1153719,
+  "lon": -122.651883,
+  "query": "Stafford Lake Park, 3549 Novato Boulevard, Novato, CA, USA",
+  "matched": "3549, Novato Boulevard, Novato, Marin County, California, 94947, United States",
+  "resolved": "2026-09-19",
+  "source": "nominatim.openstreetmap.org (manual query)"
  },
  {
   "venue": "Strawberry Recreation",
@@ -622,7 +622,7 @@
   "lon": null,
   "query": "Strawberry Recreation, Mill Valley, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -632,7 +632,7 @@
   "lon": null,
   "query": "Tam Valley Community Center, Mill Valley, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -642,7 +642,7 @@
   "lon": null,
   "query": "Terra Linda Sleep Hollow Preserve, San Rafael, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -688,12 +688,12 @@
  {
   "venue": "Veteran’s Memorial Auditorium Parking Lot",
   "city": "San Rafael",
-  "lat": null,
-  "lon": null,
-  "query": "Veteran’s Memorial Auditorium Parking Lot, San Rafael, CA, USA",
-  "matched": "no confident match",
-  "resolved": "2026-09-18",
-  "source": "nominatim.openstreetmap.org"
+  "lat": 38.0023822,
+  "lon": -122.5335691,
+  "query": "Marin Veterans Memorial Auditorium, San Rafael, CA, USA",
+  "matched": "Marin Veterans' Memorial Auditorium, 10, Avenue of the Flags, San Rafael, Marin County, California, United States",
+  "resolved": "2026-09-19",
+  "source": "nominatim.openstreetmap.org (manual query)"
  },
  {
   "venue": "de Young Museum",
