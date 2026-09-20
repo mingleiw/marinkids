@@ -1,17 +1,5 @@
 [
  {
-  "date": "2026-09-18",
-  "time": "10:15",
-  "title": "Pop-up Storytime in the Parks: Boyle",
-  "venue": "Mill Valley Public Library",
-  "city": "Mill Valley",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "Join us every Friday at Boyle and Hauke Park for Pop-up storytimes in the park! Meets in the Boyle Park.",
-  "source": "https://millvalleylibrary.libcal.com/event/16724254",
-  "until": "10:45"
- },
- {
   "date": "2026-09-19",
   "time": "14:30",
   "title": "Family Storytime",
@@ -358,5 +346,29 @@
   "blurb": "Join us every Friday at Boyle and Hauke Park for Pop-up storytimes in the park! Meets in the Boyle Park.",
   "source": "https://millvalleylibrary.libcal.com/event/16724258",
   "until": "10:45"
+ },
+ {
+  "date": "2026-10-31",
+  "time": "11:00",
+  "title": "Sing & Stompers at Sweetwater Music Hall",
+  "venue": "Mill Valley Public Library",
+  "city": "Mill Valley",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Join the Mill Valley Library for a special Halloween edition of Sing & Stomp at Sweetwater Music Hall featuring musician Emily Bonn and her band, the Sing & Stompers! This children’s music and... Meets in the Offsite.",
+  "source": "https://millvalleylibrary.libcal.com/event/17478042",
+  "until": "12:00"
+ },
+ {
+  "date": "2026-10-31",
+  "time": "14:30",
+  "title": "Family Storytime",
+  "venue": "Mill Valley Public Library",
+  "city": "Mill Valley",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Children's early learning happens when they read, write, talk, sing and play. At Family Storytime on Saturdays, you'll hear favorite books, rhymes and flannel stories in our beautiful Children's Room....",
+  "source": "https://millvalleylibrary.libcal.com/event/15583129",
+  "until": "15:00"
  }
 ]

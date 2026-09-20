@@ -84,6 +84,16 @@
   "source": "manual"
  },
  {
+  "venue": "Corte Madera Library",
+  "city": "Corte Madera",
+  "lat": 37.9241196,
+  "lon": -122.5181291,
+  "query": "Corte Madera Library, Corte Madera, CA, USA",
+  "matched": "Corte Madera Regional Branch Marin County Free Library, 707, Meadowsweet Drive, Meadowsweet, Corte Madera, Marin County, California, 94925, United States",
+  "resolved": "2026-09-19",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Deer Island Preserve",
   "city": "Novato",
   "lat": 38.0982099,

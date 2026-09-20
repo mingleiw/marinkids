@@ -712,7 +712,7 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 5,
+  "day": 6,
   "until": "16:00",
   "origin": "marin-mommies"
  },
@@ -782,6 +782,19 @@
   "until": "10:30"
  },
  {
+  "time": "09:30",
+  "title": "Family Storytime",
+  "venue": "Corte Madera Library",
+  "city": "Corte Madera",
+  "region": "marin",
+  "ages": "Under 6",
+  "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5. ADA Accommodation Request | Solicitud de Adaptación ADA",
+  "source": "https://marinlibrary.bibliocommons.com/events/6a80a9792dac6e00371f4d5a",
+  "day": 2,
+  "origin": "mcfl",
+  "until": "10:00"
+ },
+ {
   "time": "03:30",
   "title": "Lego Club",
   "venue": "Bolinas Library",
@@ -842,7 +855,7 @@
   "ages": "Under 6",
   "blurb": "Tuesdays and Thursdays, 9:30-10:00am Join us for stories, movement, songs and rhymes for children ages 0-5! Storytimes build critical early literacy skills and healthy brain development. Afterwards, children and their families can…",
   "source": "https://marinlibrary.bibliocommons.com/events/6903b5c4c313c23700dfba5e",
-  "day": 4,
+  "day": 2,
   "origin": "mcfl",
   "until": "10:00"
  },
