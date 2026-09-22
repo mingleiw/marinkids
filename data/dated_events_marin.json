@@ -127,7 +127,7 @@
   "city": "Mill Valley",
   "region": "marin",
   "ages": "All ages",
-  "blurb": "Children, toddlers, babies, and their parents are invited to join us for 30 minutes of Spanish songs and storytime, featuring stories, rhymes, puppets, toys, and guitar accompaniment! Ingrid... Meets in the Outdoor Amphitheater.",
+  "blurb": "Children, toddlers, babies, and their parents are invited to join us for 30 minutes of Spanish songs and storytime, featuring books, rhymes, puppets, toys, and guitar accompaniment! This is an... Meets in the Outdoor Amphitheater.",
   "source": "https://millvalleylibrary.libcal.com/event/17630327",
   "until": "10:45"
  },
@@ -235,7 +235,7 @@
   "city": "Mill Valley",
   "region": "marin",
   "ages": "All ages",
-  "blurb": "Children, toddlers, babies, and their parents are invited to join us for 30 minutes of Spanish songs and storytime, featuring stories, rhymes, puppets, toys, and guitar accompaniment! Ingrid... Meets in the Outdoor Amphitheater.",
+  "blurb": "Children, toddlers, babies, and their parents are invited to join us for 30 minutes of Spanish songs and storytime, featuring books, rhymes, puppets, toys, and guitar accompaniment! This is an... Meets in the Outdoor Amphitheater.",
   "source": "https://millvalleylibrary.libcal.com/event/17630329",
   "until": "10:45"
  },
@@ -295,7 +295,7 @@
   "city": "Mill Valley",
   "region": "marin",
   "ages": "All ages",
-  "blurb": "Children, toddlers, babies, and their parents are invited to join us for 30 minutes of Spanish songs and storytime, featuring stories, rhymes, puppets, toys, and guitar accompaniment! Ingrid... Meets in the Outdoor Amphitheater.",
+  "blurb": "Children, toddlers, babies, and their parents are invited to join us for 30 minutes of Spanish songs and storytime, featuring books, rhymes, puppets, toys, and guitar accompaniment! This is an... Meets in the Outdoor Amphitheater.",
   "source": "https://millvalleylibrary.libcal.com/event/17630330",
   "until": "10:45"
  },
@@ -358,5 +358,17 @@
   "blurb": "Children's early learning happens when they read, write, talk, sing and play. At Family Storytime on Saturdays, you'll hear favorite books, rhymes and flannel stories in our beautiful Children's Room....",
   "source": "https://millvalleylibrary.libcal.com/event/15583129",
   "until": "15:00"
+ },
+ {
+  "date": "2026-11-02",
+  "time": "10:15",
+  "title": "Ingrid's Spanish Storytime",
+  "venue": "Mill Valley Public Library",
+  "city": "Mill Valley",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Children, toddlers, babies, and their parents are invited to join us for 30 minutes of Spanish songs and storytime, featuring books, rhymes, puppets, toys, and guitar accompaniment! This is an... Meets in the Creekside Room.",
+  "source": "https://millvalleylibrary.libcal.com/event/17330831",
+  "until": "10:45"
  }
 ]
