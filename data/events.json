@@ -725,7 +725,7 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 1,
+  "day": 5,
   "until": "16:00",
   "origin": "marin-mommies"
  },
@@ -780,19 +780,6 @@
   "day": 3,
   "origin": "mcfl",
   "until": "10:30"
- },
- {
-  "time": "09:30",
-  "title": "Family Storytime",
-  "venue": "Corte Madera Library",
-  "city": "Corte Madera",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5. ADA Accommodation Request | Solicitud de Adaptación ADA",
-  "source": "https://marinlibrary.bibliocommons.com/events/6a80a9792dac6e00371f4d5a",
-  "day": 2,
-  "origin": "mcfl",
-  "until": "10:00"
  },
  {
   "time": "03:30",
@@ -854,8 +841,8 @@
   "region": "marin",
   "ages": "Under 6",
   "blurb": "Tuesdays and Thursdays, 9:30-10:00am Join us for stories, movement, songs and rhymes for children ages 0-5! Storytimes build critical early literacy skills and healthy brain development. Afterwards, children and their families can…",
-  "source": "https://marinlibrary.bibliocommons.com/events/6903b5c4c313c23700dfba5e",
-  "day": 2,
+  "source": "https://marinlibrary.bibliocommons.com/events/6903b5c4c313c23700dfba5f",
+  "day": 4,
   "origin": "mcfl",
   "until": "10:00"
  },
@@ -910,6 +897,32 @@
   "day": 2,
   "origin": "mcfl",
   "until": "10:30"
+ },
+ {
+  "time": "10:00",
+  "title": "Storytime!",
+  "venue": "Fairfax Library",
+  "city": "Fairfax",
+  "region": "marin",
+  "ages": "Under 6",
+  "blurb": "Join Iris for a fun storytime with songs, books, rhymes and movement for babies and toddlers! ADA Accommodation Request | Solicitud de Adaptación ADA",
+  "source": "https://marinlibrary.bibliocommons.com/events/69ebc3842866a5b4884aa347",
+  "day": 4,
+  "origin": "mcfl",
+  "until": "10:30"
+ },
+ {
+  "time": "10:45",
+  "title": "Storytime is calling",
+  "venue": "Inverness Library",
+  "city": "Inverness",
+  "region": "marin",
+  "ages": "Under 6",
+  "blurb": "Join Librarian Alexandra Porrata and the youngest readers of the Inverness School for a fun storytime for TK & K learners from 10:45 am- 11:15 am (check calendar to confirm). We’ll read a great book, learn a few key words…",
+  "source": "https://marinlibrary.bibliocommons.com/events/6aa210b4ca248a002914bbde",
+  "day": 3,
+  "origin": "mcfl",
+  "until": "11:15"
  },
  {
   "time": "10:00",

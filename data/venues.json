@@ -200,13 +200,23 @@
   "source": "nominatim.openstreetmap.org"
  },
  {
+  "venue": "Inverness Library",
+  "city": "Inverness",
+  "lat": 38.0972143,
+  "lon": -122.853339,
+  "query": "Inverness Library, Inverness, CA, USA",
+  "matched": "Inverness Branch Marin County Free Library, Inverness Way, Inverness, Marin County, California, 94937, United States",
+  "resolved": "2026-09-22",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "King Mountain Summit",
   "city": "Larkspur",
   "lat": null,
   "lon": null,
   "query": "King Mountain Summit, Larkspur, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-21",
+  "resolved": "2026-09-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -256,7 +266,7 @@
   "lon": null,
   "query": "Lucas Valley Field Office, San Rafael, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-21",
+  "resolved": "2026-09-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -480,7 +490,7 @@
   "lon": null,
   "query": "Point Reyes Playground, Point Reyes Station, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-21",
+  "resolved": "2026-09-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -498,7 +508,7 @@
   "lon": null,
   "query": "Presidio’s Outpost Meadow, San Francisco, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-21",
+  "resolved": "2026-09-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -508,7 +518,7 @@
   "lon": null,
   "query": "Pronzini Farms, Petaluma, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-21",
+  "resolved": "2026-09-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -528,7 +538,7 @@
   "lon": null,
   "query": "Roy's Redwoods Preserve, Fairfax, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-21",
+  "resolved": "2026-09-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -554,7 +564,7 @@
   "lon": null,
   "query": "San Domenico School, San Anselmo, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-21",
+  "resolved": "2026-09-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -642,7 +652,7 @@
   "lon": null,
   "query": "Strawberry Recreation, Mill Valley, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-21",
+  "resolved": "2026-09-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -652,7 +662,7 @@
   "lon": null,
   "query": "Tam Valley Community Center, Mill Valley, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-21",
+  "resolved": "2026-09-22",
   "source": "nominatim.openstreetmap.org"
  },
  {

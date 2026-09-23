@@ -1,17 +1,5 @@
 [
  {
-  "date": "2026-09-21",
-  "time": "10:15",
-  "title": "Cuentos con Ritmo",
-  "venue": "Mill Valley Public Library",
-  "city": "Mill Valley",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "Brought to you by Colors of Spanish, Cuentos con Ritmo or “Story with Rhythm” is an engaging program for kids 0 through 5 years old and their caregivers (any level of Spanish language experience... Bilingual Spanish/English. Meets in the Outdoor Amphitheater.",
-  "source": "https://millvalleylibrary.libcal.com/event/17630264",
-  "until": "10:45"
- },
- {
   "date": "2026-09-22",
   "time": "10:15",
   "title": "Sing & Stomp",
@@ -370,5 +358,29 @@
   "blurb": "Children, toddlers, babies, and their parents are invited to join us for 30 minutes of Spanish songs and storytime, featuring books, rhymes, puppets, toys, and guitar accompaniment! This is an... Meets in the Creekside Room.",
   "source": "https://millvalleylibrary.libcal.com/event/17330831",
   "until": "10:45"
+ },
+ {
+  "date": "2026-11-03",
+  "time": "10:15",
+  "title": "Sing & Stomp",
+  "venue": "Mill Valley Public Library",
+  "city": "Mill Valley",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Join musician Emily Bonn for this music and movement class designed for infants, toddlers and preschoolers and their caregivers. No registration required. Space is limited. Meets in the Creekside Room.",
+  "source": "https://millvalleylibrary.libcal.com/event/17330796",
+  "until": "10:45"
+ },
+ {
+  "date": "2026-11-03",
+  "time": "11:15",
+  "title": "Sing & Stomp",
+  "venue": "Mill Valley Public Library",
+  "city": "Mill Valley",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Join musician Emily Bonn for this music and movement class designed for infants, toddlers and preschoolers and their caregivers. No registration required. Space is limited. Meets in the Creekside Room.",
+  "source": "https://millvalleylibrary.libcal.com/event/17330856",
+  "until": "11:45"
  }
 ]
