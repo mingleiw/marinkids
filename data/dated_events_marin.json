@@ -1,17 +1,5 @@
 [
  {
-  "date": "2026-09-22",
-  "time": "10:15",
-  "title": "Sing & Stomp",
-  "venue": "Mill Valley Public Library",
-  "city": "Mill Valley",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "Join musician Emily Bonn for this music and movement class designed for infants, toddlers and preschoolers and their caregivers. No registration required. Meets in the Outdoor Amphitheater.",
-  "source": "https://millvalleylibrary.libcal.com/event/16531237",
-  "until": "10:45"
- },
- {
   "date": "2026-09-23",
   "time": "10:15",
   "title": "Toddler Storytime",
@@ -381,6 +369,30 @@
   "ages": "All ages",
   "blurb": "Join musician Emily Bonn for this music and movement class designed for infants, toddlers and preschoolers and their caregivers. No registration required. Space is limited. Meets in the Creekside Room.",
   "source": "https://millvalleylibrary.libcal.com/event/17330856",
+  "until": "11:45"
+ },
+ {
+  "date": "2026-11-04",
+  "time": "10:15",
+  "title": "Toddler Storytime",
+  "venue": "Mill Valley Public Library",
+  "city": "Mill Valley",
+  "region": "marin",
+  "ages": "Toddlers",
+  "blurb": "Join Librarian Miranda for books, songs, and stories in the library's outdoor amphitheater. Designed for babies, toddlers, and preschoolers with their caregivers. No registration required. Space is... Meets in the Creekside Room.",
+  "source": "https://millvalleylibrary.libcal.com/event/17330926",
+  "until": "10:45"
+ },
+ {
+  "date": "2026-11-04",
+  "time": "11:15",
+  "title": "Toddler Storytime",
+  "venue": "Mill Valley Public Library",
+  "city": "Mill Valley",
+  "region": "marin",
+  "ages": "Toddlers",
+  "blurb": "Join Librarian Miranda for books, songs, and stories in the library's outdoor amphitheater. Designed for babies, toddlers, and preschoolers with their caregivers. No registration required. Space is... Meets in the Creekside Room.",
+  "source": "https://millvalleylibrary.libcal.com/event/17330981",
   "until": "11:45"
  }
 ]

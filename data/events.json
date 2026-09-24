@@ -220,7 +220,7 @@
   "ages": "Under 6",
   "blurb": "Looking for a fun way to get your little one moving, socializing, and exploring? Join us for our 45",
   "source": "https://www.novatogymnastics.gov/preschool-gymnastics-classes-s3winter",
-  "day": 2,
+  "day": 4,
   "until": "13:45",
   "origin": "marin-mommies"
  },
@@ -323,7 +323,7 @@
   "ages": "Under 6",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 2,
+  "day": 4,
   "until": "11:40",
   "origin": "marin-mommies"
  },
@@ -336,7 +336,7 @@
   "ages": "Babies & toddlers",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 2,
+  "day": 4,
   "until": "10:30",
   "origin": "marin-mommies"
  },
@@ -556,7 +556,7 @@
   "ages": "Under 6",
   "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5.",
   "source": "https://marinlibrary.org/locations/mc/",
-  "day": 2,
+  "day": 4,
   "until": "10:00",
   "origin": "marin-mommies"
  },
@@ -610,19 +610,6 @@
   "source": "https://www.instagram.com/sausalitocertifiedfarmersmkt/",
   "day": 0,
   "until": "14:00",
-  "origin": "marin-mommies"
- },
- {
-  "time": "17:00",
-  "title": "Sonoma's Tuesday Night Market",
-  "venue": "Sonoma Plaza",
-  "city": "Sonoma",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "May thru September at the Historic Sonoma Plaza in downtown Sonoma, thousands gather each Tuesday",
-  "source": "https://www.sonomastuesdaynightmarket.com/",
-  "day": 2,
-  "until": "20:00",
   "origin": "marin-mommies"
  },
  {
@@ -782,6 +769,19 @@
   "until": "10:30"
  },
  {
+  "time": "01:00",
+  "title": "Chess Club for Kids",
+  "venue": "South Novato Library",
+  "city": "Novato",
+  "region": "marin",
+  "ages": "Ages 4+",
+  "blurb": "Hello Chess Mates, Come by and play Chess, Checkers or Chinese Checkers with other kids or learn the basics from Mr. Brian. ADA Accommodation Request | Solicitud de Adaptación ADA",
+  "source": "https://marinlibrary.bibliocommons.com/events/6a80a9ecaafa6100295cd64c",
+  "day": 4,
+  "origin": "mcfl",
+  "until": "02:00"
+ },
+ {
   "time": "03:30",
   "title": "Lego Club",
   "venue": "Bolinas Library",
@@ -910,19 +910,6 @@
   "day": 4,
   "origin": "mcfl",
   "until": "10:30"
- },
- {
-  "time": "10:45",
-  "title": "Storytime is calling",
-  "venue": "Inverness Library",
-  "city": "Inverness",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Join Librarian Alexandra Porrata and the youngest readers of the Inverness School for a fun storytime for TK & K learners from 10:45 am- 11:15 am (check calendar to confirm). We’ll read a great book, learn a few key words…",
-  "source": "https://marinlibrary.bibliocommons.com/events/6aa210b4ca248a002914bbde",
-  "day": 3,
-  "origin": "mcfl",
-  "until": "11:15"
  },
  {
   "time": "10:00",
