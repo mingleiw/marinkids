@@ -730,6 +730,19 @@
   "origin": "marin-mommies"
  },
  {
+  "time": "10:00",
+  "title": "Baby Bounce",
+  "venue": "Novato Library",
+  "city": "Novato",
+  "region": "marin",
+  "ages": "Babies & toddlers",
+  "blurb": "Enjoy an interactive storytime with your child that includes early literacy fun with books, songs, fingerplays and body movement. Stay afterward for a fun playtime for your children and to connect with friends and other families. This…",
+  "source": "https://marinlibrary.bibliocommons.com/events/6a7b675abe148200298696e0",
+  "day": 1,
+  "origin": "mcfl",
+  "until": "10:30"
+ },
+ {
   "time": "09:30",
   "title": "Bilingual Storytime",
   "venue": "Fairfax Library",
@@ -757,29 +770,29 @@
  },
  {
   "time": "10:00",
-  "title": "Books & Bubbles Storytime",
+  "title": "Books and Bubbles Storytime",
   "venue": "Novato Library",
   "city": "Novato",
   "region": "marin",
   "ages": "Under 6",
   "blurb": "Join us every other Wednesday for Books & Bubbles Storytime with Teacher Carrie! We'll read, sing, build social-emotional skills, and, of course - pop bubbles! When the weather is warm and dry, Books & Bubbles Storytime will be hosted…",
-  "source": "https://marinlibrary.bibliocommons.com/events/6a6bee084523092f0033cb6b",
+  "source": "https://marinlibrary.bibliocommons.com/events/6a6bee084523092f0033cb6c",
   "day": 3,
   "origin": "mcfl",
   "until": "10:30"
  },
  {
-  "time": "01:00",
-  "title": "Chess Club for Kids",
-  "venue": "South Novato Library",
-  "city": "Novato",
+  "time": "09:30",
+  "title": "Family Storytime",
+  "venue": "Corte Madera Library",
+  "city": "Corte Madera",
   "region": "marin",
-  "ages": "Ages 4+",
-  "blurb": "Hello Chess Mates, Come by and play Chess, Checkers or Chinese Checkers with other kids or learn the basics from Mr. Brian. ADA Accommodation Request | Solicitud de Adaptación ADA",
-  "source": "https://marinlibrary.bibliocommons.com/events/6a80a9ecaafa6100295cd64c",
-  "day": 4,
+  "ages": "Under 6",
+  "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5. ADA Accommodation Request | Solicitud de Adaptación ADA",
+  "source": "https://marinlibrary.bibliocommons.com/events/6a80a9792dac6e00371f4d5b",
+  "day": 2,
   "origin": "mcfl",
-  "until": "02:00"
+  "until": "10:00"
  },
  {
   "time": "03:30",
@@ -895,19 +908,6 @@
   "blurb": "Join us on Tuesdays at 10am for Stories and Rhyme Wiggle Time! Get ready to sing, dance, and read some wonderful stories while building our pre-reading skills! When the weather is warm and dry, storytime will be hosted outdoors on lawn…",
   "source": "https://marinlibrary.bibliocommons.com/events/6a6bee33f4e5db3d00c581c3",
   "day": 2,
-  "origin": "mcfl",
-  "until": "10:30"
- },
- {
-  "time": "10:00",
-  "title": "Storytime!",
-  "venue": "Fairfax Library",
-  "city": "Fairfax",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Join Iris for a fun storytime with songs, books, rhymes and movement for babies and toddlers! ADA Accommodation Request | Solicitud de Adaptación ADA",
-  "source": "https://marinlibrary.bibliocommons.com/events/69ebc3842866a5b4884aa347",
-  "day": 4,
   "origin": "mcfl",
   "until": "10:30"
  },
