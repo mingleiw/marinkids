@@ -414,7 +414,7 @@
   "ages": "All ages",
   "blurb": "Mickelson Pumpkin Patch, just past the Marin-Sonoma county line off Highway 101, offers a wide",
   "source": "https://www.mickelsonpumpkinpatch.com/",
-  "day": 5,
+  "day": 6,
   "origin": "marin-mommies",
   "until": "22:00"
  },
@@ -530,7 +530,7 @@
   "ages": "All ages",
   "blurb": "The Petaluma Pumpkin Patch and Amazing Corn Maze has over 5 acres of home grown pumpkins. Over 50",
   "source": "http://petalumapumpkinpatch.com/",
-  "day": 5,
+  "day": 6,
   "origin": "marin-mommies",
   "until": "22:00"
  },
@@ -712,7 +712,7 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 5,
+  "day": 6,
   "until": "16:00",
   "origin": "marin-mommies"
  },
@@ -854,8 +854,8 @@
   "region": "marin",
   "ages": "Under 6",
   "blurb": "Tuesdays and Thursdays, 9:30-10:00am Join us for stories, movement, songs and rhymes for children ages 0-5! Storytimes build critical early literacy skills and healthy brain development. Afterwards, children and their families can…",
-  "source": "https://marinlibrary.bibliocommons.com/events/6903b5c4c313c23700dfba5f",
-  "day": 4,
+  "source": "https://marinlibrary.bibliocommons.com/events/6903b5c4c313c23700dfba60",
+  "day": 2,
   "origin": "mcfl",
   "until": "10:00"
  },
