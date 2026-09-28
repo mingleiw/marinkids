@@ -349,7 +349,7 @@
   "ages": "All ages",
   "blurb": "Lemos Farm's pumpkin patch in Half Moon Bay opens this Labor Day weekend! This farm-themed",
   "source": "https://www.lemosfarm.com/",
-  "day": 6,
+  "day": 0,
   "origin": "marin-mommies",
   "until": "17:00"
  },
@@ -414,7 +414,7 @@
   "ages": "All ages",
   "blurb": "Mickelson Pumpkin Patch, just past the Marin-Sonoma county line off Highway 101, offers a wide",
   "source": "https://www.mickelsonpumpkinpatch.com/",
-  "day": 6,
+  "day": 5,
   "origin": "marin-mommies",
   "until": "22:00"
  },
@@ -505,7 +505,7 @@
   "ages": "All ages",
   "blurb": "Oktoberfest at Six Flags Discovery Kingdom is a one-of-a-kind festival experience — chase the rush",
   "source": "https://www.sixflags.com/discoverykingdom/events/oktoberfest",
-  "day": 6,
+  "day": 0,
   "origin": "marin-mommies"
  },
  {
@@ -530,7 +530,7 @@
   "ages": "All ages",
   "blurb": "The Petaluma Pumpkin Patch and Amazing Corn Maze has over 5 acres of home grown pumpkins. Over 50",
   "source": "http://petalumapumpkinpatch.com/",
-  "day": 6,
+  "day": 5,
   "origin": "marin-mommies",
   "until": "22:00"
  },
@@ -678,6 +678,19 @@
   "origin": "marin-mommies"
  },
  {
+  "time": "09:00",
+  "title": "Thomas and Percy’s Halloween Party",
+  "venue": "Roaring Camp Railroads",
+  "city": "Felton",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Dress up for Halloween with favorites Thomas and Percy for a 20-minute train ride, entertainment,",
+  "source": "https://www.marinmommies.com/calendar/thomas-and-percy%E2%80%99s-halloween-party",
+  "day": 6,
+  "origin": "marin-mommies",
+  "until": "17:00"
+ },
+ {
   "time": "08:00",
   "title": "Thursday Marin Farmers Market",
   "venue": "Veteran’s Memorial Auditorium Parking Lot",
@@ -712,9 +725,22 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 6,
+  "day": 0,
   "until": "16:00",
   "origin": "marin-mommies"
+ },
+ {
+  "time": "09:00",
+  "title": "Western Railway Museum Pumpkin Patch Festival",
+  "venue": "Western Railway Museum",
+  "city": "Suisun City",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the fall season at the Western Railway Museum's annual Pumpkin Patch Festival! Enjoy a",
+  "source": "https://www.marinmommies.com/calendar/western-railway-museum-pumpkin-patch-festival-4",
+  "day": 6,
+  "origin": "marin-mommies",
+  "until": "17:00"
  },
  {
   "time": "10:15",
@@ -858,6 +884,19 @@
   "day": 2,
   "origin": "mcfl",
   "until": "10:00"
+ },
+ {
+  "time": "03:00",
+  "title": "Reading Buddies / Compañeros de Lectura",
+  "venue": "Point Reyes Library",
+  "city": "Point Reyes",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "After-school library and literacy program for grades K - 3, in person at the Point Reyes Library! Reading Buddies is an after-school program for grades K-3 to build literacy skills and develop a love of reading. Students gather at the…",
+  "source": "https://marinlibrary.bibliocommons.com/events/6aa210de3dd190003e70e131",
+  "day": 2,
+  "origin": "mcfl",
+  "until": "04:00"
  },
  {
   "time": "10:30",
