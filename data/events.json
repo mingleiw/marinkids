@@ -518,7 +518,7 @@
   "ages": "All ages",
   "blurb": "Located in the small west Marin village of Nicasio, the farm is just west of the Nicasio Village",
   "source": "https://www.marinmommies.com/calendar/nicasio-valley-pumpkin-patch-1",
-  "day": 1,
+  "day": 2,
   "origin": "marin-mommies",
   "until": "16:00"
  },
@@ -777,7 +777,7 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 1,
+  "day": 5,
   "until": "16:00",
   "origin": "marin-mommies"
  },
@@ -860,19 +860,6 @@
   "until": "02:00"
  },
  {
-  "time": "09:30",
-  "title": "Family Storytime",
-  "venue": "Corte Madera Library",
-  "city": "Corte Madera",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5. ADA Accommodation Request | Solicitud de Adaptación ADA",
-  "source": "https://marinlibrary.bibliocommons.com/events/6a80a9792dac6e00371f4d5b",
-  "day": 2,
-  "origin": "mcfl",
-  "until": "10:00"
- },
- {
   "time": "03:30",
   "title": "Lego Club",
   "venue": "Bolinas Library",
@@ -932,23 +919,10 @@
   "region": "marin",
   "ages": "Under 6",
   "blurb": "Tuesdays and Thursdays, 9:30-10:00am Join us for stories, movement, songs and rhymes for children ages 0-5! Storytimes build critical early literacy skills and healthy brain development. Afterwards, children and their families can…",
-  "source": "https://marinlibrary.bibliocommons.com/events/6903b5c4c313c23700dfba60",
-  "day": 2,
+  "source": "https://marinlibrary.bibliocommons.com/events/6903b5c4c313c23700dfba61",
+  "day": 4,
   "origin": "mcfl",
   "until": "10:00"
- },
- {
-  "time": "03:00",
-  "title": "Reading Buddies / Compañeros de Lectura",
-  "venue": "Point Reyes Library",
-  "city": "Point Reyes",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "After-school library and literacy program for grades K - 3, in person at the Point Reyes Library! Reading Buddies is an after-school program for grades K-3 to build literacy skills and develop a love of reading. Students gather at the…",
-  "source": "https://marinlibrary.bibliocommons.com/events/6aa210de3dd190003e70e131",
-  "day": 2,
-  "origin": "mcfl",
-  "until": "04:00"
  },
  {
   "time": "10:30",
@@ -999,6 +973,19 @@
   "blurb": "Join us on Tuesdays at 10am for Stories and Rhyme Wiggle Time! Get ready to sing, dance, and read some wonderful stories while building our pre-reading skills! When the weather is warm and dry, storytime will be hosted outdoors on lawn…",
   "source": "https://marinlibrary.bibliocommons.com/events/6a6bee33f4e5db3d00c581c3",
   "day": 2,
+  "origin": "mcfl",
+  "until": "10:30"
+ },
+ {
+  "time": "10:00",
+  "title": "Storytime!",
+  "venue": "Fairfax Library",
+  "city": "Fairfax",
+  "region": "marin",
+  "ages": "Under 6",
+  "blurb": "Join Iris for a fun storytime with songs, books, rhymes and movement for babies and toddlers! ADA Accommodation Request | Solicitud de Adaptación ADA",
+  "source": "https://marinlibrary.bibliocommons.com/events/69ebc3842866a5b4884aa348",
+  "day": 4,
   "origin": "mcfl",
   "until": "10:30"
  },
