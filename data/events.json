@@ -349,7 +349,7 @@
   "ages": "All ages",
   "blurb": "Farm experience for the entire family. Grossi Family Pumpkin Patch is run by 4th generation Marin",
   "source": "https://www.marinmommies.com/calendar/grossi-family-farm-pumpkin-patch-2",
-  "day": 3,
+  "day": 4,
   "origin": "marin-mommies",
   "until": "17:30"
  },
@@ -518,7 +518,7 @@
   "ages": "All ages",
   "blurb": "Located in the small west Marin village of Nicasio, the farm is just west of the Nicasio Village",
   "source": "https://www.marinmommies.com/calendar/nicasio-valley-pumpkin-patch-1",
-  "day": 3,
+  "day": 4,
   "origin": "marin-mommies",
   "until": "16:00"
  },
@@ -548,7 +548,7 @@
   "origin": "marin-mommies"
  },
  {
-  "time": "09:30",
+  "time": "09:00",
   "title": "Open Gym: GymWorld Gymnastics & Parkour",
   "venue": "GymWorld Gymnastics & Parkour",
   "city": "San Rafael",
@@ -808,6 +808,19 @@
   "origin": "marin-mommies"
  },
  {
+  "time": "10:00",
+  "title": "Baby Bounce",
+  "venue": "Novato Library",
+  "city": "Novato",
+  "region": "marin",
+  "ages": "Babies & toddlers",
+  "blurb": "Enjoy an interactive storytime with your child that includes early literacy fun with books, songs, fingerplays and body movement. Stay afterward for a fun playtime for your children and to connect with friends and other families. This…",
+  "source": "https://marinlibrary.bibliocommons.com/events/6a7b675abe148200298696e1",
+  "day": 1,
+  "origin": "mcfl",
+  "until": "10:30"
+ },
+ {
   "time": "09:30",
   "title": "Bilingual Storytime",
   "venue": "Fairfax Library",
@@ -834,17 +847,30 @@
   "until": "11:45"
  },
  {
-  "time": "01:00",
-  "title": "Chess Club for Kids",
-  "venue": "South Novato Library",
+  "time": "10:00",
+  "title": "Books & Bubbles and Fire Safety Storytime!",
+  "venue": "Novato Library",
   "city": "Novato",
   "region": "marin",
-  "ages": "Ages 4+",
-  "blurb": "Hello Chess Mates, Come by and play Chess, Checkers or Chinese Checkers with other kids or learn the basics from Mr. Brian. ADA Accommodation Request | Solicitud de Adaptación ADA",
-  "source": "https://marinlibrary.bibliocommons.com/events/6a80a9ecaafa6100295cd64d",
-  "day": 4,
+  "ages": "Under 6",
+  "blurb": "Join us for a special Fire Safety and Books & Bubbles Storytime! A special guest from the Novato Fire District will share ways to celebrate Fire Safety Month every day at home and in our community. When the weather is warm and dry, Books &…",
+  "source": "https://marinlibrary.bibliocommons.com/events/6a6bee084523092f0033cb6d",
+  "day": 3,
   "origin": "mcfl",
-  "until": "02:00"
+  "until": "10:30"
+ },
+ {
+  "time": "09:30",
+  "title": "Family Storytime",
+  "venue": "Corte Madera Library",
+  "city": "Corte Madera",
+  "region": "marin",
+  "ages": "Under 6",
+  "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5. ADA Accommodation Request | Solicitud de Adaptación ADA",
+  "source": "https://marinlibrary.bibliocommons.com/events/6a80a9792dac6e00371f4d5c",
+  "day": 2,
+  "origin": "mcfl",
+  "until": "10:00"
  },
  {
   "time": "03:30",
@@ -906,8 +932,8 @@
   "region": "marin",
   "ages": "Under 6",
   "blurb": "Tuesdays and Thursdays, 9:30-10:00am Join us for stories, movement, songs and rhymes for children ages 0-5! Storytimes build critical early literacy skills and healthy brain development. Afterwards, children and their families can…",
-  "source": "https://marinlibrary.bibliocommons.com/events/6903b5c4c313c23700dfba61",
-  "day": 4,
+  "source": "https://marinlibrary.bibliocommons.com/events/6903b5c4c313c23700dfba62",
+  "day": 2,
   "origin": "mcfl",
   "until": "10:00"
  },
@@ -960,19 +986,6 @@
   "blurb": "Join us on Tuesdays at 10am for Stories and Rhyme Wiggle Time! Get ready to sing, dance, and read some wonderful stories while building our pre-reading skills! When the weather is warm and dry, storytime will be hosted outdoors on lawn…",
   "source": "https://marinlibrary.bibliocommons.com/events/6a6bee33f4e5db3d00c581c3",
   "day": 2,
-  "origin": "mcfl",
-  "until": "10:30"
- },
- {
-  "time": "10:00",
-  "title": "Storytime!",
-  "venue": "Fairfax Library",
-  "city": "Fairfax",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Join Iris for a fun storytime with songs, books, rhymes and movement for babies and toddlers! ADA Accommodation Request | Solicitud de Adaptación ADA",
-  "source": "https://marinlibrary.bibliocommons.com/events/69ebc3842866a5b4884aa348",
-  "day": 4,
   "origin": "mcfl",
   "until": "10:30"
  },
