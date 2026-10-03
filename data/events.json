@@ -302,19 +302,6 @@
   "origin": "marin-mommies"
  },
  {
-  "time": "15:30",
-  "title": "French Storytime",
-  "venue": "Belvedere Tiburon Library",
-  "city": "Tiburon",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Come say bonjour and enjoy a special storytime in French! Children will delight in stories, songs,",
-  "source": "https://www.marinmommies.com/calendar/french-storytime-2",
-  "day": 4,
-  "origin": "marin-mommies",
-  "until": "16:00"
- },
- {
   "time": "09:00",
   "title": "Goblin Jamboree 2026 at Bay Area Discovery Museum",
   "venue": "Bay Area Discovery Museum",
@@ -349,7 +336,7 @@
   "ages": "All ages",
   "blurb": "Farm experience for the entire family. Grossi Family Pumpkin Patch is run by 4th generation Marin",
   "source": "https://www.marinmommies.com/calendar/grossi-family-farm-pumpkin-patch-2",
-  "day": 4,
+  "day": 5,
   "origin": "marin-mommies",
   "until": "17:30"
  },
@@ -362,7 +349,7 @@
   "ages": "Under 6",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 4,
+  "day": 2,
   "until": "11:40",
   "origin": "marin-mommies"
  },
@@ -375,7 +362,7 @@
   "ages": "Babies & toddlers",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 4,
+  "day": 2,
   "until": "10:30",
   "origin": "marin-mommies"
  },
@@ -518,7 +505,7 @@
   "ages": "All ages",
   "blurb": "Located in the small west Marin village of Nicasio, the farm is just west of the Nicasio Village",
   "source": "https://www.marinmommies.com/calendar/nicasio-valley-pumpkin-patch-1",
-  "day": 4,
+  "day": 1,
   "origin": "marin-mommies",
   "until": "16:00"
  },
@@ -595,7 +582,7 @@
   "ages": "Under 6",
   "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5.",
   "source": "https://marinlibrary.org/locations/mc/",
-  "day": 4,
+  "day": 2,
   "until": "10:00",
   "origin": "marin-mommies"
  },
