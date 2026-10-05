@@ -200,6 +200,19 @@
   "until": "10:45"
  },
  {
+  "time": "09:30",
+  "title": "Oakland Zoo: Boo at the Zoo",
+  "venue": "Oakland Zoo",
+  "city": "Oakland",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Calling all ghosts and witches to join us for \"Boo at the Zoo\" and enjoy Oakland Zoo's Halloween",
+  "source": "https://www.marinmommies.com/calendar/boo-zoo",
+  "day": 6,
+  "origin": "marin-mommies",
+  "until": "16:00"
+ },
+ {
   "time": "10:00",
   "title": "Books & Bubbles Storytime",
   "venue": "Novato Library",
@@ -298,7 +311,7 @@
   "ages": "All ages",
   "blurb": "The Bay Area Discovery Museum's annual Goblin Jamboree fundraiser, the longest running Halloween",
   "source": "https://www.marinmommies.com/calendar/goblin-jamboree-2026-bay-area-discovery-museum",
-  "day": 6,
+  "day": 0,
   "origin": "marin-mommies",
   "until": "16:00"
  },
@@ -363,7 +376,7 @@
   "ages": "All ages",
   "blurb": "Lemos Farm's pumpkin patch in Half Moon Bay opens this Labor Day weekend! This farm-themed",
   "source": "https://www.lemosfarm.com/",
-  "day": 6,
+  "day": 0,
   "origin": "marin-mommies",
   "until": "17:00"
  },
@@ -428,7 +441,7 @@
   "ages": "All ages",
   "blurb": "Mickelson Pumpkin Patch, just past the Marin-Sonoma county line off Highway 101, offers a wide",
   "source": "https://www.mickelsonpumpkinpatch.com/",
-  "day": 6,
+  "day": 5,
   "origin": "marin-mommies",
   "until": "22:00"
  },
@@ -519,7 +532,7 @@
   "ages": "All ages",
   "blurb": "Oktoberfest at Six Flags Discovery Kingdom is a one-of-a-kind festival experience — chase the rush",
   "source": "https://www.sixflags.com/discoverykingdom/events/oktoberfest",
-  "day": 6,
+  "day": 0,
   "origin": "marin-mommies"
  },
  {
@@ -588,17 +601,17 @@
   "origin": "marin-mommies"
  },
  {
-  "time": "10:00",
-  "title": "Pronzini Pumpkin Patch",
-  "venue": "Pronzini Farms",
+  "time": "14:00",
+  "title": "Pumpkins on Pikes",
+  "venue": "Tara Firma Farms",
   "city": "Petaluma",
   "region": "marin",
   "ages": "All ages",
-  "blurb": "The Pronzini Farms Pumpkin Patch in Petaluma offers acres of fun in the fall. Pick pumpkins, play",
-  "source": "https://www.marinmommies.com/calendar/pronzini-pumpkin-patch-13",
+  "blurb": "In addition to producing healthy and sustainable local food, Petaluma's Tara Firma Farms also puts",
+  "source": "https://www.marinmommies.com/calendar/pumpkins-pikes-0",
   "day": 6,
   "origin": "marin-mommies",
-  "until": "19:00"
+  "until": "21:00"
  },
  {
   "time": "09:00",
@@ -752,7 +765,7 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 6,
+  "day": 0,
   "until": "16:00",
   "origin": "marin-mommies"
  },

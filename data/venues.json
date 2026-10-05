@@ -180,7 +180,7 @@
   "lon": null,
   "query": "Grossi Family Farm Pumpkin Patch, Novato, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-10-03",
+  "resolved": "2026-10-04",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -226,7 +226,7 @@
   "lon": null,
   "query": "King Mountain Summit, Larkspur, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-10-03",
+  "resolved": "2026-10-04",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -276,7 +276,7 @@
   "lon": null,
   "query": "Lucas Valley Field Office, San Rafael, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-10-03",
+  "resolved": "2026-10-04",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -414,7 +414,7 @@
   "lon": null,
   "query": "Nicasio Valley Pumpkin Patch, Nicasio, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-10-03",
+  "resolved": "2026-10-04",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -433,6 +433,16 @@
   "query": "Novato Library, Novato, CA, USA",
   "matched": "South Novato Library, 931, C Street, Novato, Marin County, California, 94949, United States",
   "resolved": "2026-09-19",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Oakland Zoo",
+  "city": "Oakland",
+  "lat": null,
+  "lon": null,
+  "query": "Oakland Zoo, Oakland, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-10-04",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -510,7 +520,7 @@
   "lon": null,
   "query": "Point Reyes Playground, Point Reyes Station, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-10-03",
+  "resolved": "2026-10-04",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -528,7 +538,7 @@
   "lon": null,
   "query": "Presidio’s Outpost Meadow, San Francisco, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-10-03",
+  "resolved": "2026-10-04",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -558,7 +568,7 @@
   "lon": null,
   "query": "Roaring Camp Railroads, Felton, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-10-03",
+  "resolved": "2026-10-04",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -568,7 +578,7 @@
   "lon": null,
   "query": "Roy's Redwoods Preserve, Fairfax, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-10-03",
+  "resolved": "2026-10-04",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -594,7 +604,7 @@
   "lon": null,
   "query": "San Domenico School, San Anselmo, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-10-03",
+  "resolved": "2026-10-04",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -682,7 +692,7 @@
   "lon": null,
   "query": "Strawberry Recreation, Mill Valley, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-10-03",
+  "resolved": "2026-10-04",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -692,7 +702,17 @@
   "lon": null,
   "query": "Tam Valley Community Center, Mill Valley, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-10-03",
+  "resolved": "2026-10-04",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Tara Firma Farms",
+  "city": "Petaluma",
+  "lat": null,
+  "lon": null,
+  "query": "Tara Firma Farms, Petaluma, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-10-04",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -762,7 +782,7 @@
   "lon": null,
   "query": "Western Railway Museum, Suisun City, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-10-03",
+  "resolved": "2026-10-04",
   "source": "nominatim.openstreetmap.org"
  },
  {
