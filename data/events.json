@@ -265,16 +265,16 @@
  },
  {
   "time": "09:30",
-  "title": "Free Saturday at the de Young",
+  "title": "Free Saturday at the de Young Museum in San Francisco",
   "venue": "de Young Museum",
   "city": "San Francisco",
   "region": "marin",
   "ages": "All ages",
-  "blurb": "Bay Area residents can visit the de Young museum in San Francisco for free every Saturday. Offer",
-  "source": "https://www.famsf.org/",
+  "blurb": "Bay Area residents can enjoy free admission to the de Young Museum in San Francisco every Saturday",
+  "source": "https://www.marinmommies.com/calendar/free-saturday-de-young-museum-san-francisco",
   "day": 6,
-  "until": "17:15",
-  "origin": "marin-mommies"
+  "origin": "marin-mommies",
+  "until": "17:15"
  },
  {
   "time": "09:30",
@@ -311,7 +311,7 @@
   "ages": "All ages",
   "blurb": "The Bay Area Discovery Museum's annual Goblin Jamboree fundraiser, the longest running Halloween",
   "source": "https://www.marinmommies.com/calendar/goblin-jamboree-2026-bay-area-discovery-museum",
-  "day": 0,
+  "day": 6,
   "origin": "marin-mommies",
   "until": "16:00"
  },
@@ -376,7 +376,7 @@
   "ages": "All ages",
   "blurb": "Lemos Farm's pumpkin patch in Half Moon Bay opens this Labor Day weekend! This farm-themed",
   "source": "https://www.lemosfarm.com/",
-  "day": 0,
+  "day": 6,
   "origin": "marin-mommies",
   "until": "17:00"
  },
@@ -459,19 +459,6 @@
   "origin": "marin-mommies"
  },
  {
-  "time": "10:30",
-  "title": "Music Time with Megan at Sports Basement Novato",
-  "venue": "Sports Basement Novato",
-  "city": "Novato",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Voted “Best of the Best” Music Class by Bay Area Parent Magazine for the past 6 years, this fun,",
-  "source": "https://www.sportsbasement.com/pages/calendar",
-  "day": 1,
-  "until": "11:00",
-  "origin": "marin-mommies"
- },
- {
   "time": "11:00",
   "title": "New Parents and Babies and Toddler Group",
   "venue": "Fairfax Pavilion",
@@ -506,7 +493,7 @@
   "ages": "All ages",
   "blurb": "Located in the small west Marin village of Nicasio, the farm is just west of the Nicasio Village",
   "source": "https://www.marinmommies.com/calendar/nicasio-valley-pumpkin-patch-1",
-  "day": 1,
+  "day": 2,
   "origin": "marin-mommies",
   "until": "16:00"
  },
@@ -532,7 +519,7 @@
   "ages": "All ages",
   "blurb": "Oktoberfest at Six Flags Discovery Kingdom is a one-of-a-kind festival experience — chase the rush",
   "source": "https://www.sixflags.com/discoverykingdom/events/oktoberfest",
-  "day": 0,
+  "day": 6,
   "origin": "marin-mommies"
  },
  {
@@ -557,7 +544,7 @@
   "ages": "All ages",
   "blurb": "The Petaluma Pumpkin Patch and Amazing Corn Maze has over 5 acres of home grown pumpkins. Over 50",
   "source": "http://petalumapumpkinpatch.com/",
-  "day": 1,
+  "day": 2,
   "origin": "marin-mommies",
   "until": "22:00"
  },
@@ -765,7 +752,7 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 0,
+  "day": 5,
   "until": "16:00",
   "origin": "marin-mommies"
  },
@@ -794,19 +781,6 @@
   "day": 3,
   "until": "10:45",
   "origin": "marin-mommies"
- },
- {
-  "time": "10:00",
-  "title": "Baby Bounce",
-  "venue": "Novato Library",
-  "city": "Novato",
-  "region": "marin",
-  "ages": "Babies & toddlers",
-  "blurb": "Enjoy an interactive storytime with your child that includes early literacy fun with books, songs, fingerplays and body movement. Stay afterward for a fun playtime for your children and to connect with friends and other families. This…",
-  "source": "https://marinlibrary.bibliocommons.com/events/6a7b675abe148200298696e1",
-  "day": 1,
-  "origin": "mcfl",
-  "until": "10:30"
  },
  {
   "time": "09:30",
@@ -859,19 +833,6 @@
   "day": 4,
   "origin": "mcfl",
   "until": "02:00"
- },
- {
-  "time": "09:30",
-  "title": "Family Storytime",
-  "venue": "Corte Madera Library",
-  "city": "Corte Madera",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5. ADA Accommodation Request | Solicitud de Adaptación ADA",
-  "source": "https://marinlibrary.bibliocommons.com/events/6a80a9792dac6e00371f4d5c",
-  "day": 2,
-  "origin": "mcfl",
-  "until": "10:00"
  },
  {
   "time": "03:30",
@@ -933,21 +894,21 @@
   "region": "marin",
   "ages": "Under 6",
   "blurb": "Tuesdays and Thursdays, 9:30-10:00am Join us for stories, movement, songs and rhymes for children ages 0-5! Storytimes build critical early literacy skills and healthy brain development. Afterwards, children and their families can…",
-  "source": "https://marinlibrary.bibliocommons.com/events/6903b5c4c313c23700dfba62",
-  "day": 2,
+  "source": "https://marinlibrary.bibliocommons.com/events/6903b5c4c313c23700dfba63",
+  "day": 4,
   "origin": "mcfl",
   "until": "10:00"
  },
  {
-  "time": "03:00",
-  "title": "Reading Buddies / Compañeros de Lectura",
-  "venue": "Point Reyes Library",
-  "city": "Point Reyes",
+  "time": "01:00",
+  "title": "Puzzle Swap: Bring one, take one, have fun!",
+  "venue": "Civic Center Library",
+  "city": "San Rafael",
   "region": "marin",
   "ages": "All ages",
-  "blurb": "After-school library and literacy program for grades K - 3, in person at the Point Reyes Library! Reading Buddies is an after-school program for grades K-3 to build literacy skills and develop a love of reading. Students gather at the…",
-  "source": "https://marinlibrary.bibliocommons.com/events/6aa210de3dd190003e70e132",
-  "day": 2,
+  "blurb": "Do you need a new puzzle challenge? Are you ready to share one you have completed? Bring your already-done puzzle and leave with a new one, or just take one! Please only bring puzzles that have all the pieces. This program generally…",
+  "source": "https://marinlibrary.bibliocommons.com/events/6a0c9526c7d3cd58005a3480",
+  "day": 4,
   "origin": "mcfl",
   "until": "04:00"
  },
@@ -1000,6 +961,19 @@
   "blurb": "Join us on Tuesdays at 10am for Stories and Rhyme Wiggle Time! Get ready to sing, dance, and read some wonderful stories while building our pre-reading skills! When the weather is warm and dry, storytime will be hosted outdoors on lawn…",
   "source": "https://marinlibrary.bibliocommons.com/events/6a6bee33f4e5db3d00c581c3",
   "day": 2,
+  "origin": "mcfl",
+  "until": "10:30"
+ },
+ {
+  "time": "10:00",
+  "title": "Storytime!",
+  "venue": "Fairfax Library",
+  "city": "Fairfax",
+  "region": "marin",
+  "ages": "Under 6",
+  "blurb": "Join Iris for a fun storytime with songs, books, rhymes and movement for babies and toddlers! ADA Accommodation Request | Solicitud de Adaptación ADA",
+  "source": "https://marinlibrary.bibliocommons.com/events/69ebc3842866a5b4884aa349",
+  "day": 4,
   "origin": "mcfl",
   "until": "10:30"
  },
