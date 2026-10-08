@@ -350,7 +350,7 @@
   "ages": "Under 6",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 2,
+  "day": 4,
   "until": "11:40",
   "origin": "marin-mommies"
  },
@@ -363,7 +363,7 @@
   "ages": "Babies & toddlers",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 2,
+  "day": 4,
   "until": "10:30",
   "origin": "marin-mommies"
  },
@@ -493,7 +493,7 @@
   "ages": "All ages",
   "blurb": "Located in the small west Marin village of Nicasio, the farm is just west of the Nicasio Village",
   "source": "https://www.marinmommies.com/calendar/nicasio-valley-pumpkin-patch-1",
-  "day": 2,
+  "day": 3,
   "origin": "marin-mommies",
   "until": "16:00"
  },
@@ -544,7 +544,7 @@
   "ages": "All ages",
   "blurb": "The Petaluma Pumpkin Patch and Amazing Corn Maze has over 5 acres of home grown pumpkins. Over 50",
   "source": "http://petalumapumpkinpatch.com/",
-  "day": 2,
+  "day": 3,
   "origin": "marin-mommies",
   "until": "22:00"
  },
@@ -570,7 +570,7 @@
   "ages": "Under 6",
   "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5.",
   "source": "https://marinlibrary.org/locations/mc/",
-  "day": 2,
+  "day": 4,
   "until": "10:00",
   "origin": "marin-mommies"
  },
@@ -911,6 +911,19 @@
   "day": 4,
   "origin": "mcfl",
   "until": "04:00"
+ },
+ {
+  "time": "04:00",
+  "title": "Read to a Dog: A Marin Humane Society Program",
+  "venue": "Novato Library",
+  "city": "Novato",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Dogs are ideal reading companions because they offer unconditional love and acceptance. Emerging and new readers are welcome to practice their reading aloud with our volunteer dogs. Recommended for children of all abilities grades K and…",
+  "source": "https://marinlibrary.bibliocommons.com/events/6a84b8eebf1aec09082b7726",
+  "day": 4,
+  "origin": "mcfl",
+  "until": "05:00"
  },
  {
   "time": "10:30",
