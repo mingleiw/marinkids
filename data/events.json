@@ -337,7 +337,7 @@
   "ages": "All ages",
   "blurb": "Farm experience for the entire family. Grossi Family Pumpkin Patch is run by 4th generation Marin",
   "source": "https://www.marinmommies.com/calendar/grossi-family-farm-pumpkin-patch-2",
-  "day": 3,
+  "day": 4,
   "origin": "marin-mommies",
   "until": "17:30"
  },
@@ -493,7 +493,7 @@
   "ages": "All ages",
   "blurb": "Located in the small west Marin village of Nicasio, the farm is just west of the Nicasio Village",
   "source": "https://www.marinmommies.com/calendar/nicasio-valley-pumpkin-patch-1",
-  "day": 3,
+  "day": 4,
   "origin": "marin-mommies",
   "until": "16:00"
  },
@@ -544,7 +544,7 @@
   "ages": "All ages",
   "blurb": "The Petaluma Pumpkin Patch and Amazing Corn Maze has over 5 acres of home grown pumpkins. Over 50",
   "source": "http://petalumapumpkinpatch.com/",
-  "day": 3,
+  "day": 4,
   "origin": "marin-mommies",
   "until": "22:00"
  },
@@ -638,6 +638,19 @@
   "day": 4,
   "until": "10:30",
   "origin": "marin-mommies"
+ },
+ {
+  "time": "11:00",
+  "title": "Spanish Storytime in the Park",
+  "venue": "Robin Sweeny Park Playground",
+  "city": "Sausalito",
+  "region": "marin",
+  "ages": "Under 6",
+  "blurb": "Duncan Playful Circus presents The True Color of Love/ El Verdadero Color de Amor This joyful",
+  "source": "https://www.marinmommies.com/calendar/spanish-storytime-park",
+  "day": 4,
+  "origin": "marin-mommies",
+  "until": "11:30"
  },
  {
   "time": "10:00",
@@ -783,6 +796,19 @@
   "origin": "marin-mommies"
  },
  {
+  "time": "10:00",
+  "title": "Baby Bounce",
+  "venue": "Novato Library",
+  "city": "Novato",
+  "region": "marin",
+  "ages": "Babies & toddlers",
+  "blurb": "Enjoy an interactive storytime with your child that includes early literacy fun with books, songs, fingerplays and body movement. Stay afterward for a fun playtime for your children and to connect with friends and other families. This…",
+  "source": "https://marinlibrary.bibliocommons.com/events/6a7b675abe148200298696e2",
+  "day": 1,
+  "origin": "mcfl",
+  "until": "10:30"
+ },
+ {
   "time": "09:30",
   "title": "Bilingual Storytime",
   "venue": "Fairfax Library",
@@ -820,19 +846,6 @@
   "day": 3,
   "origin": "mcfl",
   "until": "10:30"
- },
- {
-  "time": "01:00",
-  "title": "Chess Club for Kids",
-  "venue": "South Novato Library",
-  "city": "Novato",
-  "region": "marin",
-  "ages": "Ages 4+",
-  "blurb": "Hello Chess Mates, Come by and play Chess, Checkers or Chinese Checkers with other kids or learn the basics from Mr. Brian. ADA Accommodation Request | Solicitud de Adaptación ADA",
-  "source": "https://marinlibrary.bibliocommons.com/events/6a80a9ecaafa6100295cd64e",
-  "day": 4,
-  "origin": "mcfl",
-  "until": "02:00"
  },
  {
   "time": "03:30",
@@ -894,36 +907,10 @@
   "region": "marin",
   "ages": "Under 6",
   "blurb": "Tuesdays and Thursdays, 9:30-10:00am Join us for stories, movement, songs and rhymes for children ages 0-5! Storytimes build critical early literacy skills and healthy brain development. Afterwards, children and their families can…",
-  "source": "https://marinlibrary.bibliocommons.com/events/6903b5c4c313c23700dfba63",
-  "day": 4,
+  "source": "https://marinlibrary.bibliocommons.com/events/6903b5c4c313c23700dfba64",
+  "day": 2,
   "origin": "mcfl",
   "until": "10:00"
- },
- {
-  "time": "01:00",
-  "title": "Puzzle Swap: Bring one, take one, have fun!",
-  "venue": "Civic Center Library",
-  "city": "San Rafael",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "Do you need a new puzzle challenge? Are you ready to share one you have completed? Bring your already-done puzzle and leave with a new one, or just take one! Please only bring puzzles that have all the pieces. This program generally…",
-  "source": "https://marinlibrary.bibliocommons.com/events/6a0c9526c7d3cd58005a3480",
-  "day": 4,
-  "origin": "mcfl",
-  "until": "04:00"
- },
- {
-  "time": "04:00",
-  "title": "Read to a Dog: A Marin Humane Society Program",
-  "venue": "Novato Library",
-  "city": "Novato",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "Dogs are ideal reading companions because they offer unconditional love and acceptance. Emerging and new readers are welcome to practice their reading aloud with our volunteer dogs. Recommended for children of all abilities grades K and…",
-  "source": "https://marinlibrary.bibliocommons.com/events/6a84b8eebf1aec09082b7726",
-  "day": 4,
-  "origin": "mcfl",
-  "until": "05:00"
  },
  {
   "time": "10:30",
@@ -974,19 +961,6 @@
   "blurb": "Join us on Tuesdays at 10am for Stories and Rhyme Wiggle Time! Get ready to sing, dance, and read some wonderful stories while building our pre-reading skills! When the weather is warm and dry, storytime will be hosted outdoors on lawn…",
   "source": "https://marinlibrary.bibliocommons.com/events/6a6bee33f4e5db3d00c581c3",
   "day": 2,
-  "origin": "mcfl",
-  "until": "10:30"
- },
- {
-  "time": "10:00",
-  "title": "Storytime!",
-  "venue": "Fairfax Library",
-  "city": "Fairfax",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Join Iris for a fun storytime with songs, books, rhymes and movement for babies and toddlers! ADA Accommodation Request | Solicitud de Adaptación ADA",
-  "source": "https://marinlibrary.bibliocommons.com/events/69ebc3842866a5b4884aa349",
-  "day": 4,
   "origin": "mcfl",
   "until": "10:30"
  },
