@@ -312,22 +312,9 @@
   "ages": "All ages",
   "blurb": "The Bay Area Discovery Museum's annual Goblin Jamboree fundraiser, the longest running Halloween",
   "source": "https://www.marinmommies.com/calendar/goblin-jamboree-2026-bay-area-discovery-museum",
-  "day": 6,
+  "day": 0,
   "origin": "marin-mommies",
   "until": "16:00"
- },
- {
-  "time": "11:00",
-  "title": "Off the Grid Treasure Island",
-  "venue": "Treasure Island",
-  "city": "San Francisco",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "Off the Grid returns to Treasure Island this fall, every Saturday from September 12 through October",
-  "source": "https://www.tisf.com/off-the-grid",
-  "day": 6,
-  "until": "16:00",
-  "origin": "marin-mommies"
  },
  {
   "time": "12:00",
@@ -377,7 +364,7 @@
   "ages": "All ages",
   "blurb": "Lemos Farm's pumpkin patch in Half Moon Bay opens this Labor Day weekend! This farm-themed",
   "source": "https://www.lemosfarm.com/",
-  "day": 6,
+  "day": 0,
   "origin": "marin-mommies",
   "until": "17:00"
  },
@@ -442,7 +429,7 @@
   "ages": "All ages",
   "blurb": "Celebrate fall at Mickelson Pumpkin Patch in Petaluma, just north of the Marin–Sonoma county line!",
   "source": "https://www.marinmommies.com/calendar/mickelson-pumpkin-patch-petaluma",
-  "day": 6,
+  "day": 5,
   "origin": "marin-mommies",
   "until": "22:00"
  },
@@ -533,7 +520,7 @@
   "ages": "All ages",
   "blurb": "Oktoberfest at Six Flags Discovery Kingdom is a one-of-a-kind festival experience — chase the rush",
   "source": "https://www.sixflags.com/discoverykingdom/events/oktoberfest",
-  "day": 6,
+  "day": 0,
   "origin": "marin-mommies"
  },
  {
@@ -740,7 +727,7 @@
   "ages": "All ages",
   "blurb": "All aboard for Halloween fun with Thomas and Percy at Roaring Camp Railroads in Felton! Dress up",
   "source": "https://www.marinmommies.com/calendar/thomas-and-percys-halloween-party-roaring-camp",
-  "day": 6,
+  "day": 0,
   "origin": "marin-mommies",
   "until": "17:00"
  },
@@ -779,7 +766,7 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 6,
+  "day": 0,
   "until": "16:00",
   "origin": "marin-mommies"
  },
@@ -792,7 +779,7 @@
   "ages": "All ages",
   "blurb": "Celebrate the fall season at the Western Railway Museum's annual Pumpkin Patch Festival! Enjoy a",
   "source": "https://www.marinmommies.com/calendar/western-railway-museum-pumpkin-patch-festival-4",
-  "day": 6,
+  "day": 0,
   "origin": "marin-mommies",
   "until": "17:00"
  },
