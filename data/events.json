@@ -312,7 +312,7 @@
   "ages": "All ages",
   "blurb": "The Bay Area Discovery Museum's annual Goblin Jamboree fundraiser, the longest running Halloween",
   "source": "https://www.marinmommies.com/calendar/goblin-jamboree-2026-bay-area-discovery-museum",
-  "day": 0,
+  "day": 6,
   "origin": "marin-mommies",
   "until": "16:00"
  },
@@ -364,7 +364,7 @@
   "ages": "All ages",
   "blurb": "Lemos Farm's pumpkin patch in Half Moon Bay opens this Labor Day weekend! This farm-themed",
   "source": "https://www.lemosfarm.com/",
-  "day": 0,
+  "day": 6,
   "origin": "marin-mommies",
   "until": "17:00"
  },
@@ -520,7 +520,7 @@
   "ages": "All ages",
   "blurb": "Oktoberfest at Six Flags Discovery Kingdom is a one-of-a-kind festival experience — chase the rush",
   "source": "https://www.sixflags.com/discoverykingdom/events/oktoberfest",
-  "day": 0,
+  "day": 6,
   "origin": "marin-mommies"
  },
  {
@@ -727,7 +727,7 @@
   "ages": "All ages",
   "blurb": "All aboard for Halloween fun with Thomas and Percy at Roaring Camp Railroads in Felton! Dress up",
   "source": "https://www.marinmommies.com/calendar/thomas-and-percys-halloween-party-roaring-camp",
-  "day": 0,
+  "day": 6,
   "origin": "marin-mommies",
   "until": "17:00"
  },
@@ -766,7 +766,7 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 0,
+  "day": 1,
   "until": "16:00",
   "origin": "marin-mommies"
  },
@@ -779,7 +779,7 @@
   "ages": "All ages",
   "blurb": "Celebrate the fall season at the Western Railway Museum's annual Pumpkin Patch Festival! Enjoy a",
   "source": "https://www.marinmommies.com/calendar/western-railway-museum-pumpkin-patch-festival-4",
-  "day": 0,
+  "day": 6,
   "origin": "marin-mommies",
   "until": "17:00"
  },
@@ -795,19 +795,6 @@
   "day": 3,
   "until": "10:45",
   "origin": "marin-mommies"
- },
- {
-  "time": "10:00",
-  "title": "Baby Bounce",
-  "venue": "Novato Library",
-  "city": "Novato",
-  "region": "marin",
-  "ages": "Babies & toddlers",
-  "blurb": "Enjoy an interactive storytime with your child that includes early literacy fun with books, songs, fingerplays and body movement. Stay afterward for a fun playtime for your children and to connect with friends and other families. This…",
-  "source": "https://marinlibrary.bibliocommons.com/events/6a7b675abe148200298696e2",
-  "day": 1,
-  "origin": "mcfl",
-  "until": "10:30"
  },
  {
   "time": "09:30",
