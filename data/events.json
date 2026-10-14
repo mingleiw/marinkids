@@ -182,7 +182,7 @@
   "ages": "Babies & toddlers",
   "blurb": "Join us for stories, rhymes, movement, and fingerplays just for developing babies. Limited capacity",
   "source": "https://www.beltiblibrary.org/events",
-  "day": 1,
+  "day": 4,
   "until": "10:45",
   "origin": "marin-mommies"
  },
@@ -253,6 +253,19 @@
  },
  {
   "time": "09:30",
+  "title": "Family Storytime at Corte Madera Library",
+  "venue": "Corte Madera Library",
+  "city": "Corte Madera",
+  "region": "marin",
+  "ages": "Under 6",
+  "blurb": "Bring the little ones ages 0–5 to Corte Madera Library for a free, family-friendly storytime",
+  "source": "https://www.marinmommies.com/calendar/family-storytime-corte-madera-library",
+  "day": 2,
+  "origin": "marin-mommies",
+  "until": "10:00"
+ },
+ {
+  "time": "09:30",
   "title": "Free Saturdays at the de Young Museum in San Francisco",
   "venue": "de Young Museum",
   "city": "San Francisco",
@@ -317,7 +330,7 @@
   "until": "16:00"
  },
  {
-  "time": "12:00",
+  "time": "10:00",
   "title": "Grossi Family Farm Pumpkin Patch",
   "venue": "Grossi Family Farm Pumpkin Patch",
   "city": "Novato",
@@ -325,6 +338,19 @@
   "ages": "All ages",
   "blurb": "Farm experience for the entire family. Grossi Family Pumpkin Patch is run by 4th generation Marin",
   "source": "https://www.marinmommies.com/calendar/grossi-family-farm-pumpkin-patch-2",
+  "day": 6,
+  "origin": "marin-mommies",
+  "until": "17:30"
+ },
+ {
+  "time": "12:00",
+  "title": "Grossi Family Farm Pumpkin Patch in Novato",
+  "venue": "Grossi Family Farm Pumpkin Patch",
+  "city": "Novato",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate fall at Grossi Family Farm Pumpkin Patch in Novato! Located across from Stafford Lake in",
+  "source": "https://www.marinmommies.com/calendar/grossi-family-farm-pumpkin-patch-novato",
   "day": 3,
   "origin": "marin-mommies",
   "until": "17:30"
@@ -434,19 +460,6 @@
   "until": "22:00"
  },
  {
-  "time": "09:00",
-  "title": "Mosaic Monday",
-  "venue": "Tiburon Belvedere Library",
-  "city": "Tiburon",
-  "region": "marin",
-  "ages": "Ages 4+",
-  "blurb": "Join us on the Children's room patio to draw with sidewalk chalk. All day Monday, you can create",
-  "source": "https://www.beltiblibrary.org/kids",
-  "day": 1,
-  "until": "17:00",
-  "origin": "marin-mommies"
- },
- {
   "time": "11:00",
   "title": "New Parents and Babies and Toddler Group",
   "venue": "Fairfax Pavilion",
@@ -481,7 +494,7 @@
   "ages": "All ages",
   "blurb": "Located in the small west Marin village of Nicasio, the farm is just west of the Nicasio Village",
   "source": "https://www.marinmommies.com/calendar/nicasio-valley-pumpkin-patch-1",
-  "day": 1,
+  "day": 2,
   "origin": "marin-mommies",
   "until": "16:00"
  },
@@ -545,7 +558,7 @@
   "ages": "All ages",
   "blurb": "The Petaluma Pumpkin Patch and Amazing Corn Maze has over 5 acres of home grown pumpkins. Over 50",
   "source": "http://petalumapumpkinpatch.com/",
-  "day": 1,
+  "day": 2,
   "origin": "marin-mommies",
   "until": "22:00"
  },
@@ -758,6 +771,19 @@
   "origin": "marin-mommies"
  },
  {
+  "time": "12:30",
+  "title": "Tumbling Tots: Drop-In Gymnastics for Kids Ages 5 & Under",
+  "venue": "Novato Gymnastics Center",
+  "city": "Novato",
+  "region": "marin",
+  "ages": "Under 6",
+  "blurb": "Bring your little ones to Tumbling Tots at Novato Gymnastics Center! This fun, 45-minute drop-in",
+  "source": "https://www.marinmommies.com/calendar/tumbling-tots-drop-gymnastics-kids-ages-5-under",
+  "day": 2,
+  "origin": "marin-mommies",
+  "until": "13:15"
+ },
+ {
   "time": "10:00",
   "title": "Visit the Marine Mammal Center",
   "venue": "Marine Mammal Center",
@@ -766,7 +792,7 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 1,
+  "day": 5,
   "until": "16:00",
   "origin": "marin-mommies"
  },
@@ -849,19 +875,6 @@
   "until": "02:00"
  },
  {
-  "time": "09:30",
-  "title": "Family Storytime",
-  "venue": "Corte Madera Library",
-  "city": "Corte Madera",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5. ADA Accommodation Request | Solicitud de Adaptación ADA",
-  "source": "https://marinlibrary.bibliocommons.com/events/6a80a9792dac6e00371f4d5d",
-  "day": 2,
-  "origin": "mcfl",
-  "until": "10:00"
- },
- {
   "time": "03:30",
   "title": "Lego Club",
   "venue": "Bolinas Library",
@@ -873,6 +886,19 @@
   "day": 1,
   "origin": "mcfl",
   "until": "04:30"
+ },
+ {
+  "time": "10:45",
+  "title": "Music & Movement Story Time with Colors of Spanish / Hora del Cuento de Música y Movimiento con Colores del Español",
+  "venue": "Inverness Library",
+  "city": "Inverness",
+  "region": "marin",
+  "ages": "Under 6",
+  "blurb": "Música y Movimiento con Colores del Español! ¡Únete con nosotros para un momento de música, movimiento e historias con Colors of Spanish! ¡La maestra Guadalupe cantará, bailará y sorprenderá a bebés, niños y niñas pequeños y cuidadoras con…",
+  "source": "https://marinlibrary.bibliocommons.com/events/6a98366329a7dd0d67487e2e",
+  "day": 3,
+  "origin": "mcfl",
+  "until": "11:30"
  },
  {
   "time": "10:00",
@@ -921,8 +947,8 @@
   "region": "marin",
   "ages": "Under 6",
   "blurb": "Tuesdays and Thursdays, 9:30-10:00am Join us for stories, movement, songs and rhymes for children ages 0-5! Storytimes build critical early literacy skills and healthy brain development. Afterwards, children and their families can…",
-  "source": "https://marinlibrary.bibliocommons.com/events/6903b5c4c313c23700dfba64",
-  "day": 2,
+  "source": "https://marinlibrary.bibliocommons.com/events/6903b5c4c313c23700dfba65",
+  "day": 4,
   "origin": "mcfl",
   "until": "10:00"
  },
