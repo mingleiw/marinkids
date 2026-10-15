@@ -364,7 +364,7 @@
   "ages": "Under 6",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 2,
+  "day": 4,
   "until": "11:40",
   "origin": "marin-mommies"
  },
@@ -377,7 +377,7 @@
   "ages": "Babies & toddlers",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 2,
+  "day": 4,
   "until": "10:30",
   "origin": "marin-mommies"
  },
@@ -494,7 +494,7 @@
   "ages": "All ages",
   "blurb": "Located in the small west Marin village of Nicasio, the farm is just west of the Nicasio Village",
   "source": "https://www.marinmommies.com/calendar/nicasio-valley-pumpkin-patch-1",
-  "day": 2,
+  "day": 3,
   "origin": "marin-mommies",
   "until": "16:00"
  },
@@ -558,7 +558,7 @@
   "ages": "All ages",
   "blurb": "The Petaluma Pumpkin Patch and Amazing Corn Maze has over 5 acres of home grown pumpkins. Over 50",
   "source": "http://petalumapumpkinpatch.com/",
-  "day": 2,
+  "day": 3,
   "origin": "marin-mommies",
   "until": "22:00"
  },
@@ -584,7 +584,7 @@
   "ages": "Under 6",
   "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5.",
   "source": "https://marinlibrary.org/locations/mc/",
-  "day": 2,
+  "day": 4,
   "until": "10:00",
   "origin": "marin-mommies"
  },
@@ -758,19 +758,6 @@
   "origin": "marin-mommies"
  },
  {
-  "time": "10:15",
-  "title": "Tuesday Toddler Storytime",
-  "venue": "Belvedere Tiburon Library-Founders Room",
-  "city": "Tiburon",
-  "region": "marin",
-  "ages": "Under 3",
-  "blurb": "Join us for a fun and interactive Storytime for toddlers! We will sing songs, move our bodies, read",
-  "source": "https://www.beltiblibrary.org/events",
-  "day": 2,
-  "until": "10:45",
-  "origin": "marin-mommies"
- },
- {
   "time": "12:30",
   "title": "Tumbling Tots: Drop-In Gymnastics for Kids Ages 5 & Under",
   "venue": "Novato Gymnastics Center",
@@ -779,7 +766,7 @@
   "ages": "Under 6",
   "blurb": "Bring your little ones to Tumbling Tots at Novato Gymnastics Center! This fun, 45-minute drop-in",
   "source": "https://www.marinmommies.com/calendar/tumbling-tots-drop-gymnastics-kids-ages-5-under",
-  "day": 2,
+  "day": 4,
   "origin": "marin-mommies",
   "until": "13:15"
  },
@@ -849,19 +836,6 @@
   "until": "11:45"
  },
  {
-  "time": "10:00",
-  "title": "Books & Bubbles and Fire Safety Storytime!",
-  "venue": "Novato Library",
-  "city": "Novato",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Join us for a special Fire Safety and Books & Bubbles Storytime! A special guest from the Novato Fire District will share ways to celebrate Fire Safety Month every day at home and in our community. When the weather is warm and dry, Books &…",
-  "source": "https://marinlibrary.bibliocommons.com/events/6a6bee084523092f0033cb6d",
-  "day": 3,
-  "origin": "mcfl",
-  "until": "10:30"
- },
- {
   "time": "01:00",
   "title": "Chess Club for Kids",
   "venue": "South Novato Library",
@@ -886,19 +860,6 @@
   "day": 1,
   "origin": "mcfl",
   "until": "04:30"
- },
- {
-  "time": "10:45",
-  "title": "Music & Movement Story Time with Colors of Spanish / Hora del Cuento de Música y Movimiento con Colores del Español",
-  "venue": "Inverness Library",
-  "city": "Inverness",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Música y Movimiento con Colores del Español! ¡Únete con nosotros para un momento de música, movimiento e historias con Colors of Spanish! ¡La maestra Guadalupe cantará, bailará y sorprenderá a bebés, niños y niñas pequeños y cuidadoras con…",
-  "source": "https://marinlibrary.bibliocommons.com/events/6a98366329a7dd0d67487e2e",
-  "day": 3,
-  "origin": "mcfl",
-  "until": "11:30"
  },
  {
   "time": "10:00",
@@ -1006,6 +967,19 @@
  },
  {
   "time": "10:00",
+  "title": "Storytime!",
+  "venue": "Fairfax Library",
+  "city": "Fairfax",
+  "region": "marin",
+  "ages": "Under 6",
+  "blurb": "Join Iris for a fun storytime with songs, books, rhymes and movement for babies and toddlers! ADA Accommodation Request | Solicitud de Adaptación ADA",
+  "source": "https://marinlibrary.bibliocommons.com/events/69ebc3842866a5b4884aa34a",
+  "day": 4,
+  "origin": "mcfl",
+  "until": "10:30"
+ },
+ {
+  "time": "10:00",
   "title": "Toddler Time",
   "venue": "Bolinas Library",
   "city": "Bolinas",
@@ -1016,6 +990,19 @@
   "day": 1,
   "origin": "mcfl",
   "until": "12:00"
+ },
+ {
+  "time": "04:30",
+  "title": "Virtual: Successfully Navigating College Admissions This Fall",
+  "venue": "Novato Library",
+  "city": "Novato",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Successfully Navigating College Admissions This Fall Stand Out For College is offering this free Zoom presentation to help families of high school juniors, sophomores and freshmen better understand the college admissions process and…",
+  "source": "https://marinlibrary.bibliocommons.com/events/6a6bedc44523092f0033cb4a",
+  "day": 3,
+  "origin": "mcfl",
+  "until": "05:30"
  },
  {
   "time": "02:30",
@@ -1029,5 +1016,18 @@
   "day": 3,
   "origin": "mcfl",
   "until": "03:30"
+ },
+ {
+  "time": "10:00",
+  "title": "Weird Halloween Costume Workshop with Cole Zlata",
+  "venue": "Point Reyes Library",
+  "city": "Point Reyes",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Come make a weird Halloween costume with local artist Cole Zlata at the Point Reyes Library. Friday, October 16 & Friday, October 23 10 am to 2 pm Free - materials provided Cardboard. Papier mache. Fabric. Paint. Wire. Tape.…",
+  "source": "https://marinlibrary.bibliocommons.com/events/6ac532f7e06996003a81b576",
+  "day": 5,
+  "origin": "mcfl",
+  "until": "02:00"
  }
 ]
