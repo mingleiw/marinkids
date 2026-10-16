@@ -351,7 +351,7 @@
   "ages": "All ages",
   "blurb": "Celebrate fall at Grossi Family Farm Pumpkin Patch in Novato! Located across from Stafford Lake in",
   "source": "https://www.marinmommies.com/calendar/grossi-family-farm-pumpkin-patch-novato",
-  "day": 3,
+  "day": 4,
   "origin": "marin-mommies",
   "until": "17:30"
  },
@@ -494,7 +494,7 @@
   "ages": "All ages",
   "blurb": "Located in the small west Marin village of Nicasio, the farm is just west of the Nicasio Village",
   "source": "https://www.marinmommies.com/calendar/nicasio-valley-pumpkin-patch-1",
-  "day": 3,
+  "day": 4,
   "origin": "marin-mommies",
   "until": "16:00"
  },
@@ -558,7 +558,7 @@
   "ages": "All ages",
   "blurb": "The Petaluma Pumpkin Patch and Amazing Corn Maze has over 5 acres of home grown pumpkins. Over 50",
   "source": "http://petalumapumpkinpatch.com/",
-  "day": 3,
+  "day": 4,
   "origin": "marin-mommies",
   "until": "22:00"
  },
@@ -586,19 +586,6 @@
   "source": "https://marinlibrary.org/locations/mc/",
   "day": 4,
   "until": "10:00",
-  "origin": "marin-mommies"
- },
- {
-  "time": "15:30",
-  "title": "Preschool Storytime",
-  "venue": "Belvedere Tiburon Library",
-  "city": "Tiburon",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Get silly and join us for a fun and interactive Storytime for preschoolers! Follow along, sing",
-  "source": "https://www.beltiblibrary.org/kids",
-  "day": 3,
-  "until": "16:00",
   "origin": "marin-mommies"
  },
  {
@@ -810,6 +797,19 @@
   "origin": "marin-mommies"
  },
  {
+  "time": "10:00",
+  "title": "Baby Bounce",
+  "venue": "Novato Library",
+  "city": "Novato",
+  "region": "marin",
+  "ages": "Babies & toddlers",
+  "blurb": "Enjoy an interactive storytime with your child that includes early literacy fun with books, songs, fingerplays and body movement. Stay afterward for a fun playtime for your children and to connect with friends and other families. This…",
+  "source": "https://marinlibrary.bibliocommons.com/events/6a7b675abe148200298696e3",
+  "day": 1,
+  "origin": "mcfl",
+  "until": "10:30"
+ },
+ {
   "time": "09:30",
   "title": "Bilingual Storytime",
   "venue": "Fairfax Library",
@@ -836,17 +836,17 @@
   "until": "11:45"
  },
  {
-  "time": "01:00",
-  "title": "Chess Club for Kids",
-  "venue": "South Novato Library",
-  "city": "Novato",
+  "time": "09:30",
+  "title": "Family Storytime",
+  "venue": "Corte Madera Library",
+  "city": "Corte Madera",
   "region": "marin",
-  "ages": "Ages 4+",
-  "blurb": "Hello Chess Mates, Come by and play Chess, Checkers or Chinese Checkers with other kids or learn the basics from Mr. Brian. ADA Accommodation Request | Solicitud de Adaptación ADA",
-  "source": "https://marinlibrary.bibliocommons.com/events/6a80a9ecaafa6100295cd64f",
-  "day": 4,
+  "ages": "Under 6",
+  "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5. ADA Accommodation Request | Solicitud de Adaptación ADA",
+  "source": "https://marinlibrary.bibliocommons.com/events/6a80a9792dac6e00371f4d5e",
+  "day": 2,
   "origin": "mcfl",
-  "until": "02:00"
+  "until": "10:00"
  },
  {
   "time": "03:30",
@@ -962,19 +962,6 @@
   "blurb": "Join us on Tuesdays at 10am for Stories and Rhyme Wiggle Time! Get ready to sing, dance, and read some wonderful stories while building our pre-reading skills! When the weather is warm and dry, storytime will be hosted outdoors on lawn…",
   "source": "https://marinlibrary.bibliocommons.com/events/6a6bee33f4e5db3d00c581c3",
   "day": 2,
-  "origin": "mcfl",
-  "until": "10:30"
- },
- {
-  "time": "10:00",
-  "title": "Storytime!",
-  "venue": "Fairfax Library",
-  "city": "Fairfax",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Join Iris for a fun storytime with songs, books, rhymes and movement for babies and toddlers! ADA Accommodation Request | Solicitud de Adaptación ADA",
-  "source": "https://marinlibrary.bibliocommons.com/events/69ebc3842866a5b4884aa34a",
-  "day": 4,
   "origin": "mcfl",
   "until": "10:30"
  },
