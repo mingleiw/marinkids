@@ -200,6 +200,26 @@
   "source": "manual"
  },
  {
+  "venue": "Home Studio Yoga (Wee Yogis)",
+  "city": "San Anselmo",
+  "lat": null,
+  "lon": null,
+  "query": "Home Studio Yoga (Wee Yogis), San Anselmo, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-11-03",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Imagination Park",
+  "city": "San Anselmo",
+  "lat": 37.9749848,
+  "lon": -122.5628497,
+  "query": "Imagination Park, San Anselmo, CA, USA",
+  "matched": "Imagination Park, San Anselmo, Marin County, California, United States",
+  "resolved": "2026-11-02",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Indian Valley Preserve",
   "city": "Novato",
   "lat": 38.0665877,
@@ -244,6 +264,16 @@
   "lon": -122.5353,
   "resolved": "2026-09-18",
   "source": "manual"
+ },
+ {
+  "venue": "Lawn next to the San Anselmo Library",
+  "city": "Larkspur",
+  "lat": null,
+  "lon": null,
+  "query": "Lawn next to the San Anselmo Library, Larkspur, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-11-03",
+  "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Legion of Honor Museum",
@@ -558,7 +588,7 @@
   "lon": null,
   "query": "Presidio’s Outpost Meadow, San Francisco, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-10-15",
+  "resolved": "2026-11-03",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -598,7 +628,7 @@
   "lon": null,
   "query": "Robin Sweeny Park Playground, Sausalito, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-10-15",
+  "resolved": "2026-11-03",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -608,7 +638,7 @@
   "lon": null,
   "query": "Roy's Redwoods Preserve, Fairfax, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-10-15",
+  "resolved": "2026-11-03",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -634,7 +664,7 @@
   "lon": null,
   "query": "San Domenico School, San Anselmo, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-10-15",
+  "resolved": "2026-11-03",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -662,6 +692,16 @@
   "lon": -122.62,
   "resolved": "2026-09-18",
   "source": "manual"
+ },
+ {
+  "venue": "Sausalito Books by the Bay",
+  "city": "Sausalito",
+  "lat": null,
+  "lon": null,
+  "query": "Sausalito Books by the Bay, Sausalito, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-11-03",
+  "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Six Flags Discovery Kingdom",
@@ -722,7 +762,7 @@
   "lon": null,
   "query": "Strawberry Recreation, Mill Valley, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-10-15",
+  "resolved": "2026-11-03",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -732,7 +772,7 @@
   "lon": null,
   "query": "Tam Valley Community Center, Mill Valley, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-10-15",
+  "resolved": "2026-11-03",
   "source": "nominatim.openstreetmap.org"
  },
  {
