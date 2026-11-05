@@ -421,19 +421,6 @@
   "until": "10:00"
  },
  {
-  "time": "10:30",
-  "title": "Bilingual Spanish Storytime at San Anselmo Library",
-  "venue": "San Anselmo Library",
-  "city": "San Anselmo",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Join the San Anselmo Library for Bilingual Spanish Storytime on Wednesdays at 10:30 am! Little ones",
-  "source": "https://www.marinmommies.com/calendar/bilingual-spanish-storytime-san-anselmo-library",
-  "day": 3,
-  "origin": "marin-mommies",
-  "until": "11:00"
- },
- {
   "time": "10:00",
   "title": "Books & Bubbles Storytime",
   "venue": "Novato Library",
@@ -520,7 +507,7 @@
   "ages": "Under 6",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 2,
+  "day": 4,
   "until": "11:40",
   "origin": "marin-mommies"
  },
@@ -533,7 +520,7 @@
   "ages": "Babies & toddlers",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 2,
+  "day": 4,
   "until": "10:30",
   "origin": "marin-mommies"
  },
@@ -624,7 +611,7 @@
   "ages": "Under 6",
   "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5.",
   "source": "https://marinlibrary.org/locations/mc/",
-  "day": 2,
+  "day": 4,
   "until": "10:00",
   "origin": "marin-mommies"
  },
@@ -741,7 +728,7 @@
   "ages": "Under 6",
   "blurb": "Bring your little ones to Tumbling Tots at Novato Gymnastics Center! This fun, 45-minute drop-in",
   "source": "https://www.marinmommies.com/calendar/tumbling-tots-drop-gymnastics-kids-ages-5-under",
-  "day": 2,
+  "day": 4,
   "origin": "marin-mommies",
   "until": "13:15"
  },
@@ -779,7 +766,7 @@
   "ages": "All ages",
   "blurb": "Bring your little ones to Wee Yogis Open Play in San Anselmo for some indoor fun! Kids can climb,",
   "source": "https://www.marinmommies.com/calendar/wee-yogis-open-play-san-anselmo",
-  "day": 2,
+  "day": 4,
   "origin": "marin-mommies",
   "until": "11:45"
  },
