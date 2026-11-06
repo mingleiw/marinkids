@@ -782,5 +782,18 @@
   "day": 3,
   "until": "10:45",
   "origin": "marin-mommies"
+ },
+ {
+  "time": "17:30",
+  "title": "ZooLights at the San Francisco Zoo 2026",
+  "venue": "San Francisco Zoo",
+  "city": "San Francisco",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the holiday season with ZooLights at the San Francisco Zoo! Returning for the first time",
+  "source": "https://www.marinmommies.com/calendar/zoolights-san-francisco-zoo-2026-0",
+  "day": 0,
+  "origin": "marin-mommies",
+  "until": "21:00"
  }
 ]

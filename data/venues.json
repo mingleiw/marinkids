@@ -668,6 +668,16 @@
   "source": "nominatim.openstreetmap.org"
  },
  {
+  "venue": "San Francisco Zoo",
+  "city": "San Francisco",
+  "lat": 37.7327482,
+  "lon": -122.5023923,
+  "query": "San Francisco Zoo, San Francisco, CA, USA",
+  "matched": "San Francisco Zoo, Event Space, Parkside, San Francisco, California, 94166, United States",
+  "resolved": "2026-11-05",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "San Rafael Community Center",
   "city": "San Rafael",
   "lat": 37.9742,
