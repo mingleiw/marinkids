@@ -499,6 +499,19 @@
   "origin": "marin-mommies"
  },
  {
+  "time": "15:30",
+  "title": "French Storytime",
+  "venue": "Belvedere Tiburon Library",
+  "city": "Tiburon",
+  "region": "marin",
+  "ages": "Under 6",
+  "blurb": "Come say bonjour and enjoy a special storytime in French! Children will delight in stories, songs,",
+  "source": "https://www.marinmommies.com/calendar/french-storytime-2",
+  "day": 4,
+  "origin": "marin-mommies",
+  "until": "16:00"
+ },
+ {
   "time": "10:40",
   "title": "High Jump for Children (26 mos. to 4 yrs)",
   "venue": "San Rafael Community Center",
@@ -507,7 +520,7 @@
   "ages": "Under 6",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 4,
+  "day": 2,
   "until": "11:40",
   "origin": "marin-mommies"
  },
@@ -520,7 +533,7 @@
   "ages": "Babies & toddlers",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 4,
+  "day": 2,
   "until": "10:30",
   "origin": "marin-mommies"
  },
@@ -547,19 +560,6 @@
   "blurb": "Meet us outside Poppy Store every Wednesday for Mart Littles music with Mr. Christopher! Free to",
   "source": "https://marincountrymart.com/events",
   "day": 3,
-  "until": "11:15",
-  "origin": "marin-mommies"
- },
- {
-  "time": "10:30",
-  "title": "Mart Littles Story Time",
-  "venue": "Marin Country Mart–Outside Poppy Store",
-  "city": "Larkspur",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Make Thursdays a little more magical—join us every Thursday at 11am in front of Copperfield’s Books",
-  "source": "https://www.marincountrymart.com/events",
-  "day": 4,
   "until": "11:15",
   "origin": "marin-mommies"
  },
@@ -611,7 +611,7 @@
   "ages": "Under 6",
   "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5.",
   "source": "https://marinlibrary.org/locations/mc/",
-  "day": 4,
+  "day": 2,
   "until": "10:00",
   "origin": "marin-mommies"
  },
@@ -728,7 +728,7 @@
   "ages": "Under 6",
   "blurb": "Bring your little ones to Tumbling Tots at Novato Gymnastics Center! This fun, 45-minute drop-in",
   "source": "https://www.marinmommies.com/calendar/tumbling-tots-drop-gymnastics-kids-ages-5-under",
-  "day": 4,
+  "day": 2,
   "origin": "marin-mommies",
   "until": "13:15"
  },
@@ -741,7 +741,7 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 5,
+  "day": 6,
   "until": "16:00",
   "origin": "marin-mommies"
  },
@@ -766,7 +766,7 @@
   "ages": "All ages",
   "blurb": "Bring your little ones to Wee Yogis Open Play in San Anselmo for some indoor fun! Kids can climb,",
   "source": "https://www.marinmommies.com/calendar/wee-yogis-open-play-san-anselmo",
-  "day": 4,
+  "day": 2,
   "origin": "marin-mommies",
   "until": "11:45"
  },
