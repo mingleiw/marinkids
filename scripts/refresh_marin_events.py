@@ -45,6 +45,17 @@ SKIP_TITLES = {
     "sausalito boat show",
 }
 
+# Hand-verified original-source URLs that must survive the nightly refresh.
+# A one-line edit to data/events.json does NOT stick: the refresh starts from
+# a clean reset and re-imports from Marin Mommies, so the edit is discarded
+# before the scraper runs. Put the override here instead; it is applied to
+# both matched and newly added entries below.
+# ZooLights: verified live 2026-11-06 on the SF Zoo official page,
+# Nov 6-Jan 3, Wed-Sun 5:30-9pm, $30 adult / $21 child.
+SOURCE_OVERRIDES = {
+    "zoolights at the san francisco zoo 2026": "https://www.sfzoo.org/zoolights/",
+}
+
 
 def fetch(url, retries=3):
     # Returns the page body, or None if curl keeps failing. Callers fetching
@@ -237,6 +248,8 @@ def main():
             e["day"] = r["day"]
             e["time"] = r["time"]
             e["origin"] = ORIGIN
+            if key in SOURCE_OVERRIDES:
+                e["source"] = SOURCE_OVERRIDES[key]
             fresh.append(e)
         else:
             detail = parse_detail(fetch(BASE + r["slug"]) or "")
@@ -260,6 +273,8 @@ def main():
                 "day": r["day"],
                 "origin": ORIGIN,
             }
+            if key in SOURCE_OVERRIDES:
+                e["source"] = SOURCE_OVERRIDES[key]
             if until and until != e["time"]:
                 e["until"] = until
             fresh.append(e)
