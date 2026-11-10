@@ -395,17 +395,30 @@
   "until": "02:00"
  },
  {
-  "time": "10:00",
-  "title": "Baby Bounce",
+  "time": "10:30",
+  "title": "Baby Bounce Storytime at Belvedere Tiburon Library",
   "venue": "Belvedere Tiburon Library-Children's Room",
   "city": "Tiburon",
   "region": "marin",
   "ages": "Babies & toddlers",
-  "blurb": "Join us for stories, rhymes, movement, and fingerplays just for developing babies. Limited capacity",
-  "source": "https://www.beltiblibrary.org/events",
+  "blurb": "Bring your little one to Baby Bounce for a fun, interactive infant storytime featuring rhymes,",
+  "source": "https://www.marinmommies.com/calendar/baby-bounce-storytime-belvedere-tiburon-library",
   "day": 1,
-  "until": "10:45",
-  "origin": "marin-mommies"
+  "origin": "marin-mommies",
+  "until": "10:45"
+ },
+ {
+  "time": "10:00",
+  "title": "Baby Bounce Storytime at Novato Library",
+  "venue": "Novato Library",
+  "city": "Novato",
+  "region": "marin",
+  "ages": "Babies & toddlers",
+  "blurb": "Bring your little one to Baby Bounce at the Novato Library for a fun, interactive baby storytime",
+  "source": "https://www.marinmommies.com/calendar/baby-bounce-storytime-novato-library",
+  "day": 1,
+  "origin": "marin-mommies",
+  "until": "10:30"
  },
  {
   "time": "09:30",
@@ -754,7 +767,7 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 0,
+  "day": 1,
   "until": "16:00",
   "origin": "marin-mommies"
  },
@@ -805,7 +818,7 @@
   "ages": "All ages",
   "blurb": "Celebrate the holiday season with ZooLights at the San Francisco Zoo! Returning for the first time",
   "source": "https://www.sfzoo.org/zoolights/",
-  "day": 0,
+  "day": 3,
   "origin": "marin-mommies",
   "until": "21:00"
  }
