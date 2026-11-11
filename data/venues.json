@@ -156,6 +156,16 @@
   "source": "manual"
  },
  {
+  "venue": "Fairmont San Francisco–Laurel Court Restaurant & Bar",
+  "city": "San Francisco",
+  "lat": null,
+  "lon": null,
+  "query": "Fairmont San Francisco–Laurel Court Restaurant & Bar, San Francisco, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-11-10",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Fourth Street, San Rafael",
   "city": "San Rafael",
   "lat": 37.9735,
@@ -206,7 +216,7 @@
   "lon": null,
   "query": "Home Studio Yoga (Wee Yogis), San Anselmo, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-09",
+  "resolved": "2026-11-10",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -237,6 +247,16 @@
   "query": "Inverness Library, Inverness, CA, USA",
   "matched": "Inverness Branch Marin County Free Library, Inverness Way, Inverness, Marin County, California, 94937, United States",
   "resolved": "2026-09-22",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "JCCSF",
+  "city": "San Francisco",
+  "lat": null,
+  "lon": null,
+  "query": "JCCSF, San Francisco, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-11-10",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -272,7 +292,7 @@
   "lon": null,
   "query": "Lawn next to the San Anselmo Library, Larkspur, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-09",
+  "resolved": "2026-11-10",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -588,7 +608,7 @@
   "lon": null,
   "query": "Presidio’s Outpost Meadow, San Francisco, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-09",
+  "resolved": "2026-11-10",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -628,7 +648,7 @@
   "lon": null,
   "query": "Robin Sweeny Park Playground, Sausalito, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-09",
+  "resolved": "2026-11-10",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -638,7 +658,7 @@
   "lon": null,
   "query": "Roy's Redwoods Preserve, Fairfax, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-09",
+  "resolved": "2026-11-10",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -664,7 +684,7 @@
   "lon": null,
   "query": "San Domenico School, San Anselmo, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-09",
+  "resolved": "2026-11-10",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -710,7 +730,7 @@
   "lon": null,
   "query": "Sausalito Books by the Bay, Sausalito, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-09",
+  "resolved": "2026-11-10",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -772,7 +792,7 @@
   "lon": null,
   "query": "Strawberry Recreation, Mill Valley, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-09",
+  "resolved": "2026-11-10",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -782,7 +802,7 @@
   "lon": null,
   "query": "Tam Valley Community Center, Mill Valley, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-09",
+  "resolved": "2026-11-10",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -812,7 +832,7 @@
   "lon": null,
   "query": "The Meritage Resort & Space, Village Lawn, Napa, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-09",
+  "resolved": "2026-11-10",
   "source": "nominatim.openstreetmap.org"
  },
  {

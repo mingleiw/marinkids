@@ -525,6 +525,18 @@
   "until": "16:00"
  },
  {
+  "time": "16:00",
+  "title": "Hanukkah Candle Lighting at the JCCSF",
+  "venue": "JCCSF",
+  "city": "San Francisco",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate Hanukkah with free, family-friendly candle lighting celebrations at the Jewish Community",
+  "source": "https://www.marinmommies.com/calendar/hanukkah-candle-lighting-jccsf",
+  "day": 2,
+  "origin": "marin-mommies"
+ },
+ {
   "time": "10:40",
   "title": "High Jump for Children (26 mos. to 4 yrs)",
   "venue": "San Rafael Community Center",
@@ -536,6 +548,19 @@
   "day": 2,
   "until": "11:40",
   "origin": "marin-mommies"
+ },
+ {
+  "time": "13:00",
+  "title": "Holiday Tea at the Fairmont San Francisco",
+  "venue": "Fairmont San Francisco–Laurel Court Restaurant & Bar",
+  "city": "San Francisco",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the holiday season with a festive afternoon tea at the Fairmont San Francisco! This",
+  "source": "https://www.marinmommies.com/calendar/holiday-tea-fairmont-hotel",
+  "day": 6,
+  "origin": "marin-mommies",
+  "until": "15:30"
  },
  {
   "time": "09:30",
@@ -767,7 +792,7 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 1,
+  "day": 5,
   "until": "16:00",
   "origin": "marin-mommies"
  },
