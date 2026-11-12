@@ -473,6 +473,18 @@
   "until": "10:00"
  },
  {
+  "time": "12:00",
+  "title": "Festive Holiday Tea at the Claremont in Berkeley",
+  "venue": "Claremont Resort & Club",
+  "city": "Berkeley",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the holiday season with a festive Holiday Tea at the Claremont Resort & Club in",
+  "source": "https://www.marinmommies.com/calendar/festive-holiday-tea-claremont-berkeley",
+  "day": 6,
+  "origin": "marin-mommies"
+ },
+ {
   "time": "09:30",
   "title": "Free Saturdays at the de Young Museum in San Francisco",
   "venue": "de Young Museum",
@@ -533,7 +545,7 @@
   "ages": "Under 6",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 2,
+  "day": 4,
   "until": "11:40",
   "origin": "marin-mommies"
  },
@@ -559,7 +571,7 @@
   "ages": "Babies & toddlers",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 2,
+  "day": 4,
   "until": "10:30",
   "origin": "marin-mommies"
  },
@@ -650,9 +662,35 @@
   "ages": "Under 6",
   "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5.",
   "source": "https://marinlibrary.org/locations/mc/",
-  "day": 2,
+  "day": 4,
   "until": "10:00",
   "origin": "marin-mommies"
+ },
+ {
+  "time": "13:00",
+  "title": "Santa Tea at the Fairmont Hotel",
+  "venue": "Fairmont San Francisco",
+  "city": "San Francisco",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
+  "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
+  "day": 0,
+  "origin": "marin-mommies",
+  "until": "15:30"
+ },
+ {
+  "time": "14:00",
+  "title": "Santa's Reading Corner at the Meritage",
+  "venue": "The Meritage Resort & Spa",
+  "city": "Napa",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Experience the wonder of the season as Santa Claus himself makes The Meritage his home for the",
+  "source": "https://www.marinmommies.com/calendar/santas-reading-corner-meritage",
+  "day": 0,
+  "origin": "marin-mommies",
+  "until": "16:00"
  },
  {
   "time": "09:00",
@@ -767,7 +805,7 @@
   "ages": "Under 6",
   "blurb": "Bring your little ones to Tumbling Tots at Novato Gymnastics Center! This fun, 45-minute drop-in",
   "source": "https://www.marinmommies.com/calendar/tumbling-tots-drop-gymnastics-kids-ages-5-under",
-  "day": 2,
+  "day": 4,
   "origin": "marin-mommies",
   "until": "13:15"
  },
@@ -805,7 +843,7 @@
   "ages": "All ages",
   "blurb": "Bring your little ones to Wee Yogis Open Play in San Anselmo for some indoor fun! Kids can climb,",
   "source": "https://www.marinmommies.com/calendar/wee-yogis-open-play-san-anselmo",
-  "day": 2,
+  "day": 4,
   "origin": "marin-mommies",
   "until": "11:45"
  },

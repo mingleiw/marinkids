@@ -76,6 +76,16 @@
   "source": "manual"
  },
  {
+  "venue": "Claremont Resort & Club",
+  "city": "Berkeley",
+  "lat": 37.8594445,
+  "lon": -122.2419987,
+  "query": "Claremont Resort & Club, Berkeley, CA, USA",
+  "matched": "Claremont Resort & Club, 41, Tunnel Road, Claremont, Berkeley, Alameda County, California, 94705, United States",
+  "resolved": "2026-11-11",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Clipper Yacht Harbor",
   "city": "Sausalito",
   "lat": 37.8612,
@@ -156,13 +166,23 @@
   "source": "manual"
  },
  {
+  "venue": "Fairmont San Francisco",
+  "city": "San Francisco",
+  "lat": 37.79242,
+  "lon": -122.4097691,
+  "query": "Fairmont San Francisco, San Francisco, CA, USA",
+  "matched": "The Fairmont San Francisco Hotel, 950, Mason Street, Lower Nob Hill, Nob Hill, San Francisco, California, 94108, United States",
+  "resolved": "2026-11-11",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Fairmont San Francisco–Laurel Court Restaurant & Bar",
   "city": "San Francisco",
   "lat": null,
   "lon": null,
   "query": "Fairmont San Francisco–Laurel Court Restaurant & Bar, San Francisco, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-10",
+  "resolved": "2026-11-11",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -216,7 +236,7 @@
   "lon": null,
   "query": "Home Studio Yoga (Wee Yogis), San Anselmo, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-10",
+  "resolved": "2026-11-11",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -292,7 +312,7 @@
   "lon": null,
   "query": "Lawn next to the San Anselmo Library, Larkspur, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-10",
+  "resolved": "2026-11-11",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -608,7 +628,7 @@
   "lon": null,
   "query": "Presidio’s Outpost Meadow, San Francisco, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-10",
+  "resolved": "2026-11-11",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -648,7 +668,7 @@
   "lon": null,
   "query": "Robin Sweeny Park Playground, Sausalito, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-10",
+  "resolved": "2026-11-11",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -658,7 +678,7 @@
   "lon": null,
   "query": "Roy's Redwoods Preserve, Fairfax, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-10",
+  "resolved": "2026-11-11",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -684,7 +704,7 @@
   "lon": null,
   "query": "San Domenico School, San Anselmo, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-10",
+  "resolved": "2026-11-11",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -730,7 +750,7 @@
   "lon": null,
   "query": "Sausalito Books by the Bay, Sausalito, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-10",
+  "resolved": "2026-11-11",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -792,7 +812,7 @@
   "lon": null,
   "query": "Strawberry Recreation, Mill Valley, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-10",
+  "resolved": "2026-11-11",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -802,7 +822,7 @@
   "lon": null,
   "query": "Tam Valley Community Center, Mill Valley, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-10",
+  "resolved": "2026-11-11",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -832,7 +852,17 @@
   "lon": null,
   "query": "The Meritage Resort & Space, Village Lawn, Napa, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-10",
+  "resolved": "2026-11-11",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "The Meritage Resort & Spa",
+  "city": "Napa",
+  "lat": 38.2461149,
+  "lon": -122.2746773,
+  "query": "The Meritage Resort & Spa, Napa, CA, USA",
+  "matched": "The Meritage Resort and Spa, 875, Bordeaux Way, Napa, Napa County, California, 94558, United States",
+  "resolved": "2026-11-11",
   "source": "nominatim.openstreetmap.org"
  },
  {
