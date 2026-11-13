@@ -434,6 +434,19 @@
   "until": "10:00"
  },
  {
+  "time": "10:30",
+  "title": "Bilingual Spanish Storytime at San Anselmo Library",
+  "venue": "San Anselmo Library",
+  "city": "San Anselmo",
+  "region": "marin",
+  "ages": "Under 6",
+  "blurb": "Join the San Anselmo Library for Bilingual Spanish Storytime on Wednesdays at 10:30 am! Little ones",
+  "source": "https://www.marinmommies.com/calendar/bilingual-spanish-storytime-san-anselmo-library",
+  "day": 3,
+  "origin": "marin-mommies",
+  "until": "11:00"
+ },
+ {
   "time": "10:00",
   "title": "Books & Bubbles Storytime",
   "venue": "Novato Library",
@@ -668,6 +681,19 @@
  },
  {
   "time": "13:00",
+  "title": "Santa Photos at Santa Rosa Plaza",
+  "venue": "Santa Rosa Plaza",
+  "city": "Santa Rosa",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the holiday season with a visit to Santa at Santa Rosa Plaza! Families can meet Santa",
+  "source": "https://www.marinmommies.com/calendar/santa-photos-santa-rosa-plaza",
+  "day": 6,
+  "origin": "marin-mommies",
+  "until": "16:15"
+ },
+ {
+  "time": "13:00",
   "title": "Santa Tea at the Fairmont Hotel",
   "venue": "Fairmont San Francisco",
   "city": "San Francisco",
@@ -869,7 +895,7 @@
   "ages": "All ages",
   "blurb": "Celebrate the holiday season with ZooLights at the San Francisco Zoo! Returning for the first time",
   "source": "https://www.sfzoo.org/zoolights/",
-  "day": 3,
+  "day": 4,
   "origin": "marin-mommies",
   "until": "21:00"
  }
