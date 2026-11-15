@@ -41,8 +41,24 @@ TITLE_ALIASES = {
 # Documented 2026-09-17: "Sausalito Boat Show" at Clipper Yacht Harbor was a
 # one-time event Oct 13-15, 2023 (visitsausalito.org says "This event has
 # passed"); Marin Mommies still lists it as a recurring Saturday event.
+# Holiday dates verified live 2026-11-12 against official pages: Marin
+# Mommies lists these as recurring, but each runs only on specific dates
+# (dated replacements live in data/dated_events_curated.json):
+#  - Merry Meritage Holiday Ice Skating, Nov 19-Jan 3 (rink opens Nov 18)
+#  - Holiday Tea at the Fairmont San Francisco, Nov 21-Jan 3
+#  - Santa Tea at the Fairmont Hotel, Nov 21, 29, Dec 5, 18, 21, 23
+#  - Santa's Reading Corner at the Meritage, Nov 22-Dec 20
+#  - Festive Holiday Tea at the Claremont in Berkeley, Nov 14 seatings
+#    10:00am, 12:30pm, 3:00pm (12:00 is not a seating)
+# NOTE: the ice-skating key has a double space -- norm_title strips the
+# en dash in "Ice Skating – Napa" without collapsing spaces.
 SKIP_TITLES = {
     "sausalito boat show",
+    "festive holiday tea at the claremont in berkeley",
+    "holiday tea at the fairmont san francisco",
+    "merry meritage holiday ice skating  napa",
+    "santa tea at the fairmont hotel",
+    "santas reading corner at the meritage",
 }
 
 # Hand-verified original-source URLs that must survive the nightly refresh.
