@@ -104,6 +104,16 @@
   "source": "nominatim.openstreetmap.org"
  },
  {
+  "venue": "Costeaux French Bakery",
+  "city": "Healdsburg",
+  "lat": null,
+  "lon": null,
+  "query": "Costeaux French Bakery, Healdsburg, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-11-15",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Deer Island Preserve",
   "city": "Novato",
   "lat": 38.0982099,
@@ -182,7 +192,7 @@
   "lon": null,
   "query": "Fairmont San Francisco–Laurel Court Restaurant & Bar, San Francisco, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-14",
+  "resolved": "2026-11-15",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -192,6 +202,16 @@
   "lon": -122.5311,
   "resolved": "2026-09-18",
   "source": "manual"
+ },
+ {
+  "venue": "Garlock Tree Farm",
+  "city": "Sebastopol",
+  "lat": null,
+  "lon": null,
+  "query": "Garlock Tree Farm, Sebastopol, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-11-15",
+  "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Gerstle Park",
@@ -236,7 +256,7 @@
   "lon": null,
   "query": "Home Studio Yoga (Wee Yogis), San Anselmo, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-14",
+  "resolved": "2026-11-15",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -312,7 +332,7 @@
   "lon": null,
   "query": "Lawn next to the San Anselmo Library, Larkspur, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-14",
+  "resolved": "2026-11-15",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -340,6 +360,16 @@
   "lon": -122.4286,
   "resolved": "2026-09-18",
   "source": "manual"
+ },
+ {
+  "venue": "Little Hills Christmas Tree Farm",
+  "city": "Petaluma",
+  "lat": null,
+  "lon": null,
+  "query": "Little Hills Christmas Tree Farm, Petaluma, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-11-15",
+  "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Love Story Yoga, Marin Country Mart",
@@ -432,7 +462,7 @@
   "lon": null,
   "query": "Marin Shakespeare Company Downtown Theatre, San Rafael, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-14",
+  "resolved": "2026-11-15",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -454,6 +484,16 @@
   "source": "nominatim.openstreetmap.org"
  },
  {
+  "venue": "Mark Hopkins Hotel",
+  "city": "San Francisco",
+  "lat": 37.7914219,
+  "lon": -122.4102277,
+  "query": "Mark Hopkins Hotel, San Francisco, CA, USA",
+  "matched": "InterContinental Mark Hopkins, 999, California Street, Union Square, Nob Hill, San Francisco, California, 94108, United States",
+  "resolved": "2026-11-15",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "McNears Beach Park",
   "city": "San Rafael",
   "lat": 37.9928278,
@@ -471,6 +511,16 @@
   "query": "Menke Park, Corte Madera, CA, USA",
   "matched": "Menke Park, Chapman, Corte Madera, Marin County, California, United States",
   "resolved": "2026-09-19",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Meritage Resort",
+  "city": "Napa",
+  "lat": 38.2461149,
+  "lon": -122.2746773,
+  "query": "Meritage Resort, Napa, CA, USA",
+  "matched": "The Meritage Resort and Spa, 875, Bordeaux Way, Napa, Napa County, California, 94558, United States",
+  "resolved": "2026-11-15",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -638,7 +688,7 @@
   "lon": null,
   "query": "Presidio’s Outpost Meadow, San Francisco, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-14",
+  "resolved": "2026-11-15",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -678,7 +728,7 @@
   "lon": null,
   "query": "Robin Sweeny Park Playground, Sausalito, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-14",
+  "resolved": "2026-11-15",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -688,7 +738,7 @@
   "lon": null,
   "query": "Roy's Redwoods Preserve, Fairfax, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-14",
+  "resolved": "2026-11-15",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -714,7 +764,7 @@
   "lon": null,
   "query": "San Domenico School, San Anselmo, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-14",
+  "resolved": "2026-11-15",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -770,7 +820,17 @@
   "lon": null,
   "query": "Sausalito Books by the Bay, Sausalito, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-14",
+  "resolved": "2026-11-15",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Silverado Resort",
+  "city": "Napa",
+  "lat": 38.352334,
+  "lon": -122.2557806,
+  "query": "Silverado Resort, Napa, CA, USA",
+  "matched": "Silverado Resort, Napa County, California, United States",
+  "resolved": "2026-11-15",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -832,7 +892,7 @@
   "lon": null,
   "query": "Strawberry Recreation, Mill Valley, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-14",
+  "resolved": "2026-11-15",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -842,7 +902,7 @@
   "lon": null,
   "query": "Tam Valley Community Center, Mill Valley, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-14",
+  "resolved": "2026-11-15",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -872,7 +932,7 @@
   "lon": null,
   "query": "The Meritage Resort & Space, Village Lawn, Napa, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-14",
+  "resolved": "2026-11-15",
   "source": "nominatim.openstreetmap.org"
  },
  {

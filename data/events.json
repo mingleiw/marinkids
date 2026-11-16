@@ -460,6 +460,31 @@
   "until": "10:30"
  },
  {
+  "time": "09:00",
+  "title": "Breakfast with Santa at Costeaux French Bakery – Healdsburg",
+  "venue": "Costeaux French Bakery",
+  "city": "Healdsburg",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the holiday season with Breakfast with Santa at Costeaux French Bakery in downtown",
+  "source": "https://www.marinmommies.com/calendar/breakfast-santa-costeaux-french-bakery-%E2%80%93-healdsburg",
+  "day": 6,
+  "origin": "marin-mommies",
+  "until": "11:00"
+ },
+ {
+  "time": "09:30",
+  "title": "Breakfast with Santa at Silverado Resort",
+  "venue": "Silverado Resort",
+  "city": "Napa",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Now this is the way to wake up! Celebrate the enchantment of the season at Breakfast with Santa.",
+  "source": "https://www.marinmommies.com/calendar/breakfast-santa-silverado-resort",
+  "day": 6,
+  "origin": "marin-mommies"
+ },
+ {
   "time": "12:00",
   "title": "Corte Madera Farmers Market",
   "venue": "Town Center Corte Madera",
@@ -538,6 +563,19 @@
   "origin": "marin-mommies"
  },
  {
+  "time": "09:00",
+  "title": "Garlock Tree Farm, Sebastopol",
+  "venue": "Garlock Tree Farm",
+  "city": "Sebastopol",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the holiday season at Garlock Tree Farm in Sebastopol, a family Christmas tradition since",
+  "source": "https://www.marinmommies.com/calendar/garlock-tree-farm-sebastopol",
+  "day": 6,
+  "origin": "marin-mommies",
+  "until": "17:00"
+ },
+ {
   "time": "10:40",
   "title": "High Jump for Children (26 mos. to 4 yrs)",
   "venue": "San Rafael Community Center",
@@ -562,6 +600,19 @@
   "day": 2,
   "until": "10:30",
   "origin": "marin-mommies"
+ },
+ {
+  "time": "09:00",
+  "title": "Little Hills Christmas Tree Farm in Petaluma",
+  "venue": "Little Hills Christmas Tree Farm",
+  "city": "Petaluma",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Visit Little Hills Christmas Tree Farm in west Petaluma for a fun family holiday tradition! Choose",
+  "source": "https://www.marinmommies.com/calendar/little-hills-christmas-tree-farm%E2%80%93petaluma-1",
+  "day": 6,
+  "origin": "marin-mommies",
+  "until": "17:00"
  },
  {
   "time": "09:00",
@@ -650,7 +701,7 @@
   "ages": "All ages",
   "blurb": "Celebrate the holiday season with a visit to Santa at Santa Rosa Plaza! Families can meet Santa",
   "source": "https://www.marinmommies.com/calendar/santa-photos-santa-rosa-plaza",
-  "day": 6,
+  "day": 0,
   "origin": "marin-mommies",
   "until": "16:15"
  },
@@ -771,6 +822,32 @@
   "origin": "marin-mommies"
  },
  {
+  "time": "11:00",
+  "title": "Tinsel Tea With a Princess",
+  "venue": "Meritage Resort",
+  "city": "Napa",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "This special holiday tradition includes scrumptious presentations of desserts, scones, and tea",
+  "source": "https://www.marinmommies.com/calendar/tinsel-tea-princess",
+  "day": 6,
+  "origin": "marin-mommies",
+  "until": "16:00"
+ },
+ {
+  "time": "10:30",
+  "title": "Top of the Mark Magical Tea",
+  "venue": "Mark Hopkins Hotel",
+  "city": "San Francisco",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "3 seatings: 10:30 AM, 11:00 AM, and 11:30 AM (Event concludes and room closes at 2:00 pm) $135*",
+  "source": "https://www.marinmommies.com/calendar/top-mark-magical-tea",
+  "day": 6,
+  "origin": "marin-mommies",
+  "until": "14:00"
+ },
+ {
   "time": "12:30",
   "title": "Tumbling Tots: Drop-In Gymnastics for Kids Ages 5 & Under",
   "venue": "Novato Gymnastics Center",
@@ -792,7 +869,7 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 6,
+  "day": 0,
   "until": "16:00",
   "origin": "marin-mommies"
  },
