@@ -616,19 +616,6 @@
  },
  {
   "time": "10:30",
-  "title": "Mart Littles Music",
-  "venue": "Outside the Poppy Store",
-  "city": "Larkspur",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Meet us outside Poppy Store every Wednesday for Mart Littles music with Mr. Christopher! Free to",
-  "source": "https://marincountrymart.com/events",
-  "day": 3,
-  "until": "11:15",
-  "origin": "marin-mommies"
- },
- {
-  "time": "10:30",
   "title": "Monday Storytime at Imagination Park",
   "venue": "Imagination Park",
   "city": "San Anselmo",
@@ -907,7 +894,7 @@
   "ages": "All ages",
   "blurb": "Celebrate the holiday season with ZooLights at the San Francisco Zoo! Returning for the first time",
   "source": "https://www.sfzoo.org/zoolights/",
-  "day": 3,
+  "day": 4,
   "origin": "marin-mommies",
   "until": "21:00"
  }
