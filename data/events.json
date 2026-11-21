@@ -550,6 +550,19 @@
   "until": "17:15"
  },
  {
+  "time": "15:30",
+  "title": "French Storytime",
+  "venue": "Belvedere Tiburon Library",
+  "city": "Tiburon",
+  "region": "marin",
+  "ages": "Under 6",
+  "blurb": "Come say bonjour and enjoy a special storytime in French! Children will delight in stories, songs,",
+  "source": "https://www.marinmommies.com/calendar/french-storytime-2",
+  "day": 4,
+  "origin": "marin-mommies",
+  "until": "16:00"
+ },
+ {
   "time": "09:00",
   "title": "Garlock Tree Farm, Sebastopol",
   "venue": "Garlock Tree Farm",
@@ -571,7 +584,7 @@
   "ages": "Under 6",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 4,
+  "day": 2,
   "until": "11:40",
   "origin": "marin-mommies"
  },
@@ -584,7 +597,7 @@
   "ages": "Babies & toddlers",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 4,
+  "day": 2,
   "until": "10:30",
   "origin": "marin-mommies"
  },
@@ -662,8 +675,20 @@
   "ages": "Under 6",
   "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5.",
   "source": "https://marinlibrary.org/locations/mc/",
-  "day": 4,
+  "day": 2,
   "until": "10:00",
+  "origin": "marin-mommies"
+ },
+ {
+  "time": "19:00",
+  "title": "San Francisco Ballet Nutcracker",
+  "venue": "War Memorial Opera House",
+  "city": "San Francisco",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Our most magical production returns to the Opera House stage, transporting audiences of all ages",
+  "source": "https://www.marinmommies.com/calendar/san-francisco-ballet-nutcracker-13",
+  "day": 5,
   "origin": "marin-mommies"
  },
  {
@@ -830,7 +855,7 @@
   "ages": "Under 6",
   "blurb": "Bring your little ones to Tumbling Tots at Novato Gymnastics Center! This fun, 45-minute drop-in",
   "source": "https://www.marinmommies.com/calendar/tumbling-tots-drop-gymnastics-kids-ages-5-under",
-  "day": 4,
+  "day": 2,
   "origin": "marin-mommies",
   "until": "13:15"
  },
@@ -843,7 +868,7 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 5,
+  "day": 6,
   "until": "16:00",
   "origin": "marin-mommies"
  },
@@ -868,7 +893,7 @@
   "ages": "All ages",
   "blurb": "Bring your little ones to Wee Yogis Open Play in San Anselmo for some indoor fun! Kids can climb,",
   "source": "https://www.marinmommies.com/calendar/wee-yogis-open-play-san-anselmo",
-  "day": 4,
+  "day": 2,
   "origin": "marin-mommies",
   "until": "11:45"
  },
@@ -894,7 +919,7 @@
   "ages": "All ages",
   "blurb": "Celebrate the holiday season with ZooLights at the San Francisco Zoo! Returning for the first time",
   "source": "https://www.sfzoo.org/zoolights/",
-  "day": 4,
+  "day": 0,
   "origin": "marin-mommies",
   "until": "21:00"
  }
