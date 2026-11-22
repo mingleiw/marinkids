@@ -110,7 +110,17 @@
   "lon": null,
   "query": "Costeaux French Bakery, Healdsburg, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-21",
+  "resolved": "2026-11-22",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Cowell Theater, Fort Mason Center",
+  "city": "San Francisco",
+  "lat": null,
+  "lon": null,
+  "query": "Cowell Theater, Fort Mason Center, San Francisco, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-11-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -192,7 +202,7 @@
   "lon": null,
   "query": "Fairmont San Francisco–Laurel Court Restaurant & Bar, San Francisco, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-21",
+  "resolved": "2026-11-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -210,7 +220,7 @@
   "lon": null,
   "query": "Garlock Tree Farm, Sebastopol, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-21",
+  "resolved": "2026-11-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -256,7 +266,7 @@
   "lon": null,
   "query": "Home Studio Yoga (Wee Yogis), San Anselmo, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-21",
+  "resolved": "2026-11-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -332,7 +342,7 @@
   "lon": null,
   "query": "Lawn next to the San Anselmo Library, Larkspur, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-21",
+  "resolved": "2026-11-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -368,7 +378,7 @@
   "lon": null,
   "query": "Little Hills Christmas Tree Farm, Petaluma, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-21",
+  "resolved": "2026-11-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -462,7 +472,7 @@
   "lon": null,
   "query": "Marin Shakespeare Company Downtown Theatre, San Rafael, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-21",
+  "resolved": "2026-11-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -728,7 +738,7 @@
   "lon": null,
   "query": "Robin Sweeny Park Playground, Sausalito, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-21",
+  "resolved": "2026-11-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -738,7 +748,7 @@
   "lon": null,
   "query": "Roy's Redwoods Preserve, Fairfax, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-21",
+  "resolved": "2026-11-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -764,7 +774,17 @@
   "lon": null,
   "query": "San Domenico School, San Anselmo, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-21",
+  "resolved": "2026-11-22",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "San Francisco City Cruises",
+  "city": "San Francisco",
+  "lat": null,
+  "lon": null,
+  "query": "San Francisco City Cruises, San Francisco, CA, USA",
+  "matched": "no confident match",
+  "resolved": "2026-11-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -820,7 +840,7 @@
   "lon": null,
   "query": "Sausalito Books by the Bay, Sausalito, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-21",
+  "resolved": "2026-11-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -892,7 +912,7 @@
   "lon": null,
   "query": "Strawberry Recreation, Mill Valley, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-21",
+  "resolved": "2026-11-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -902,7 +922,7 @@
   "lon": null,
   "query": "Tam Valley Community Center, Mill Valley, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-21",
+  "resolved": "2026-11-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -932,7 +952,7 @@
   "lon": null,
   "query": "The Meritage Resort & Space, Village Lawn, Napa, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-11-21",
+  "resolved": "2026-11-22",
   "source": "nominatim.openstreetmap.org"
  },
  {
