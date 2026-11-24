@@ -725,7 +725,7 @@
   "ages": "All ages",
   "blurb": "Celebrate the holiday season with a visit to Santa at Santa Rosa Plaza! Families can meet Santa",
   "source": "https://www.marinmommies.com/calendar/santa-photos-santa-rosa-plaza",
-  "day": 0,
+  "day": 6,
   "origin": "marin-mommies",
   "until": "16:15"
  },
@@ -893,7 +893,7 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 0,
+  "day": 1,
   "until": "16:00",
   "origin": "marin-mommies"
  },
@@ -944,7 +944,7 @@
   "ages": "All ages",
   "blurb": "Celebrate the holiday season with ZooLights at the San Francisco Zoo! Returning for the first time",
   "source": "https://www.sfzoo.org/zoolights/",
-  "day": 0,
+  "day": 3,
   "origin": "marin-mommies",
   "until": "21:00"
  }
