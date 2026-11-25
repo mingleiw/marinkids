@@ -885,19 +885,6 @@
   "until": "13:15"
  },
  {
-  "time": "10:00",
-  "title": "Visit the Marine Mammal Center",
-  "venue": "Marine Mammal Center",
-  "city": "Sausalito",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
-  "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 1,
-  "until": "16:00",
-  "origin": "marin-mommies"
- },
- {
   "time": "11:00",
   "title": "Wednesday Storytime for Toddlers & Preschoolers — Sausalito",
   "venue": "Sausalito Books by the Bay",
